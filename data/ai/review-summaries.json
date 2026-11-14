@@ -1,0 +1,841 @@
+{
+  "generated_at": "2026-10-22T09:29:38.535Z",
+  "items": {
+    "aswek-resine-epoxy-3d": {
+      "summary": "Cette résine époxy 3D offre un bon rendu visuel avec une belle transparence pour les projets artistiques. Il est important de bien respecter les proportions de mélange et le temps de séchage indiqué.",
+      "pros": [
+        "Belle transparence",
+        "Idéal pour les petits objets et plateaux",
+        "Bonne brillance après séchage"
+      ],
+      "cons": [
+        "Sensible aux bulles si mal mélangé",
+        "Temps de polymérisation parfois long"
+      ],
+      "rating": 4.4,
+      "count": 24,
+      "highlights": [
+        "Transparence correcte",
+        "Aspect brillant",
+        "Usage minutieux"
+      ]
+    },
+    "aswek-vitrail-transparent": {
+      "summary": "Un produit correct pour donner un effet vitrail à vos créations décoratives. Les utilisateurs apprécient la facilité d'application bien que la gestion des coulures demande un peu d'attention.",
+      "pros": [
+        "Effet vitrail fidèle",
+        "Facile à appliquer au pinceau",
+        "Séchage relativement rapide"
+      ],
+      "cons": [
+        "Risque de coulures sur surfaces verticales",
+        "Odeur prononcée lors de l'application"
+      ],
+      "rating": 4.2,
+      "count": 14,
+      "highlights": [
+        "Effet décoratif",
+        "Application aisée",
+        "Attention aux coulures"
+      ]
+    },
+    "aswek-boytek": {
+      "summary": "Silicone de moulage fiable pour la reproduction de pièces de complexité moyenne. Néanmoins, il convient de bien préparer ses supports pour éviter les ratés de démoulage.",
+      "pros": [
+        "Souplesse satisfaisante",
+        "Reproduction fidèle des détails",
+        "Bon rapport qualité-prix"
+      ],
+      "cons": [
+        "Temps de catalyse à surveiller",
+        "Peut coller si mal dosé"
+      ],
+      "rating": 4.5,
+      "count": 18,
+      "highlights": [
+        "Souple et précis",
+        "Bon moulage",
+        "Dosage rigoureux"
+      ]
+    },
+    "aswek-silicone-pour-moule-5-kg": {
+      "summary": "Format économique apprécié pour la réalisation de plus grands moules. La texture permet un coulage aisé et le résultat final est généralement propre si l'on prend soin d'éliminer les bulles d'air.",
+      "pros": [
+        "Grand format économique",
+        "Bonne résistance à l'arrachement",
+        "Mélange homogène"
+      ],
+      "cons": [
+        "Poids important à manipuler",
+        "Nécessite un espace ventilé"
+      ],
+      "rating": 4.6,
+      "count": 31,
+      "highlights": [
+        "Format 5 kg pratique",
+        "Résistant",
+        "Coulage facile"
+      ]
+    },
+    "aswek-resine-epoxy-autolissant-1-kg": {
+      "summary": "Cette résine autolissante facilite la création de surfaces planes et brillantes pour des fonds de plateau ou des petits sols. Le rendu tend bien, à condition d'appliquer sur un support parfaitement de niveau.",
+      "pros": [
+        "Effet autolissant appréciable",
+        "Finition lisse",
+        "Quantité de 1 kg idéale pour essais"
+      ],
+      "cons": [
+        "Exige un support parfaitement horizontal",
+        "Léger retrait possible sur les bords"
+      ],
+      "rating": 4.3,
+      "count": 22,
+      "highlights": [
+        "Autolissant pratique",
+        "Finition lisse",
+        "Support horizontal obligatoire"
+      ]
+    },
+    "aswek-peinture-acrylique": {
+      "summary": "Peinture acrylique polyvalente qui offre une couvrance correcte sur divers supports de loisirs créatifs. Les pigments sont assez stables mais nécessitent parfois deux couches pour un résultat optimal.",
+      "pros": [
+        "Bonne polyvalence",
+        "Nettoyage facile à l'eau",
+        "Séchage rapide"
+      ],
+      "cons": [
+        "Parfois un peu liquide selon les teintes",
+        "Deux couches souvent nécessaires"
+      ],
+      "rating": 4.1,
+      "count": 15,
+      "highlights": [
+        "Polyvalente",
+        "Nettoyage simple",
+        "Séchage rapide"
+      ]
+    },
+    "aswek-peinture-acrylique-gris": {
+      "summary": "Teinte grise utile pour les sous-couches ou les finitions neutres en modélisme et décoration. La texture est correcte et s'étale de manière homogène.",
+      "pros": [
+        "Teinte grise neutre",
+        "Bon pouvoir couvrant global",
+        "S'associe bien avec d'autres couleurs"
+      ],
+      "cons": [
+        "Demande une bonne agitation avant emploi",
+        "Conditionnement parfois jugé un peu juste"
+      ],
+      "rating": 4,
+      "count": 11,
+      "highlights": [
+        "Gris neutre",
+        "Couvrance correcte",
+        "Idéal sous-couche"
+      ]
+    },
+    "aswek-peinture-acrylique-jaune": {
+      "summary": "Une couleur jaune vive et lumineuse pour vos projets créatifs. Comme beaucoup de jaunes, la transparence initiale demande généralement une seconde couche pour une opacité parfaite.",
+      "pros": [
+        "Couleur lumineuse",
+        "S'applique facilement",
+        "Séchage rapide"
+      ],
+      "cons": [
+        "Translucide en première couche",
+        "Sensible aux UV sur le long terme"
+      ],
+      "rating": 3.9,
+      "count": 10,
+      "highlights": [
+        "Jaune vif",
+        "Lumineux",
+        "Double couche conseillée"
+      ]
+    },
+    "aswek-peinture-acrylique-rouge": {
+      "summary": "Peinture acrylique rouge offrant une belle intensité visuelle. Elle convient bien aux travaux artistiques et aux loisirs créatifs, avec un rendu satiné agréable.",
+      "pros": [
+        "Rouge vif et profond",
+        "Bonne consistance",
+        "S'étale bien"
+      ],
+      "cons": [
+        "Peut tacher durablement les vêtements",
+        "Temps de séchage variable selon l'épaisseur"
+      ],
+      "rating": 4.2,
+      "count": 13,
+      "highlights": [
+        "Rouge intense",
+        "Consistance correcte",
+        "Rendu satiné"
+      ]
+    },
+    "aswek-colorant-pour-resine-epoxy": {
+      "summary": "Colorant concentré pour résine, quelques gouttes suffisent pour obtenir une teinte opaque ou translucide selon le dosage. Attention à ne pas surdoser pour ne pas perturber la polymérisation.",
+      "pros": [
+        "Très concentré (économique)",
+        "Se mélange facilement à la résine",
+        "Large choix d'effets possibles"
+      ],
+      "cons": [
+        "Risque de perturber le durcissement si surdosé",
+        "Flacon parfois salissant"
+      ],
+      "rating": 4.5,
+      "count": 28,
+      "highlights": [
+        "Forte concentration",
+        "Mélange aisé",
+        "Attention au surdosage"
+      ]
+    },
+    "aswek-floculant-liquide-5l": {
+      "summary": "Clarifiant efficace pour retrouver une eau de piscine limpide en cas d'eau trouble. Le bidon de 5L offre une bonne autonomie pour l'entretien régulier de la saison.",
+      "pros": [
+        "Clarifie rapidement l'eau trouble",
+        "Format 5L économique",
+        "Facile à verser dans le bassin"
+      ],
+      "cons": [
+        "Nécessite de faire tourner la filtration en continu",
+        "Demande un lavage de filtre après action"
+      ],
+      "rating": 4.7,
+      "count": 35,
+      "highlights": [
+        "Eau limpide",
+        "Grand format 5L",
+        "Efficace"
+      ]
+    },
+    "aswek-aquacid-5l": {
+      "summary": "Produit utile pour la prévention et le traitement des algues en piscine. Utilisé régulièrement, il aide à maintenir un bassin sain sans agresser les équipements.",
+      "pros": [
+        "Action préventive anti-algues",
+        "Format pratique de 5 litres",
+        "N'altère pas l'équilibre de l'eau si bien dosé"
+      ],
+      "cons": [
+        "Ne remplace pas un traitement choc en cas d'invasion massive",
+        "Porter des gants lors de la manipulation"
+      ],
+      "rating": 4.4,
+      "count": 19,
+      "highlights": [
+        "Anti-algues préventif",
+        "Format 5L",
+        "Utilisation simple"
+      ]
+    },
+    "aswek-poly-piscine": {
+      "summary": "Produit d'entretien polyvalent pour piscines, apprécié pour simplifier la routine de traitement de l'eau. Aide à stabiliser les paramètres du bassin.",
+      "pros": [
+        "Action multi-usage",
+        "Aide à l'entretien global",
+        "Simple d'utilisation"
+      ],
+      "cons": [
+        "Nécessite des tests d'eau réguliers",
+        "Notice parfois un peu succincte"
+      ],
+      "rating": 4.3,
+      "count": 16,
+      "highlights": [
+        "Polyvalent",
+        "Simplifie l'entretien",
+        "Pratique"
+      ]
+    },
+    "aswek-ph-moins-water-clean": {
+      "summary": "Indispensable pour baisser efficacement le taux de pH de la piscine. Se dissout correctement et permet d'ajuster rapidement l'équilibre de l'eau.",
+      "pros": [
+        "Agit rapidement sur le pH",
+        "Se dissout bien",
+        "Essentiel pour l'efficacité du chlore"
+      ],
+      "cons": [
+        "À manipuler avec précaution (produit acide)",
+        "Nécessite des ajustements progressifs"
+      ],
+      "rating": 4.6,
+      "count": 38,
+      "highlights": [
+        "Baisse rapide du pH",
+        "Dissolution facile",
+        "Indispensable"
+      ]
+    },
+    "aswek-ph-plus-water-clean": {
+      "summary": "Permet de remonter un pH trop bas afin d'éviter les irritations et de protéger le revêtement de la piscine. Action mesurée qui demande de respecter les dosages.",
+      "pros": [
+        "Corrige efficacement l'acidité de l'eau",
+        "Stabilisateur utile",
+        "Dosage clair sur l'emballage"
+      ],
+      "cons": [
+        "Peut laisser un léger résidu si mal réparti",
+        "Action parfois un peu lente selon la dureté de l'eau"
+      ],
+      "rating": 4.2,
+      "count": 17,
+      "highlights": [
+        "Remonte le pH",
+        "Protection du bassin",
+        "Dosage clair"
+      ]
+    },
+    "aswek-chlore-choc-5-kg": {
+      "summary": "Chlore choc puissant en format 5 kg idéal pour rattraper une eau verte ou désinfecter le bassin en début de saison. Efficace mais requiert le respect des consignes de sécurité.",
+      "pros": [
+        "Action rapide sur l'eau verte",
+        "Grand seau de 5 kg économique",
+        "Désinfection puissante"
+      ],
+      "cons": [
+        "Interdiction de se baigner pendant le traitement",
+        "Vapeurs fortes à l'ouverture du seau"
+      ],
+      "rating": 4.8,
+      "count": 40,
+      "highlights": [
+        "Chlore choc puissant",
+        "Seau 5 kg",
+        "Rattrapage eau verte"
+      ]
+    },
+    "aswek-chlore-multifonction-5kg": {
+      "summary": "Pratique pour un traitement régulier sans s'embêter avec plusieurs produits. Les galets se dissolvent de manière homogène dans les skimmers.",
+      "pros": [
+        "Action complète (chlore, algicide, floculant)",
+        "Format 5 kg longue durée",
+        "Diffusion lente et régulière"
+      ],
+      "cons": [
+        "Ne convient pas aux petits volumes de filtration",
+        "Surveiller les taux de stabilisant"
+      ],
+      "rating": 4.5,
+      "count": 29,
+      "highlights": [
+        "Multifonction pratique",
+        "Diffusion lente",
+        "Seau 5 kg"
+      ]
+    },
+    "aswek-poudre-metallique-nacre": {
+      "summary": "Cette poudre nacrée apporte de superbes reflets lumineux aux résines ou peintures. Elle se mélange sans trop de difficultés et offre un fini élégant.",
+      "pros": [
+        "Reflets nacrés très esthétiques",
+        "Compatible résine et vernis",
+        "Effet visuel qualitatif"
+      ],
+      "cons": [
+        "Volatile lors de la manipulation",
+        "Quantité à doser avec précision"
+      ],
+      "rating": 4.6,
+      "count": 21,
+      "highlights": [
+        "Reflets nacrés",
+        "Esthétique soignée",
+        "Attention à la volatilité"
+      ]
+    },
+    "aswek-feuille-dor-100-pieces": {
+      "summary": "Lot de 100 feuilles d'or idéal pour la dorure de loisirs créatifs ou de petits meubles. Très fines, elles demandent un peu de technique pour être posées sans se déchirer.",
+      "pros": [
+        "Grand nombre de feuilles (100 pcs)",
+        "Beau rendu doré brillant",
+        "Économique pour les projets déco"
+      ],
+      "cons": [
+        "Extrêmement fin et fragile",
+        "S'envole facilement au moindre courant d'air"
+      ],
+      "rating": 4.4,
+      "count": 25,
+      "highlights": [
+        "100 feuilles incluses",
+        "Rendu doré",
+        "Manipuler avec précaution"
+      ]
+    },
+    "aswek-cire-de-soja": {
+      "summary": "Cire végétale de soja idéale pour la fabrication de bougies coulées. Elle fond à basse température et retient bien les parfums, avec un aspect lisse au refroidissement.",
+      "pros": [
+        "100% végétale et naturelle",
+        "Excellente restitution des parfums",
+        "Se nettoie facilement à l'eau chaude"
+      ],
+      "cons": [
+        "Peut nécessiter des tests de mèche pour éviter le creusement",
+        "Sensible aux variations thermiques"
+      ],
+      "rating": 4.8,
+      "count": 34,
+      "highlights": [
+        "Cire végétale",
+        "Bonne diffusion du parfum",
+        "Facile à fondre"
+      ]
+    },
+    "aswek-cire-de-paraffine": {
+      "summary": "Paraffine classique pour bougies moulées ou coulées. Elle permet un démoulage aisé et un rendu opaque bien net, apprécié pour les bougies décoratives.",
+      "pros": [
+        "Démoulage facile",
+        "Bonne tenue de la bougie",
+        "Brûle de manière homogène"
+      ],
+      "cons": [
+        "Origine pétrochimique (non végétale)",
+        "Dégage un peu de fumée si la mèche est trop longue"
+      ],
+      "rating": 4.3,
+      "count": 20,
+      "highlights": [
+        "Pour bougies moulées",
+        "Bonne tenue",
+        "D��moulage aisé"
+      ]
+    },
+    "aswek-quartz-colore": {
+      "summary": "Quartz coloré parfait pour les revêtements décoratifs de sols ou les loisirs créatifs. Les grains sont bien calibrés et la couleur tient bien dans le temps.",
+      "pros": [
+        "Granulométrie régulière",
+        "Couleur stable",
+        "Idéal pour sols résine ou déco"
+      ],
+      "cons": [
+        "Poids lourd pour le transport",
+        "Nécessite un bon liant"
+      ],
+      "rating": 4.5,
+      "count": 12,
+      "highlights": [
+        "Grains réguliers",
+        "Couleur stable",
+        "Décoratif"
+      ]
+    },
+    "aswek-huile-de-paraffine": {
+      "summary": "Huile polyvalente souvent utilisée pour l'entretien du bois ou divers usages techniques. Inodore et incolore, elle s'applique simplement au chiffon.",
+      "pros": [
+        "Incolore et inodore",
+        "Application facile",
+        "Nourrit et protège les surfaces"
+      ],
+      "cons": [
+        "Temps de pénétration variable selon le support",
+        "Éviter les excès pour ne pas graisser"
+      ],
+      "rating": 4.2,
+      "count": 14,
+      "highlights": [
+        "Inodore",
+        "Protection simple",
+        "Application chiffon"
+      ]
+    },
+    "aswek-poudre-metallique-50-gr": {
+      "summary": "Poudre métallique polyvalente en pot de 50g, parfaite pour donner un aspect bronze ou cuivré aux créations en résine. Donne un bel effet patiné après ponçage léger.",
+      "pros": [
+        "Bel effet métallique",
+        "Format 50g pratique pour débuter",
+        "Se marie bien avec la résine"
+      ],
+      "cons": [
+        "Quantité limitée si grands projets",
+        "Volatile à l'ouverture"
+      ],
+      "rating": 4.3,
+      "count": 16,
+      "highlights": [
+        "Effet métallique",
+        "Pot 50g",
+        "Patine possible"
+      ]
+    },
+    "aswek-poudre-metallique-rouge-50-gr": {
+      "summary": "Poudre métallique à teinte rouge originale pour des effets visuels surprenants en inclusion. Donne un style unique aux pièces artistiques.",
+      "pros": [
+        "Teinte rouge métallique originale",
+        "Bonne brillance",
+        "S'incorpore facilement"
+      ],
+      "cons": [
+        "Utilisation très ciblée",
+        "Bien doser pour éviter l'effet opaque massif"
+      ],
+      "rating": 4.1,
+      "count": 11,
+      "highlights": [
+        "Rouge métallique",
+        "Original",
+        "Inclusion résine"
+      ]
+    },
+    "aswek-poudre-metallique-blanc-base-50-gr": {
+      "summary": "Poudre de base blanche métallique idéale pour créer des effets nacrés ou éclaircir d'autres teintes de poudres métalliques dans la résine.",
+      "pros": [
+        "Excellente base d'éclaircissement",
+        "Fini nacré discret",
+        "Mélange homogène"
+      ],
+      "cons": [
+        "Peut faire pastel si trop dosé",
+        "Pot de 50g qui se vide vite"
+      ],
+      "rating": 4.2,
+      "count": 13,
+      "highlights": [
+        "Base blanche",
+        "Effet nacré",
+        "Mélange facile"
+      ]
+    },
+    "aswek-poudre-metallique-gold-50-gr": {
+      "summary": "Poudre effet or très populaire pour donner un aspect luxueux aux réalisations. Un rendu visuel convaincant sans se ruiner.",
+      "pros": [
+        "Bel effet doré brillant",
+        "S'applique aussi en surface (technique du dust)",
+        "Bon rapport qualité-prix"
+      ],
+      "cons": [
+        "L'effet peut varier selon le fond de la résine",
+        "Poudre très fine volatile"
+      ],
+      "rating": 4.6,
+      "count": 27,
+      "highlights": [
+        "Effet or",
+        "Luxueux",
+        "Technique du dust"
+      ]
+    },
+    "aswek-poudre-metallique-bronze-50-gr": {
+      "summary": "Teinte bronze chaleureuse pour des créations aux reflets anciens ou industriels. S'associe parfaitement avec le noir ou les nuances boisées.",
+      "pros": [
+        "Nuance bronze authentique",
+        "Rendu chaleureux",
+        "S'intègre bien dans la résine"
+      ],
+      "cons": [
+        "Nécessite d'être bien mélangée pour éviter les dépôts",
+        "Format 50g un peu juste pour de grands volumes"
+      ],
+      "rating": 4.4,
+      "count": 15,
+      "highlights": [
+        "Bronze authentique",
+        "Chaleureux",
+        "Idéal résine"
+      ]
+    },
+    "aswek-poudre-metallique-argent-50-gr": {
+      "summary": "Poudre argentée classique et efficace pour un style moderne et épuré. Apporte une belle luminosité aux pièces coulées.",
+      "pros": [
+        "Argenté lumineux",
+        "Polyvalent pour de nombreux thèmes",
+        "Se dissout bien dans le mélange"
+      ],
+      "cons": [
+        "Sensible aux traces de doigts avant vernissage",
+        "Poudre volatile"
+      ],
+      "rating": 4.3,
+      "count": 18,
+      "highlights": [
+        "Argent lumineux",
+        "Moderne",
+        "Polyvalent"
+      ]
+    },
+    "aswek-pigment-phosphorescent": {
+      "summary": "Ce pigment absorbe la lumière le jour pour restituer une lueur fluorescente dans le noir. Effet garanti pour les projets de décoration nocturne.",
+      "pros": [
+        "Belle luminescence dans l'obscurité",
+        "Se charge rapidement à la lumière",
+        "Effet ludique et original"
+      ],
+      "cons": [
+        "A tendance à couler au fond du mélange si la résine est trop fluide",
+        "Durée de phosphorescence limitée dans le temps"
+      ],
+      "rating": 4.5,
+      "count": 26,
+      "highlights": [
+        "Brille dans le noir",
+        "Effet original",
+        "Bien remuer le mélange"
+      ]
+    },
+    "aswek-silice-colore-gris": {
+      "summary": "Silice colorée grise adaptée pour les sols décoratifs ou les fonds de bacs. Offre une bonne résistance à l'usure une fois noyée dans la résine.",
+      "pros": [
+        "Coloris gris passe-partout",
+        "Bonne dureté",
+        "Granulométrie homogène"
+      ],
+      "cons": [
+        "Poids non négligeable",
+        "Nécessite un liant adapté"
+      ],
+      "rating": 4.1,
+      "count": 10,
+      "highlights": [
+        "Gris discret",
+        "Résistant",
+        "Revêtement sol"
+      ]
+    },
+    "aswek-silice-colore-bleu": {
+      "summary": "Silice colorée en bleu, idéale pour les décors sur le thème marin ou l'aménagement de sols paysagers. La couleur est vive et résistante.",
+      "pros": [
+        "Jolie couleur bleue",
+        "Idéal pour décors thématiques",
+        "Matériau durable"
+      ],
+      "cons": [
+        "Nécessite d'être bien scellé",
+        "Conditionnement lourd"
+      ],
+      "rating": 4.3,
+      "count": 11,
+      "highlights": [
+        "Bleu vif",
+        "Décoration marine",
+        "Durable"
+      ]
+    },
+    "aswek-silice-4mm": {
+      "summary": "Silice calibrée à 4 mm pour des applications nécessitant du relief ou du drainage. Produit brut de qualité constante.",
+      "pros": [
+        "Granulométrie précise de 4 mm",
+        "Robuste",
+        "Multi-usages (bâtiment, déco)"
+      ],
+      "cons": [
+        "Aspect brut nécessitant un traitement",
+        "Sac lourd à porter"
+      ],
+      "rating": 4.2,
+      "count": 12,
+      "highlights": [
+        "Calibre 4mm",
+        "Robuste",
+        "Multi-usages"
+      ]
+    },
+    "aswek-glitter-dore": {
+      "summary": "Paillettes dorées scintillantes pour donner du peps à vos créations artistiques ou festives. Ne se décolorent pas facilement dans la résine.",
+      "pros": [
+        "Scintillement prononcé",
+        "Ne ternissent pas dans la résine",
+        "Format pratique"
+      ],
+      "cons": [
+        "Difficile à nettoyer en cas de dispersion",
+        "S'accroche partout"
+      ],
+      "rating": 4.6,
+      "count": 23,
+      "highlights": [
+        "Paillettes dorées",
+        "Scintillant",
+        "Résistant en résine"
+      ]
+    },
+    "aswek-decoto-p500": {
+      "summary": "Vernis technique DECOTOP 500 pour la protection des surfaces. Offre un film résistant et une belle finition satinée ou brillante selon l'application.",
+      "pros": [
+        "Protection durable",
+        "Belle finition tendue",
+        "Résiste bien aux agressions légères"
+      ],
+      "cons": [
+        "Odeur de solvant marquée",
+        "Temps de séchage à respecter scrupuleusement"
+      ],
+      "rating": 4.4,
+      "count": 17,
+      "highlights": [
+        "Protection technique",
+        "Beau tendu",
+        "Bien aérer la pièce"
+      ]
+    },
+    "aswek-decoto-p450": {
+      "summary": "Vernis DECOTOP 450 apprécié pour sa facilité d'application et son rendu protecteur sur divers supports. Bon compromis pour les travaux de finition.",
+      "pros": [
+        "Application fluide",
+        "Bonne protection de surface",
+        "Séchage correct"
+      ],
+      "cons": [
+        "Nécessite une bonne préparation du support",
+        "Peut marquer si appliqué en couche trop épaisse"
+      ],
+      "rating": 4.3,
+      "count": 15,
+      "highlights": [
+        "Application fluide",
+        "Finition protectrice",
+        "Couches fines recommandées"
+      ]
+    },
+    "aswek-vernis-var-23": {
+      "summary": "Vernis VAR 23 conçu pour assurer une protection correcte de vos ouvrages. Assure un film homogène si appliqué dans les règles de l'art.",
+      "pros": [
+        "Film homogène",
+        "Protection standard efficace",
+        "Se tend bien au pinceau"
+      ],
+      "cons": [
+        "Sensible aux poussières pendant le séchage",
+        "Nécessite parfois deux passes"
+      ],
+      "rating": 4.1,
+      "count": 13,
+      "highlights": [
+        "Film homogène",
+        "Protection standard",
+        "Attention aux poussières"
+      ]
+    },
+    "aswek-vernis-var-27": {
+      "summary": "Vernis VAR 27 offrant une alternative résistante pour la finition de vos projets. Bon comportement face aux usages modérés du quotidien.",
+      "pros": [
+        "Résistance correcte au quotidien",
+        "Aspect final soigné",
+        "Facile à doser"
+      ],
+      "cons": [
+        "Précautions d'emploi indispensables",
+        "Temps de polymérisation complet un peu long"
+      ],
+      "rating": 4.2,
+      "count": 14,
+      "highlights": [
+        "Résistant au quotidien",
+        "Aspect soigné",
+        "Usage précautionneux"
+      ]
+    },
+    "aswek-diluant-4l": {
+      "summary": "Bidon de 4L de diluant indispensable pour le nettoyage des outils ou la dilution de certaines peintures et vernis compatibles. Format économique.",
+      "pros": [
+        "Grand format 4L économique",
+        "Nettoie efficacement les pinceaux et rouleaux",
+        "Dissout bien les résidus"
+      ],
+      "cons": [
+        "Vapeurs fortes, port du masque conseillé",
+        "Bidon lourd à manipuler"
+      ],
+      "rating": 4.6,
+      "count": 28,
+      "highlights": [
+        "Format 4L",
+        "Nettoyage efficace",
+        "Vapeurs fortes"
+      ]
+    },
+    "aswek-diluant-0-7l": {
+      "summary": "Format 0.7L pratique pour les chantiers de taille moyenne ou pour avoir du diluant sous la main sans stocker un gros bidon.",
+      "pros": [
+        "Format intermédiaire pratique",
+        "Efficace pour le nettoyage",
+        "Se range facilement"
+      ],
+      "cons": [
+        "Moins économique au litre que le grand format",
+        "Bien refermer pour éviter l'évaporation"
+      ],
+      "rating": 4.4,
+      "count": 19,
+      "highlights": [
+        "Format 0.7L",
+        "Pratique",
+        "Bien refermer"
+      ]
+    },
+    "aswek-diluant-0-4l": {
+      "summary": "Petit format de 0.4L idéal pour les petits travaux ponctuels de nettoyage d'outils ou d'ajustement de viscosité.",
+      "pros": [
+        "Format compact",
+        "Idéal pour petits travaux",
+        "Facile à stocker"
+      ],
+      "cons": [
+        "Épuisement rapide si gros chantier",
+        "Prix au litre plus élevé"
+      ],
+      "rating": 4.2,
+      "count": 11,
+      "highlights": [
+        "Format compact",
+        "Petits travaux",
+        "Stockage facile"
+      ]
+    },
+    "aswek-diluant-0-125l": {
+      "summary": "Mini format de 125ml parfait pour les retouches de précision ou les tout petits projets de loisirs créatifs nécessitant un peu de solvant.",
+      "pros": [
+        "Très petit format pour retouches",
+        "Prend peu de place",
+        "Évite le gaspillage"
+      ],
+      "cons": [
+        "Quantité très limitée",
+        "Réservé aux micro-projets"
+      ],
+      "rating": 4,
+      "count": 9,
+      "highlights": [
+        "Format 125ml",
+        "Retouches de précision",
+        "Zéro gaspillage"
+      ]
+    },
+    "aswek-soude": {
+      "summary": "Soude caustique puissante pour le débouchage et le nettoyage en profondeur. Efficace mais exige un respect strict des consignes de sécurité (gants, lunettes).",
+      "pros": [
+        "Très efficace pour déboucher",
+        "Action rapide",
+        "Nettoie les saletés incrustées"
+      ],
+      "cons": [
+        "Produit très corrosif et dangereux",
+        "Nécessite des équipements de protection stricts"
+      ],
+      "rating": 4.7,
+      "count": 32,
+      "highlights": [
+        "Très efficace",
+        "Action rapide",
+        "Hautement corrosif"
+      ]
+    },
+    "aswek-deep-etanche-pro": {
+      "summary": "Revêtement d'étanchéité professionnel pour toitures et terrasses. Crée une barrière protectrice contre les infiltrations si les consignes d'application sont suivies.",
+      "pros": [
+        "Bonne étanchéité après séchage",
+        "S'applique sur divers supports de toiture",
+        "Film élastique qui résiste aux micro-fissures"
+      ],
+      "cons": [
+        "Demande une météo clémane sans pluie lors de la pose",
+        "Préparation du support minutieuse obligatoire"
+      ],
+      "rating": 4.5,
+      "count": 24,
+      "highlights": [
+        "Étanchéité pro",
+        "Film élastique",
+        "Attention à la météo"
+      ]
+    }
+  }
+}

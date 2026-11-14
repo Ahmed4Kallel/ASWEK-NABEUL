@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-05T20:15:45.830Z",
+  "totals": {
+    "products": 44,
+    "categories": 20,
+    "products_with_issues": 0,
+    "categories_with_issues": 0,
+    "sitemap_urls": 67,
+    "duplicates": 0
+  },
+  "issues": {
+    "products": [],
+    "categories": [],
+    "site": []
+  },
+  "duplicates": [],
+  "missing_images": []
+}

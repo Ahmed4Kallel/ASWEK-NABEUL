@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-10-22T09:29:00.105Z",
+  "shapes": [
+    {
+      "id": "rectangle",
+      "label": "Rectangle",
+      "fields": [
+        "longueur_cm",
+        "largeur_cm",
+        "hauteur_cm"
+      ]
+    },
+    {
+      "id": "cercle",
+      "label": "Cercle",
+      "fields": [
+        "diametre_cm",
+        "hauteur_cm"
+      ]
+    },
+    {
+      "id": "irregulier",
+      "label": "Forme irrégulière",
+      "fields": [
+        "poids_eau_g"
+      ]
+    }
+  ],
+  "formulas": {
+    "rectangle": "longueur × largeur × hauteur × densité",
+    "cercle": "π × (diamètre/2)² × hauteur × densité",
+    "irregulier": "poids_eau_g ÷ densité_eau × densité_resine"
+  },
+  "densities": {
+    "epoxy": 1.1,
+    "silicone": 1.2,
+    "unite": "g/cm3"
+  },
+  "waste_factor": 1.1,
+  "advice": [
+    {
+      "max_cm": 1,
+      "text": "Pour les coulage de faible épaisseur, respectez les proportions du mélange et travaillez dans un local ventilé."
+    }
+  ],
+  "product_match": [
+    {
+      "if": "bijoux",
+      "slugs": [
+        "aswek-resine-epoxy-3d",
+        "aswek-colorant-pour-resine-epoxy"
+      ]
+    },
+    {
+      "if": "surfaces",
+      "slugs": [
+        "aswek-resine-epoxy-autolissant-1-kg"
+      ]
+    }
+  ],
+  "safety_notes": [
+    "Porter des gants de protection et des lunettes lors de la manipulation.",
+    "Travailler dans une zone bien ventilée.",
+    "Lire attentivement les instructions spécifiques de chaque produit avant utilisation."
+  ]
+}

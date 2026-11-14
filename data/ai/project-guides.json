@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-10-22T09:29:13.125Z",
+  "guides": [
+    {
+      "slug": "plateau-riviere",
+      "title": "Création d'un plateau rivière en résine epoxy",
+      "difficulty": "Intermédiaire",
+      "time": "48 heures",
+      "intro": "Apprenez à concevoir un magnifique plateau de service effet rivière en combinant du bois brut et de la résine colorée. Un projet tendance et idéal pour sublimer votre intérieur.",
+      "materials": [
+        {
+          "name": "Résine Epoxy Autolissant 1 Kg",
+          "slug": "aswek-resine-epoxy-autolissant-1-kg"
+        },
+        {
+          "name": "Colorant Pour Résine époxy",
+          "slug": "aswek-colorant-pour-resine-epoxy"
+        },
+        {
+          "name": "Feuille D'or 100 Pièces",
+          "slug": "aswek-feuille-dor-100-pieces"
+        }
+      ],
+      "tools": [
+        "Planche de bois brut",
+        "Moule de coulage en silicone ou bois stratifié",
+        "Gants de protection et lunettes",
+        "Bâtonnets mélangeurs",
+        "Chalumeau de bijoutier"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Préparation du bois et du moule",
+          "desc": "Nettoyez et poncez votre bois. Installez-le solidement dans le moule et assurez-vous que l'ensemble est parfaitement étanche et de niveau.",
+          "tip": "Appliquez un agent de démoulage ou du scotch d'emballage sur le fond pour éviter que la résine n'adhère au support."
+        },
+        {
+          "n": 2,
+          "title": "Mélange de la résine",
+          "desc": "Respectez les proportions du fabricant (voir la fiche technique). Mélangez soigneusement la résine et le durcisseur dans un récipient propre, puis ajoutez le colorant choisi.",
+          "tip": "Mélangez lentement pour éviter d'incorporer trop de bulles d'air."
+        },
+        {
+          "n": 3,
+          "title": "Coulée et incrustation",
+          "desc": "Versez délicatement la résine colorée dans la partie centrale (la rivière). Vous pouvez parsemer quelques feuilles d'or pour un effet luxueux.",
+          "tip": "Passez rapidement un chalumeau en surface pour éliminer les bulles d'air."
+        },
+        {
+          "n": 4,
+          "title": "Séchage et finition",
+          "desc": "Laissez durcir complètement selon le temps recommandé. Démoulez délicatement votre plateau et poncez les bords si nécessaire.",
+          "tip": "Appliquez une couche de finition de vernis ou de résine autolissant pour un brillant parfait."
+        }
+      ],
+      "safety": [
+        "Travailler dans une pièce bien ventilée.",
+        "Porter des gants et des lunettes de protection lors de la manipulation de la résine."
+      ],
+      "tips": [
+        "Veillez à ce que la température de la pièce soit stable (autour de 20-25°C) pour un séchage optimal."
+      ]
+    },
+    {
+      "slug": "bijoux-resine",
+      "title": "Confection de bijoux en résine transparente",
+      "difficulty": "Débutant",
+      "time": "24 heures",
+      "intro": "Créez des pendentifs et des boucles d'oreilles uniques et cristallins grâce à notre résine adaptée. Laissez libre cours à votre créativité en y intégrant des pigments.",
+      "materials": [
+        {
+          "name": "Vitrail Transparent",
+          "slug": "aswek-vitrail-transparent"
+        },
+        {
+          "name": "Poudre Métallique 50 gr",
+          "slug": "aswek-poudre-metallique-50-gr"
+        }
+      ],
+      "tools": [
+        "Petits moules en silicone pour bijoux",
+        "Gants de protection",
+        "Gobelets doseurs",
+        "Pince à épiler"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Préparation du matériel",
+          "desc": "Installez-vous sur une surface plane protégée. Préparez vos moules propres et secs.",
+          "tip": "Vérifiez l'absence de poussière à l'intérieur des moules."
+        },
+        {
+          "n": 2,
+          "title": "Dosage et mélange",
+          "desc": "Mesurez les quantités requises de résine (voir la fiche technique). Incorporez une pointe de poudre métallique pour un effet nacré ou brillant.",
+          "tip": "Mélangez doucement pour préserver la transparence."
+        },
+        {
+          "n": 3,
+          "title": "Coulée dans les moules",
+          "desc": "Versez le mélange dans les alvéoles des moules à l'aide d'une pipette ou directement du gobelet.",
+          "tip": "Utilisez un cure-dent pour faire descendre la résine dans les recoins étroits."
+        },
+        {
+          "n": 4,
+          "title": "Démoulage et montage",
+          "desc": "Après polymérisation complète, sortez délicatement les pièces du moule et assemblez vos apprêts de bijoux.",
+          "tip": "Percez un petit trou ou insérez des vis à œil avant le durcissement total si vos moules n'en prévoient pas."
+        }
+      ],
+      "safety": [
+        "Évitez tout contact direct de la résine liquide avec la peau.",
+        "Portez un masque si vous poncez les pièces finies."
+      ],
+      "tips": [
+        "Conservez vos créations à l'abri des UV directs pour éviter le jaunissement prématuré."
+      ]
+    },
+    {
+      "slug": "moule-silicone",
+      "title": "Fabrication de moules en silicone sur-mesure",
+      "difficulty": "Intermédiaire",
+      "time": "12 heures",
+      "intro": "Apprenez à dupliquer vos objets préférés en créant vos propres moules souples et résistants. Idéal pour couler ensuite de la résine ou du plâtre.",
+      "materials": [
+        {
+          "name": "Silicone pour moule 5 kg",
+          "slug": "aswek-silicone-pour-moule-5-kg"
+        },
+        {
+          "name": "BOYTEK",
+          "slug": "aswek-boytek"
+        }
+      ],
+      "tools": [
+        "Boîte de coffrage",
+        "Objet modèle à dupliquer",
+        "Balance de précision",
+        "Spatule de mélange"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Préparation du modèle",
+          "desc": "Fixez votre objet modèle au fond de la boîte de coffrage avec un point de colle chaude ou de la patafix.",
+          "tip": "Assurez-vous que le modèle est propre et sans aspérités."
+        },
+        {
+          "n": 2,
+          "title": "Pesée du silicone",
+          "desc": "Pesez précisément les composants du silicone selon les instructions (voir la fiche technique).",
+          "tip": "Une balance numérique est indispensable pour respecter le ratio de catalyse."
+        },
+        {
+          "n": 3,
+          "title": "Mélange et coulage",
+          "desc": "Mélangez vigoureusement les deux composants en raclant bien les bords. Versez le mélange en un seul point mince et continu au coin de la boîte pour noyer l'objet.",
+          "tip": "Versez de haut en bas pour laisser les bulles s'échapper du flux."
+        },
+        {
+          "n": 4,
+          "title": "Démoulage du moule",
+          "desc": "Patientez le temps du durcissement, puis retirez le coffrage et extrayez délicatement votre modèle original.",
+          "tip": "Votre moule est maintenant prêt pour vos futurs moulages."
+        }
+      ],
+      "safety": [
+        "Utilisez des gants et protégez votre plan de travail.",
+        "Travaillez dans un espace aéré."
+      ],
+      "tips": [
+        "Le silicone demande un respect strict des dosages pour durcir correctement."
+      ]
+    },
+    {
+      "slug": "bougie-parfumee",
+      "title": "Création de bougies parfumées en cire naturelle",
+      "difficulty": "Débutant",
+      "time": "3 heures",
+      "intro": "Confectionnez des bougies chaleureuses et éco-responsables à la maison. Un projet simple qui embaumera votre intérieur.",
+      "materials": [
+        {
+          "name": "Cire de Soja",
+          "slug": "aswek-cire-de-soja"
+        },
+        {
+          "name": "Cire de Paraffine",
+          "slug": "aswek-cire-de-paraffine"
+        }
+      ],
+      "tools": [
+        "Récipients en verre ou pots",
+        "Mèches à bougie avec support",
+        "Casserole pour bain-marie",
+        "Thermomètre de cuisine"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Préparation des contenants",
+          "desc": "Collez la mèche au fond de votre contenant propre et centrez-la en l'maintenant droite avec une pince à linge.",
+          "tip": "Nettoyez bien l'intérieur du verre pour une meilleure adhérence."
+        },
+        {
+          "n": 2,
+          "title": "Fonte de la cire",
+          "desc": "Faites fondre la cire de soja ou de paraffine au bain-marie à feu doux (voir la fiche technique pour les températures).",
+          "tip": "Ne surchauffez pas la cire pour altérer sa qualité."
+        },
+        {
+          "n": 3,
+          "title": "Coulée de la cire",
+          "desc": "Laissez la cire tiédir légèrement puis versez-la délicatement dans le contenant préparé.",
+          "tip": "Gardez un peu de cire de côté pour faire le niveau si un creux se forme au centre en refroidissant."
+        },
+        {
+          "n": 4,
+          "title": "Découpe de la mèche",
+          "desc": "Laissez durcir la bougie pendant plusieurs heures, puis coupez la mèche à environ 5 mm de la surface.",
+          "tip": "Attendez 48 heures avant d'allumer votre bougie pour une diffusion optimale."
+        }
+      ],
+      "safety": [
+        "Ne laissez jamais une cire fondre sans surveillance sur le feu.",
+        "Attention aux brûlures lors de la manipulation de la cire chaude."
+      ],
+      "tips": [
+        "Un mélange de cire de soja et de paraffine offre souvent un excellent compromis pour la tenue et la diffusion."
+      ]
+    },
+    {
+      "slug": "traitement-piscine",
+      "title": "Guide complet d'entretien et traitement de l'eau de piscine",
+      "difficulty": "Débutant",
+      "time": "1 heure",
+      "intro": "Maintenez une eau de piscine limpide, saine et équilibrée tout au long de la saison estivale grâce à notre gamme de produits d'entretien professionnels.",
+      "materials": [
+        {
+          "name": "Chlore Choc (5 kg) : Désinfection Haute Performance",
+          "slug": "aswek-chlore-choc-5-kg"
+        },
+        {
+          "name": "AQUACID (5L) : Barrière Active Anti-algues",
+          "slug": "aswek-aquacid-5l"
+        },
+        {
+          "name": "Floculant Liquide (5L) : Clarifiant Haute Performance",
+          "slug": "aswek-floculant-liquide-5l"
+        }
+      ],
+      "tools": [
+        "Testeur de pH et de chlore",
+        "Épuisette de surface",
+        "Brosse de parois"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Analyse de l'eau",
+          "desc": "Testez le pH et le taux de désinfectant de votre piscine pour évaluer l'état général de l'eau.",
+          "tip": "Un pH idéal se situe généralement entre 7,2 et 7,6."
+        },
+        {
+          "n": 2,
+          "title": "Traitement choc et désinfection",
+          "desc": "En cas d'eau trouble ou verdâtre, appliquez le chlore choc en respectant les doses recommandées (voir la fiche technique).",
+          "tip": "Effectuez cette opération de préférence le soir hors de la présence des baigneurs."
+        },
+        {
+          "n": 3,
+          "title": "Action anti-algues",
+          "desc": "Versez l'anti-algues directement dans le bassin près des buse de refoulement pour prévenir ou éliminer les proliférations.",
+          "tip": "Brossez les parois avant l'application pour décoller les impuretés."
+        },
+        {
+          "n": 4,
+          "title": "Clarification de l'eau",
+          "desc": "Ajoutez le floculant liquide pour agglomérer les micro-particules en suspension et faciliter leur aspiration.",
+          "tip": "Laissez la filtration tourner en continu selon les préconisations."
+        }
+      ],
+      "safety": [
+        "Stockez les produits chimiques hors de portée des enfants.",
+        "Ne mélangez jamais différents produits chimiques entre eux dans un même seau."
+      ],
+      "tips": [
+        "Testez l'eau de votre piscine au moins une à deux fois par semaine en période estivale."
+      ]
+    },
+    {
+      "slug": "etancheite-toiture",
+      "title": "Application d'une solution d'étanchéité pour toiture",
+      "difficulty": "Avancé",
+      "time": "24 heures",
+      "intro": "Protégez durablement votre toiture des infiltrations d'eau grâce à notre revêtement technique haute performance. Rénovez et imperméabilisez efficacement.",
+      "materials": [
+        {
+          "name": "DEEP ETANCHE PRO",
+          "slug": "aswek-deep-etanche-pro"
+        },
+        {
+          "name": "Diluant 4 L",
+          "slug": "aswek-diluant-4l"
+        }
+      ],
+      "tools": [
+        "Balai brosse ou rouleau de peintre",
+        "Nettoyeur haute pression",
+        "Gants et vêtements de travail",
+        "Couteau à mastic"
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "title": "Nettoyage de la surface",
+          "desc": "Nettoyez soigneusement la toiture au nettoyeur haute pression pour éliminer mousses, poussières et débris.",
+          "tip": "Laissez sécher totalement la surface avant d'appliquer le produit."
+        },
+        {
+          "n": 2,
+          "title": "Préparation et colmatage",
+          "desc": "Rebouchez les fissures importantes ou les joints abîmés avec un enduit adapté.",
+          "tip": "Vérifiez l'absence de zones humides stagnantes."
+        },
+        {
+          "n": 3,
+          "title": "Application de la première couche",
+          "desc": "Appliquez une première couche de revêtement d'étanchéité dilué si nécessaire (voir la fiche technique) à l'aide d'un rouleau.",
+          "tip": "Croisez les passes pour une couverture homogène."
+        },
+        {
+          "n": 4,
+          "title": "Seconde couche de finition",
+          "desc": "Après séchage complet de la première couche, appliquez la seconde couche pure pour garantir une barrière étanche irréprochable.",
+          "tip": "Respectez scrupuleusement les temps de séchage entre les couches."
+        }
+      ],
+      "safety": [
+        "Portez un harnais de sécurité si vous travaillez en hauteur.",
+        "Utilisez des équipements de protection individuelle (gants, lunettes)."
+      ],
+      "tips": [
+        "Évitez d'appliquer le produit en plein soleil ou en cas de risque imminent de pluie."
+      ]
+    }
+  ]
+}

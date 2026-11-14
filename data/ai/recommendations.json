@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-22T09:29:02.105Z",
+  "by_project": {
+    "plateau-riviere": [
+      "aswek-resine-epoxy-3d",
+      "aswek-colorant-pour-resine-epoxy",
+      "aswek-feuille-dor-100-pieces"
+    ],
+    "bijoux": [
+      "aswek-vitrail-transparent",
+      "aswek-poudre-metallique-50-gr",
+      "aswek-glitter-dore"
+    ],
+    "moule-silicone": [
+      "aswek-silicone-pour-moule-5-kg",
+      "aswek-boytek",
+      "aswek-resine-epoxy-autolissant-1-kg"
+    ],
+    "bougie": [
+      "aswek-cire-de-soja",
+      "aswek-cire-de-paraffine",
+      "aswek-huile-de-paraffine"
+    ],
+    "piscine": [
+      "aswek-chlore-choc-5-kg",
+      "aswek-floculant-liquide-5l",
+      "aswek-ph-moins-water-clean"
+    ],
+    "etancheite": [
+      "aswek-deep-etanche-pro",
+      "aswek-diluant-4l",
+      "aswek-vernis-var-23"
+    ]
+  },
+  "also_bought": {
+    "aswek-resine-epoxy-3d": [
+      "aswek-colorant-pour-resine-epoxy",
+      "aswek-silicone-pour-moule-5-kg",
+      "aswek-poudre-metallique-gold-50-gr"
+    ],
+    "aswek-chlore-choc-5-kg": [
+      "aswek-floculant-liquide-5l",
+      "aswek-ph-moins-water-clean",
+      "aswek-aquacid-5l"
+    ],
+    "aswek-cire-de-soja": [
+      "aswek-cire-de-paraffine",
+      "aswek-huile-de-paraffine",
+      "aswek-feuille-dor-100-pieces"
+    ]
+  },
+  "by_category": {
+    "resines-epoxy": [
+      "aswek-resine-epoxy-3d",
+      "aswek-resine-epoxy-autolissant-1-kg"
+    ],
+    "silicones-pour-moules": [
+      "aswek-silicone-pour-moule-5-kg",
+      "aswek-boytek"
+    ],
+    "traitement-piscine": [
+      "aswek-chlore-choc-5-kg",
+      "aswek-floculant-liquide-5l",
+      "aswek-aquacid-5l"
+    ],
+    "cires": [
+      "aswek-cire-de-soja",
+      "aswek-cire-de-paraffine"
+    ]
+  }
+}

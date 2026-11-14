@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guides projet ASWEK : résine époxy, bijoux, moules silicone, bougies, piscine et étanchéité. Tutoriels pas-à-pas et produits recommandés.">
+  <title>Guides projet | ASWEK</title>
+  <link rel="canonical" href="guides.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/ai/search.css">
+  <link rel="stylesheet" href="css/ai/chatbot.css">
+</head>
+<body>
+  <div id="rp-header"></div>
+  <div class="breadcrumb-bar"><div class="container"><a href="index.html">Accueil</a><span class="sep">/</span><span class="current">Guides projet</span></div></div>
+  <div class="container my-4">
+    <h1 class="page-title-cat">Guides projet pas-à-pas</h1>
+    <p class="text-muted mb-4">Des tutoriels pratiques réalisés avec les produits ASWEK, adaptés à votre niveau.</p>
+    <div class="row" id="guidesGrid"></div>
+  </div>
+  <div id="rp-modals"></div>
+  <div id="rp-footer"></div>
+  <script src="js/data.js"></script>
+<script src="js/ai/overrides.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ai/chatbot.js"></script>
+  <script src="js/ai/i18n.js"></script>
+  <script>
+    fetch('data/ai/project-guides.json').then(r => r.ok ? r.json() : null).then(j => {
+      const guides = (j && j.guides) || [];
+      const grid = document.getElementById('guidesGrid');
+      if (!guides.length) { grid.innerHTML = '<div class="col-12"><p>Guides bientôt disponibles.</p></div>'; return; }
+      grid.innerHTML = guides.map(g => `
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="guide-card fade-up">
+            <h3>${g.title}</h3>
+            <div class="guide-meta"><span>${g.difficulty || ''}</span><span>${g.time || ''}</span></div>
+            <p class="small">${g.intro || ''}</p>
+            <div class="row">
+              <div class="col-12">
+                <h4 class="h6 mt-2">Matériel</h4>
+                <ul class="ai-feature-list">${(g.materials || []).map(m => `<li>${m.slug ? `<a href="product.html?p=${m.slug}">${m.name}</a>` : m.name}</li>`).join('')}</ul>
+              </div>
+            </div>
+            <details>
+              <summary class="fw-bold" style="cursor:pointer;color:var(--teal)">Voir les étapes</summary>
+              <ol class="guide-steps mt-2">${(g.steps || []).map(s => `<li><strong>${s.title}</strong><br>${s.desc}${s.tip ? `<span class="tip">${s.tip}</span>` : ''}</li>`).join('')}</ol>
+              ${(g.safety || []).length ? `<h4 class="h6">Sécurité</h4><ul class="ai-feature-list">${g.safety.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+              ${(g.tips || []).length ? `<h4 class="h6">Astuces</h4><ul class="ai-feature-list">${g.tips.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+            </details>
+          </div>
+        </div>`).join('');
+      if (typeof observeFadeUps === 'function') observeFadeUps();
+    }).catch(() => {});
+  </script>
+  <script src="js/ai/enhance.js"></script>
+  <script src="js/ai/search-engine.js"></script>
+  <script src="js/ai/search-ui.js"></script>
+  <script src="js/ai/seo.js"></script>
+</body>
+</html>

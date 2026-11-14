@@ -1,0 +1,708 @@
+{
+  "generated_at": "2026-10-22T09:28:58.667Z",
+  "items": [
+    {
+      "slug": "aswek-resine-epoxy-3d",
+      "synonyms": [
+        "epoxy",
+        "revêtement",
+        "sol",
+        "table",
+        "translucide",
+        "moulage",
+        "durcisseur"
+      ],
+      "intents": [
+        "résine époxy 3d pour table rivière",
+        "acheter résine transparente en tunisie",
+        "faire un sol en résine époxy"
+      ]
+    },
+    {
+      "slug": "aswek-vitrail-transparent",
+      "synonyms": [
+        "bijoux",
+        "créations",
+        "coulée",
+        "vernis",
+        "brillant",
+        "loisirs",
+        "accessoires"
+      ],
+      "intents": [
+        "résine pour bijoux transparents",
+        "vitrail transparent pour loisirs créatifs",
+        "petite quantité de résine pour création"
+      ]
+    },
+    {
+      "slug": "aswek-boytek",
+      "synonyms": [
+        "silicone",
+        "moule",
+        "duplication",
+        "empreinte",
+        "souple",
+        "élastomère"
+      ],
+      "intents": [
+        "silicone pour fabriquer des moules",
+        "produit boytek silicone tunisie",
+        "moule en silicone sur mesure"
+      ]
+    },
+    {
+      "slug": "aswek-silicone-pour-moule-5-kg",
+      "synonyms": [
+        "moulage",
+        "silicone",
+        "5kg",
+        "bricolage",
+        "artisanat",
+        "caoutchouc"
+      ],
+      "intents": [
+        "pot de silicone 5 kg pour moule",
+        "acheter silicone moulage grand format",
+        "kit silicone 5kg tunisie"
+      ]
+    },
+    {
+      "slug": "aswek-resine-epoxy-autolissant-1-kg",
+      "synonyms": [
+        "autolissant",
+        "1kg",
+        "finition",
+        "brillant",
+        "plateau",
+        "glacage"
+      ],
+      "intents": [
+        "résine époxy autolissante 1kg",
+        "petite dose de résine pour glaçage",
+        "résine facile pour débutant"
+      ]
+    },
+    {
+      "slug": "aswek-peinture-acrylique",
+      "synonyms": [
+        "peinture",
+        "déco",
+        "loisirs",
+        "toile",
+        "couleur",
+        "pinceau"
+      ],
+      "intents": [
+        "peinture acrylique pour toile",
+        "acheter peinture de loisirs créatifs",
+        "peinture couleur aswek"
+      ]
+    },
+    {
+      "slug": "aswek-peinture-acrylique-gris",
+      "synonyms": [
+        "gris",
+        "peinture",
+        "acrylique",
+        "bâtiment",
+        "décoration",
+        "mur"
+      ],
+      "intents": [
+        "peinture acrylique couleur gris",
+        "acheter peinture grise aswek",
+        "peindre un mur en gris"
+      ]
+    },
+    {
+      "slug": "aswek-peinture-acrylique-jaune",
+      "synonyms": [
+        "jaune",
+        "peinture",
+        "acrylique",
+        "couleur",
+        "vif",
+        "art"
+      ],
+      "intents": [
+        "peinture acrylique jaune vif",
+        "acheter peinture jaune pour art",
+        "peinture décorative jaune"
+      ]
+    },
+    {
+      "slug": "aswek-peinture-acrylique-rouge",
+      "synonyms": [
+        "rouge",
+        "peinture",
+        "acrylique",
+        "couleur",
+        "chaud",
+        "toile"
+      ],
+      "intents": [
+        "peinture acrylique rouge",
+        "acheter peinture rouge aswek",
+        "peinture pour loisirs artistiques"
+      ]
+    },
+    {
+      "slug": "aswek-colorant-pour-resine-epoxy",
+      "synonyms": [
+        "colorant",
+        "pigment",
+        "teinte",
+        "liquide",
+        "couleur",
+        "epoxy"
+      ],
+      "intents": [
+        "comment colorer de la résine époxy",
+        "colorant liquide pour résine",
+        "acheter pigments pour résine"
+      ]
+    },
+    {
+      "slug": "aswek-floculant-liquide-5l",
+      "synonyms": [
+        "piscine",
+        "clarifiant",
+        "eau",
+        "traitement",
+        "floculant",
+        "5l"
+      ],
+      "intents": [
+        "floculant liquide pour eau troublée de piscine",
+        "clarifiant haute performance piscine 5L",
+        "produit pour rendre l'eau de piscine claire"
+      ]
+    },
+    {
+      "slug": "aswek-aquacid-5l",
+      "synonyms": [
+        "algues",
+        "antialgues",
+        "piscine",
+        "bassin",
+        "nettoyage",
+        "traitement"
+      ],
+      "intents": [
+        "produit anti algues piscine aquacid",
+        "traiter l'eau verte de la piscine",
+        "barrière active anti algues 5l"
+      ]
+    },
+    {
+      "slug": "aswek-poly-piscine",
+      "synonyms": [
+        "piscine",
+        "entretien",
+        "bassin",
+        "chimique",
+        "eau",
+        "nettoyage"
+      ],
+      "intents": [
+        "produit poly piscine aswek",
+        "entretien général de bassin",
+        "traitement chimique piscine tunisie"
+      ]
+    },
+    {
+      "slug": "aswek-ph-moins-water-clean",
+      "synonyms": [
+        "ph",
+        "acidité",
+        "piscine",
+        "correction",
+        "eau",
+        "baignade"
+      ],
+      "intents": [
+        "baisser le ph de la piscine",
+        "produit ph moins water clean",
+        "réguler l'acidité de l'eau"
+      ]
+    },
+    {
+      "slug": "aswek-ph-plus-water-clean",
+      "synonyms": [
+        "ph",
+        "basique",
+        "piscine",
+        "augmentation",
+        "eau",
+        "traitement"
+      ],
+      "intents": [
+        "augmenter le ph de la piscine",
+        "produit ph plus water clean",
+        "rééquilibrer l'eau de piscine"
+      ]
+    },
+    {
+      "slug": "aswek-chlore-choc-5-kg",
+      "synonyms": [
+        "chlore",
+        "choc",
+        "désinfection",
+        "piscine",
+        "algues",
+        "5kg"
+      ],
+      "intents": [
+        "chlore choc en poudre 5kg pour piscine",
+        "traiter une eau de piscine verte rapidement",
+        "désinfection choc bassin"
+      ]
+    },
+    {
+      "slug": "aswek-chlore-multifonction-5kg",
+      "synonyms": [
+        "chlore",
+        "galet",
+        "multifonction",
+        "piscine",
+        "entretien",
+        "5kg"
+      ],
+      "intents": [
+        "chlore multifonction 5kg pour piscine",
+        "galets de chlore complets entretien",
+        "traitement régulier piscine longue durée"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-nacre",
+      "synonyms": [
+        "poudre",
+        "nacré",
+        "métallique",
+        "effet",
+        "pigment",
+        "mika"
+      ],
+      "intents": [
+        "poudre nacrée pour effet brillant",
+        "pigment nacré pour résine et bougie",
+        "effet métallisé nacré"
+      ]
+    },
+    {
+      "slug": "aswek-feuille-dor-100-pieces",
+      "synonyms": [
+        "dorure",
+        "feuille",
+        "or",
+        "décoration",
+        "art",
+        "bijoux"
+      ],
+      "intents": [
+        "feuilles d'or pour décoration résine",
+        "kit 100 feuilles dorées pour art",
+        "effet doré sur plateau époxy"
+      ]
+    },
+    {
+      "slug": "aswek-cire-de-soja",
+      "synonyms": [
+        "cire",
+        "soja",
+        "bougie",
+        "naturelle",
+        "vegan",
+        "moulage"
+      ],
+      "intents": [
+        "cire de soja naturelle pour bougies",
+        "fabriquer des bougies vegan",
+        "acheter cire de soja en tunisie"
+      ]
+    },
+    {
+      "slug": "aswek-cire-de-paraffine",
+      "synonyms": [
+        "paraffine",
+        "cire",
+        "bougie",
+        "moulage",
+        "traditionnel",
+        "solide"
+      ],
+      "intents": [
+        "cire de paraffine pour bougies moulées",
+        "acheter paraffine solide",
+        "fabrication de bougies parfumées"
+      ]
+    },
+    {
+      "slug": "aswek-quartz-colore",
+      "synonyms": [
+        "quartz",
+        "coloré",
+        "sable",
+        "sol",
+        "résine",
+        "décoration"
+      ],
+      "intents": [
+        "quartz coloré pour sol en résine",
+        "sable décoratif quartz",
+        "revêtement antidérapant quartz"
+      ]
+    },
+    {
+      "slug": "aswek-huile-de-paraffine",
+      "synonyms": [
+        "huile",
+        "paraffine",
+        "liquide",
+        "bougie",
+        "lampe",
+        "finition"
+      ],
+      "intents": [
+        "huile de paraffine liquide",
+        "combustible pour lampe à huile",
+        "huile pour entretien bois et résine"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-50-gr",
+      "synonyms": [
+        "poudre",
+        "métallique",
+        "50g",
+        "pigment",
+        "colorant",
+        "epoxy"
+      ],
+      "intents": [
+        "poudre métallique 50g pour résine",
+        "pigment effet métal",
+        "colorant poudre pour création"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-rouge-50-gr",
+      "synonyms": [
+        "rouge",
+        "poudre",
+        "métallique",
+        "pigment",
+        "50g",
+        "colorant"
+      ],
+      "intents": [
+        "poudre métallique rouge 50g",
+        "pigment rouge brillant pour résine",
+        "effet métal rouge"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-blanc-base-50-gr",
+      "synonyms": [
+        "blanc",
+        "base",
+        "poudre",
+        "métallique",
+        "pigment",
+        "50g"
+      ],
+      "intents": [
+        "poudre métallique blanche base 50g",
+        "pigment blanc pour résine époxy",
+        "fond blanc nacré"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-gold-50-gr",
+      "synonyms": [
+        "gold",
+        "or",
+        "poudre",
+        "métallique",
+        "pigment",
+        "50g"
+      ],
+      "intents": [
+        "poudre métallique gold 50g",
+        "pigment couleuror pour résine",
+        "effet dorure en poudre"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-bronze-50-gr",
+      "synonyms": [
+        "bronze",
+        "poudre",
+        "métallique",
+        "pigment",
+        "50g",
+        "cuivré"
+      ],
+      "intents": [
+        "poudre métallique bronze 50g",
+        "pigment effet bronze pour art",
+        "colorant poudre bronze"
+      ]
+    },
+    {
+      "slug": "aswek-poudre-metallique-argent-50-gr",
+      "synonyms": [
+        "argent",
+        "argenté",
+        "poudre",
+        "métallique",
+        "pigment",
+        "50g"
+      ],
+      "intents": [
+        "poudre métallique argent 50g",
+        "pigment effet argent pour résine",
+        "colorant argenté brillant"
+      ]
+    },
+    {
+      "slug": "aswek-pigment-phosphorescent",
+      "synonyms": [
+        "phosphorescent",
+        "lumineux",
+        "nuit",
+        "pigment",
+        "brille",
+        "fluo"
+      ],
+      "intents": [
+        "pigment phosphorescent qui brille dans le noir",
+        "poudre lumineuse pour résine",
+        "créer des objets fluorescents la nuit"
+      ]
+    },
+    {
+      "slug": "aswek-silice-colore-gris",
+      "synonyms": [
+        "silice",
+        "gris",
+        "sable",
+        "coloré",
+        "sol",
+        "epoxy"
+      ],
+      "intents": [
+        "silice colorée grise pour sol résine",
+        "sable de silice gris",
+        "revêtement décoratif silice"
+      ]
+    },
+    {
+      "slug": "aswek-silice-colore-bleu",
+      "synonyms": [
+        "silice",
+        "bleu",
+        "sable",
+        "coloré",
+        "sol",
+        "décoration"
+      ],
+      "intents": [
+        "silice colorée bleue",
+        "sable de silice bleu pour résine",
+        "déco sol marin en silice"
+      ]
+    },
+    {
+      "slug": "aswek-silice-4mm",
+      "synonyms": [
+        "silice",
+        "4mm",
+        "gravier",
+        "sable",
+        "sol",
+        "technique"
+      ],
+      "intents": [
+        "silice granulométrie 4 mm",
+        "sable de silice gros grain",
+        "charge pour résine de sol"
+      ]
+    },
+    {
+      "slug": "aswek-glitter-dore",
+      "synonyms": [
+        "glitter",
+        "paillettes",
+        "doré",
+        "brillant",
+        "déco",
+        "epoxy"
+      ],
+      "intents": [
+        "paillettes dorées glitter pour résine",
+        "acheter des paillettes pour déco",
+        "effet pailleté or"
+      ]
+    },
+    {
+      "slug": "aswek-decoto-p500",
+      "synonyms": [
+        "decotop",
+        "p500",
+        "vernis",
+        "technique",
+        "protection",
+        "finition"
+      ],
+      "intents": [
+        "vernis decotop p500",
+        "protection haute performance surface",
+        "vernis technique aswek"
+      ]
+    },
+    {
+      "slug": "aswek-decoto-p450",
+      "synonyms": [
+        "decotop",
+        "p450",
+        "vernis",
+        "technique",
+        "bois",
+        "finition"
+      ],
+      "intents": [
+        "vernis decotop p450",
+        "vernis de finition pro",
+        "protection bois et résine"
+      ]
+    },
+    {
+      "slug": "aswek-vernis-var-23",
+      "synonyms": [
+        "vernis",
+        "var23",
+        "protection",
+        "brillant",
+        "peinture",
+        "bois"
+      ],
+      "intents": [
+        "vernis var 23 aswek",
+        "vernis de protection transparent",
+        "finition brillante pour projet"
+      ]
+    },
+    {
+      "slug": "aswek-vernis-var-27",
+      "synonyms": [
+        "vernis",
+        "var27",
+        "protection",
+        "résistant",
+        "finition",
+        "bois"
+      ],
+      "intents": [
+        "vernis var 27 aswek",
+        "vernis résistant pour surface",
+        "acheter vernis var tunisie"
+      ]
+    },
+    {
+      "slug": "aswek-diluant-4l",
+      "synonyms": [
+        "diluant",
+        "4l",
+        "solvant",
+        "nettoyage",
+        "peinture",
+        "vernis"
+      ],
+      "intents": [
+        "diluant 4 litres pour peinture et vernis",
+        "solvant de nettoyage grand format",
+        "diluant aswek 4l"
+      ]
+    },
+    {
+      "slug": "aswek-diluant-0-7l",
+      "synonyms": [
+        "diluant",
+        "0.7l",
+        "solvant",
+        "nettoyage",
+        "bricolage"
+      ],
+      "intents": [
+        "diluant 0.7l pour travaux",
+        "solvant pour peinture aswek",
+        "bouteille de diluant 700ml"
+      ]
+    },
+    {
+      "slug": "aswek-diluant-0-4l",
+      "synonyms": [
+        "diluant",
+        "0.4l",
+        "solvant",
+        "nettoyage",
+        "pinceau"
+      ],
+      "intents": [
+        "diluant 0.4l pour pinceaux",
+        "petit bidon de diluant",
+        "solvant nettoyage aswek"
+      ]
+    },
+    {
+      "slug": "aswek-diluant-0-125l",
+      "synonyms": [
+        "diluant",
+        "0.125l",
+        "solvant",
+        "mini",
+        "retouche"
+      ],
+      "intents": [
+        "petit diluant 0.125l pour retouche",
+        "mini flacon de solvant",
+        "diluant petite quantité"
+      ]
+    },
+    {
+      "slug": "aswek-soude",
+      "synonyms": [
+        "soude",
+        "nettoyage",
+        "entretien",
+        "décapant",
+        "chimique",
+        "débouchage"
+      ],
+      "intents": [
+        "soude pour nettoyage et entretien",
+        "produit chimique décapant aswek",
+        "acheter de la soude en tunisie"
+      ]
+    },
+    {
+      "slug": "aswek-deep-etanche-pro",
+      "synonyms": [
+        "etancheite",
+        "toiture",
+        "pro",
+        "isolation",
+        "fuite",
+        "terrasse"
+      ],
+      "intents": [
+        "produit étanchéité toiture deep etanche pro",
+        "stopper les fuites de terrasse",
+        "peinture étanche professionnelle"
+      ]
+    }
+  ]
+}

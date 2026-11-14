@@ -1,0 +1,1893 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-21T15:59:25.730Z",
+  "products": {
+    "aswek-resine-epoxy-3d": {
+      "id": 900001,
+      "name": "Résine Epoxy 3D",
+      "definition": "La Résine Epoxy 3D est un système époxy bi-composant spécialement formulé pour la réalisation d'applications en relief, d'inclusions et de finitions transparentes. Distribuée par ASWEK en Tunisie, elle permet de créer des effets de profondeur saisissants pour divers projets créatifs et techniques.",
+      "description": "Cette résine époxy s'adresse aux créateurs, artisans et professionnels à la recherche d'un produit adapté pour des coulées spécifiques nécessitant un effet tridimensionnel. Elle s'associe généralement à un durcisseur selon des proportions à confirmer sur l'emballage.\n\nIdéale pour la mise en valeur d'objets ou la création de plateaux de tables rivière, la Résine Epoxy 3D offre un rendu visuel unique qui met en valeur les éléments inclus. Son utilisation requiert le respect scrupuleux des conditions de travail et des équipements de protection adaptés.",
+      "usage": [
+        "Réalisation d'inclusions décoratives",
+        "Création d'effets de profondeur et de relief",
+        "Projets de loisirs créatifs et artistiques"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Résine époxy bi-composant"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Disponibilité",
+          "value": "Tunisie (ASWEK)"
+        }
+      ],
+      "advantages": [
+        "Effet visuel 3D et profondeur remarquable",
+        "Transparence adaptée aux créations artistiques"
+      ],
+      "howto": "Le mode d'emploi exact (proportions de mélange, temps de séchage et conditions d'application) dépend des spécificités du lot. Veuillez impérativement vous référer à la fiche technique du produit et aux instructions figurant sur l'emballage avant toute utilisation.",
+      "safety": "Portez systématiquement des équipements de protection individuelle adaptés (gants, lunettes, masque) lors de la manipulation de résines époxy. Travaillez dans un local bien ventilé. Pour toute information détaillée sur la toxicité et les premiers secours, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Résine Epoxy 3D - ASWEK Tunisie",
+      "seo_description": "Commandez votre Résine Epoxy 3D chez ASWEK en Tunisie. Idéale pour les inclusions, loisirs créatifs et effets de profondeur. Qualité professionnelle.",
+      "keywords": [
+        "résine epoxy 3d",
+        "résine époxy tunisie",
+        "aswek",
+        "résine inclusion",
+        "loisirs créatifs"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:53:54.460Z",
+      "verified": false
+    },
+    "aswek-vitrail-transparent": {
+      "id": 900002,
+      "name": "Vitrail Transparent",
+      "definition": "Le 'Vitrail Transparent' disponible chez ASWEK est un produit formulé pour la réalisation de bijoux, d'accessoires et de petites créations artistiques. Il s'applique sur différents supports pour offrir un rendu visuel coloré et translucide semblable à du verre teinté. Ce produit est proposé en formats pratiques de 50 ml et 100 ml pour s'adapter à vos besoins de loisirs créatifs.",
+      "description": "Spécialement sélectionné pour les passionnés de loisirs créatifs et de fabrication de bijoux, le Vitrail Transparent permet d'apporter de la couleur et de la transparence à vos créations en résine ou autres supports compatibles. Sa texture fluide facilite l'application pour un travail de précision sur vos pièces miniatures et vos projets artistiques.\n\nDisponible en conditionnements de 50 ml et 100 ml, ce produit s'intègre parfaitement dans votre atelier de modelage et de création. Pour obtenir les meilleurs résultats esthétiques, il est recommandé de l'utiliser en respectant les bonnes pratiques de création manuelle et de bien préparer vos surfaces au préalable.",
+      "usage": [
+        "Création de bijoux et d'accessoires fantaisie",
+        "Décoration de petites pièces de loisirs créatifs",
+        "Effets de transparence colorée sur supports adaptés"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Vitrail Transparent"
+        },
+        {
+          "label": "Formats disponibles",
+          "value": "50 ml, 100 ml"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Résines > Résines pour bijoux et créations"
+        }
+      ],
+      "advantages": [
+        "Effet transparent et coloré idéal pour la bijouterie fantaisie",
+        "Formats adaptés aux projets de petite et moyenne envergure"
+      ],
+      "howto": "Appliquer le produit sur une surface propre, sèche et préparée selon la nature de votre création. Pour les dosages exacts, les proportions de mélange et les temps de séchage, veuillez vous référer à la fiche technique spécifique du produit ou aux instructions figurant sur l'emballage.",
+      "safety": "Manipuler le produit dans un espace ventil�� en portant des équipements de protection adaptés (gants, lunettes). Éviter le contact avec la peau et les yeux. Pour toute information détaillée sur la toxicité ou la manipulation, veuillez consulter la fiche de données de sécurité (FDS).",
+      "seo_title": "Vitrail Transparent 50ml et 100ml - ASWEK Tunisie",
+      "seo_description": "Achetez le Vitrail Transparent 50 ml et 100 ml chez ASWEK en Tunisie. Idéal pour vos bijoux et créations artistiques. Commandez en ligne.",
+      "keywords": [
+        "vitrail transparent",
+        "résine bijoux tunisie",
+        "création aswek",
+        "loisirs créatifs tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:54:17.879Z",
+      "verified": false
+    },
+    "aswek-boytek": {
+      "id": 900003,
+      "name": "BOYTEK",
+      "definition": "BOYTEK est un produit de la gamme des silicones pour moules proposé par la boutique ASWEK en Tunisie. Il est spécialement destiné à la réalisation et à la duplication de moules flexibles pour le moulage de différents types de matériaux de coulée.",
+      "description": "Le produit BOYTEK est formulé pour répondre aux besoins des créateurs, artisans et professionnels recherchant une solution fiable pour la fabrication de moules en silicone. Sa mise en œuvre permet d'obtenir des empreintes détaillées et fidèles aux modèles originaux.\n\nDisponible au format standard sur notre boutique en ligne ASWEK, ce produit s'intègre parfaitement dans les processus de loisirs créatifs, de modélisme ou de fabrication artisanale nécessitant la création de matrices souples.",
+      "usage": [
+        "Fabrication de moules en silicone pour la coulée de résine",
+        "Duplication de pièces et objets décoratifs",
+        "Réalisation de matrices pour le modélisme et l'artisanat"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "BOYTEK"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Silicones pour moules"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Permet une reproduction fidèle des détails du modèle",
+        "Adapté à la création de moules souples pour un démoulage facilité"
+      ],
+      "howto": "Le mode d'emploi exact, les proportions de mélange et les temps de polymérisation dépendant de la référence spécifique, il est recommandé de se référer à la fiche technique du fabricant avant toute utilisation.",
+      "safety": "Portez des équipements de protection individuels adaptés (gants, lunettes) lors de la manipulation. Pour toute information détaillée sur la toxicité ou la manipulation sécuritaire, veuillez consulter la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "BOYTEK - Silicone pour moules | ASWEK Tunisie",
+      "seo_description": "Découvrez le produit BOYTEK chez ASWEK en Tunisie. Idéal pour vos projets de fabrication de moules en silicone. Commandez en ligne.",
+      "keywords": [
+        "BOYTEK",
+        "silicone pour moule",
+        "moule en silicone",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:54:24.081Z",
+      "verified": false
+    },
+    "aswek-silicone-pour-moule-5-kg": {
+      "id": 900004,
+      "name": "Silicone pour moule 5 kg",
+      "definition": "Le Silicone pour moule 5 kg disponible chez ASWEK en Tunisie est un élastomère bi-composant spécialement formulé pour la création de moules souples et précis. Ce format de 5 kg convient parfaitement aux projets de moyenne et grande envergure nécessitant une quantité importante de matière. Il permet de reproduire fidèlement les moindres détails d'un modèle original pour le coulage de résine, de plâtre ou d'autres matériaux.",
+      "description": "Ce conditionnement de 5 kg de silicone pour moules offre aux créateurs, artisans et professionnels une solution adaptée pour la duplication d'objets aux formes complexes. Sa texture et sa fluidité facilitent le coulage tout en limitant la formation de bulles d'air lors de la préparation.\n\nDistribué par ASWEK en Tunisie, ce produit garantit un démoulage aisé et une excellente flexibilité du moule obtenu. Pour connaître les proportions exactes de mélange entre la base et le catalyseur ainsi que les temps de polymérisation précis, il convient de se référer systématiquement à la fiche technique du fabricant.",
+      "usage": [
+        "Création de moules souples pour la reproduction d'objets",
+        "Fabrication de moules pour pièces en résine époxy",
+        "Duplication de pièces artistiques et décoratives"
+      ],
+      "features": [
+        {
+          "label": "Conditionnement",
+          "value": "5 kg"
+        },
+        {
+          "label": "Type de produit",
+          "value": "Silicone bi-composant pour moule"
+        }
+      ],
+      "advantages": [
+        "Format généreux de 5 kg idéal pour les projets réguliers ou de grande taille",
+        "Permet une fidélité de reproduction élevée des détails"
+      ],
+      "howto": "Le mode d'emploi exact (rapport de mélange, méthode de mélange, temps de séchage et conditions d'application) varie selon la formulation spécifique. Il est impératif de consulter la fiche technique du produit avant toute utilisation pour garantir un résultat optimal.",
+      "safety": "Portez des équipements de protection adaptés (gants, lunettes) lors de la manipulation des produits chimiques. Travaillez dans un espace correctement ventilé. Pour toute information détaillée concernant les risques et les premiers secours, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Silicone pour moule 5 kg - ASWEK Tunisie",
+      "seo_description": "Achetez votre Silicone pour moule 5 kg chez ASWEK en Tunisie. Idéal pour la création de moules souples et précis pour résine et loisirs créatifs.",
+      "keywords": [
+        "silicone pour moule",
+        "silicone 5 kg",
+        "moule en silicone",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:54:26.947Z",
+      "verified": false
+    },
+    "aswek-resine-epoxy-autolissant-1-kg": {
+      "id": 900005,
+      "name": "Résine Epoxy Autolissant 1 Kg",
+      "definition": "La Résine Epoxy Autolissant 1 Kg disponible chez ASWEK en Tunisie est un système époxy bi-composant spécialement formulé pour obtenir des surfaces lisses, tendues et brillantes. Ce produit technique est idéal pour la réalisation de revêtements de sols, de plateaux de tables ou de couches de finition esthétiques. Sa formulation autolissante facilite l'application pour un rendu professionnel et soigné.",
+      "description": "Conditionnée en format pratique de 1 kg, cette résine epoxy autolissante s'adresse aux professionnels comme aux passionnés de loisirs créatifs exigeants en Tunisie. Elle permet de créer des films protecteurs et décoratifs d'une grande clarté sur différents types de supports préparés.\n\nSon application nécessite le respect rigoureux des proportions de m��lange entre la résine et le durcisseur, à confirmer selon les instructions spécifiques du fabricant. Pour un résultat optimal, il est recommandé de travailler dans un environnement tempéré et de veiller à une préparation minutieuse du support avant coulage.",
+      "usage": [
+        "Réalisation de revêtements de sols autolissants",
+        "Création de plateaux de tables et d'objets décoratifs",
+        "Application de couches de finition brillantes"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Résine Epoxy Autolissant"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "1 Kg"
+        },
+        {
+          "label": "Type de produit",
+          "value": "Résine époxy bi-composant"
+        },
+        {
+          "label": "Propriété",
+          "value": "Autolissant"
+        }
+      ],
+      "advantages": [
+        "Surface finale lisse et tendue grâce aux propriétés autolissantes",
+        "Aspect esthétique brillant et soigné",
+        "Format 1 kg adapté aux petits et moyens projets"
+      ],
+      "howto": "Préparez soigneusement le support en veillant à ce qu'il soit propre, sec et stable. Mélangez la résine et le durcisseur en respectant scrupuleusement les proportions indiquées par le fabricant. Appliquez le mélange en respectant les temps de travail. Pour les dosages exacts, les temps de séchage et les conditions d'application, se référer impérativement à la fiche technique du produit.",
+      "safety": "Portez des équipements de protection individuelle adaptés (gants, lunettes, vêtements de protection) lors de la manipulation. Travaillez dans un espace correctement ventilé. En cas de contact avec la peau ou les yeux, rincez abondamment à l'eau claire. Pour toute information détaillée sur la toxicité et la manipulation sécurisée, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Résine Epoxy Autolissant 1 Kg - ASWEK Tunisie",
+      "seo_description": "Achetez la Résine Epoxy Autolissant 1 Kg chez ASWEK en Tunisie. Idéale pour sols et finitions décoratives. Qualité professionnelle.",
+      "keywords": [
+        "résine epoxy autolissant",
+        "résine epoxy 1kg",
+        "résine epoxy tunisie",
+        "aswek"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:54:51.080Z",
+      "verified": false
+    },
+    "aswek-peinture-acrylique": {
+      "id": 900006,
+      "name": "Peinture Acrylique",
+      "definition": "La Peinture Acrylique disponible chez ASWEK en Tunisie est une formulation colorée à base d'eau destinée aux travaux de décoration et de finition. Elle s'applique sur divers supports pour offrir un rendu esthétique et uniformisé. Se référer à la fiche technique pour connaître les surfaces compatibles exactes.",
+      "description": "Cette peinture acrylique proposée par ASWEK s'intègre parfaitement dans vos projets de création et de rénovation. Sa formulation à base d'eau facilite son application au pinceau ou au rouleau sur les substrats adaptés.\n\nPour garantir un résultat optimal, il est recommandé de bien préparer la surface avant l'application et de respecter les conditions d'utilisation recommandées par le fabricant. Les temps de séchage et le nombre de couches nécessaires sont à confirmer selon la nature du support.",
+      "usage": [
+        "Travaux de décoration et de finition",
+        "Application sur supports compatibles",
+        "Projets créatifs divers"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Peinture Acrylique"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Facilité d'application",
+        "Nettoyage des outils à l'eau"
+      ],
+      "howto": "Appliquer sur une surface propre, sèche et préparée. Bien remuer avant utilisation. Se référer à la fiche technique du produit pour connaître le nombre de couches, les outils recommandés et les temps de séchage précis.",
+      "safety": "Porter un équipement de protection individuelle adapté lors de l'application. Éviter le contact avec la peau et les yeux. Consulter la fiche de données de sécurité (FDS) pour plus de détails.",
+      "seo_title": "Peinture Acrylique Standard - ASWEK Tunisie",
+      "seo_description": "Achetez votre peinture acrylique standard chez ASWEK en Tunisie. Idéale pour vos travaux de décoration. Commandez en ligne.",
+      "keywords": [
+        "peinture acrylique",
+        "peinture ASWEK",
+        "décoration Tunisie",
+        "fournitures créatives"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:55:07.241Z",
+      "verified": false
+    },
+    "aswek-peinture-acrylique-gris": {
+      "id": 900007,
+      "name": "Peinture Acrylique Gris",
+      "definition": "La Peinture Acrylique Gris est une formulation colorée à base d'eau destinée à la mise en peinture et à la finition de diverses surfaces. Elle s'applique facilement pour protéger et décorer vos projets créatifs, artistiques ou de bricolage.",
+      "description": "Cette peinture acrylique de couleur grise offre une teinte moderne et polyvalente, idéale pour de multiples applications sur des supports compatibles. Elle permet d'obtenir un rendu esthétique soigné tout en participant à la protection du support contre les agressions extérieures légères.\n\nDisponible dans la boutique ASWEK en Tunisie, ce produit s'intègre parfaitement dans vos travaux de personnalisation, de loisirs créatifs ou de rénovation de petits objets. Pour connaître les surfaces exactes d'application et le nombre de couches recommandé, veuillez vous référer à la fiche technique du produit.",
+      "usage": [
+        "Travaux de loisirs créatifs et artistiques",
+        "Mise en peinture de petits objets et supports compatibles",
+        "Projets de décoration intérieure"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Peinture acrylique"
+        },
+        {
+          "label": "Couleur",
+          "value": "Gris"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Teinte grise moderne et facile à assortir",
+        "Application aisée sur les supports compatibles",
+        "Adaptée à divers projets de décoration"
+      ],
+      "howto": "Assurez-vous que la surface à peindre soit propre, sèche et préparée selon les exigences du support. Appliquez la Peinture Acrylique Gris à l'aide d'un pinceau, d'un rouleau ou de tout autre outil adapté. Pour les temps de séchage exacts et les conditions d'application spécifiques, veuillez consulter la fiche technique.",
+      "safety": "Manipulez la peinture avec précaution en évitant tout contact prolongé avec la peau et les yeux. Portez un équipement de protection individuel adapté si nécessaire. Pour toute information détaillée sur la composition et les risques, consultez la fiche de données de sécurit�� (FDS).",
+      "seo_title": "Peinture Acrylique Gris - ASWEK Tunisie",
+      "seo_description": "Achetez la Peinture Acrylique Gris chez ASWEK en Tunisie pour vos projets de décoration et loisirs créatifs. Qualité et finition soignée.",
+      "keywords": [
+        "Peinture Acrylique Gris",
+        "Peinture ASWEK",
+        "Peinture acrylique Tunisie",
+        "Décoration et loisirs créatifs"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:55:20.441Z",
+      "verified": false
+    },
+    "aswek-peinture-acrylique-jaune": {
+      "id": 900008,
+      "name": "Peinture Acrylique Jaune",
+      "definition": "La Peinture Acrylique Jaune disponible chez ASWEK est une formulation colorée conçue pour les travaux de finition, de loisirs créatifs et de décoration. Elle permet d'appliquer une teinte jaune couvrante sur divers types de supports compatibles avec les peintures en phase aqueuse. Ce produit s'adresse aussi bien aux professionnels qu'aux amateurs exigeants en Tunisie.",
+      "description": "Cette peinture acrylique jaune offre une consistance adaptée à une application facile au pinceau, au rouleau ou par d'autres techniques de mise en peinture selon le rendu souhaité. Elle s'intègre parfaitement dans vos projets de personnalisation, de customisation ou de rénovation nécessitant une touche de couleur vive et lumineuse.\n\nDistribuée par ASWEK en Tunisie, elle complète notre gamme de produits dédiés aux beaux-arts, aux loisirs créatifs et aux finitions de surfaces. Pour des résultats optimaux, il est recommandé de bien préparer le support avant application afin d'assurer une bonne adhérence de la peinture.",
+      "usage": [
+        "Travaux de peinture et de décoration",
+        "Loisirs créatifs et beaux-arts",
+        "Personnalisation de supports compatibles"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Peinture acrylique"
+        },
+        {
+          "label": "Teinte",
+          "value": "Jaune"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Teinte jaune vive et lumineuse",
+        "Facilité d'application pour divers projets créatifs"
+      ],
+      "howto": "Nettoyez et séchez soigneusement la surface à peindre avant l'application. Remuez bien le produit avant usage. Appliquez la peinture acrylique jaune en couches régulières selon le rendu souhaité. Pour les temps de séchage exacts et le nombre de couches conseillé, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Portez des équipements de protection individuelle adaptés (gants, lunettes) lors de l'utilisation. Évitez le contact avec la peau et les yeux. Ne pas avaler. Conservez le produit hors de portée des enfants. Pour plus de détails sur la manipulation et l'élimination, consultez la FDS (fiche de données de sécurité).",
+      "seo_title": "Peinture Acrylique Jaune - ASWEK Tunisie",
+      "seo_description": "Achetez votre Peinture Acrylique Jaune chez ASWEK en Tunisie. Idéale pour vos projets de décoration et loisirs créatifs. Commandez en ligne.",
+      "keywords": [
+        "peinture acrylique jaune",
+        "peinture ASWEK",
+        "loisirs créatifs Tunisie",
+        "peinture décorative"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:55:25.098Z",
+      "verified": false
+    },
+    "aswek-peinture-acrylique-rouge": {
+      "id": 900009,
+      "name": "Peinture Acrylique Rouge",
+      "definition": "La Peinture Acrylique Rouge proposée par ASWEK est un revêtement coloré formulé à base d'eau, destiné à divers travaux de décoration et de finition. Elle s'applique facilement sur de multiples supports pour apporter une teinte rouge vive et homogène. Ce produit convient aux projets créatifs, artistiques ou de bricolage nécessitant une mise en couleur.",
+      "description": "Cette peinture acrylique de couleur rouge offre une solution pratique pour vos projets de personnalisation et de rénovation décorative. Sa texture permet une application aisée au pinceau, au rouleau ou par d'autres techniques selon le rendu souhaité.\n\nDisponible au format Rouge, elle s'intègre parfaitement dans votre palette de loisirs créatifs ou de travaux manuels. Pour des résultats optimaux sur votre support spécifique, il est recommandé de se référer aux instructions d'application et de préparation de surface.",
+      "usage": [
+        "Travaux de peinture décorative",
+        "Projets de loisirs créatifs et artistiques",
+        "Mise en couleur de divers supports compatibles"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Peinture acrylique"
+        },
+        {
+          "label": "Teinte",
+          "value": "Rouge"
+        }
+      ],
+      "advantages": [
+        {
+          "label": "Facilité d'application",
+          "value": "S'applique aisément sur divers supports"
+        },
+        {
+          "label": "Teinte éclatante",
+          "value": "Offre une couleur rouge vive pour vos projets"
+        }
+      ],
+      "howto": "Appliquer la peinture acrylique rouge sur une surface propre, sèche et préalablement préparée selon la nature du support. Bien refermer le contenant après usage. Pour les temps de séchage exacts, le nombre de couches et les conditions d'application optimales, se référer à la fiche technique du produit.",
+      "safety": "Porter des équipements de protection individuelle adaptés lors de l'utilisation. Éviter le contact avec la peau et les yeux. En cas de ventilation insuffisante, porter un appareil de protection respiratoire. Consulter la fiche de données de sécurité (FDS) pour toute information détaillée.",
+      "seo_title": "Peinture Acrylique Rouge - ASWEK",
+      "seo_description": "Achetez votre Peinture Acrylique Rouge chez ASWEK en Tunisie. Idéale pour vos projets décoratifs et artistiques. Commandez en ligne.",
+      "keywords": [
+        "peinture acrylique",
+        "peinture rouge",
+        "peinture décorative",
+        "loisirs créatifs",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:18.598Z",
+      "verified": false
+    },
+    "aswek-colorant-pour-resine-epoxy": {
+      "id": 900010,
+      "name": "Colorant Pour Résine époxy",
+      "definition": "Le Colorant Pour Résine Époxy disponible chez ASWEK est un produit formulé pour teinter les masses époxy et les vernis transparents. Il permet d'obtenir des finitions colorées homogènes pour tous vos projets créatifs et industriels. Sa formulation est conçue pour se mélanger efficacement aux composants époxy selon les proportions à confirmer sur la fiche technique.",
+      "description": "Ce colorant s'adresse aux créateurs, artisans et professionnels travaillant la résine époxy qui souhaitent personnaliser leurs réalisations avec des teintes précises. Il s'incorpore directement dans le mélange de résine et de durcisseur pour garantir une répartition uniforme de la couleur.\n\nDisponible au format standard sur notre boutique en ligne ASWEK en Tunisie, ce produit s'intègre facilement dans vos processus de fabrication de tables river, de bijoux en résine ou d'objets décoratifs. Pour garantir un résultat optimal, il est recommandé de réaliser des tests préalables et de se référer systématiquement à la fiche technique du fabricant.",
+      "usage": [
+        "Teintage de résine époxy pour inclusions et moulages",
+        "Création d'objets de décoration et de bijoux en résine",
+        "Réalisation de revêtements et finitions colorées"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Colorant Pour Résine époxy"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Résines > Colorants pour résine"
+        }
+      ],
+      "advantages": [
+        "Permet une personnalisation précise des projets en résine",
+        "Mélange facile avec les systèmes époxy compatibles",
+        "Disponible en Tunisie via la boutique ASWEK"
+      ],
+      "howto": "Incorporez le colorant dans la quantité de résine (ou dans le mélange résine et durcisseur) en respectant les recommandations de dosage du fabricant. Mélangez soigneusement afin d'obtenir une couleur homogène sans traces. Pour les dosages précis et les temps de séchage associés, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Portez des équipements de protection individuels adaptés (gants, lunettes de protection) lors de la manipulation des produits chimiques et des résines. Travaillez dans un espace correctement ventilé. En cas de contact avec la peau ou les yeux, rincez abondamment à l'eau claire. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Colorant Pour Résine époxy | ASWEK Tunisie",
+      "seo_description": "Achetez votre Colorant Pour Résine époxy au format standard chez ASWEK en Tunisie. Idéal pour vos créations, objets décoratifs et moulages.",
+      "keywords": [
+        "colorant résine époxy",
+        "pigment résine",
+        "ASWEK Tunisie",
+        "résine époxy"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:21.798Z",
+      "verified": false
+    },
+    "aswek-floculant-liquide-5l": {
+      "id": 900011,
+      "name": "Floculant Liquide (5L) : Clarifiant Haute Performance",
+      "definition": "Le Floculant Liquide (5L) est un clarifiant haute performance conçu pour le traitement et l'entretien des eaux de piscine. Il agit en regroupant les fines particules en suspension invisibles pour former des amas plus faciles à retenir par le système de filtration. Ce produit est indispensable pour retrouver et maintenir une eau cristalline.",
+      "description": "Le Floculant Liquide (5L) proposé par ASWEK est formulé pour répondre aux exigences de la maintenance des bassins. En agglomérant les impuretés microscopiques qui troublent l'eau, il améliore l'efficacité globale du filtre à sable ou à cartouche.\n\nConditionné en bidon pratique de 5 litres, ce clarifiant s'intègre facilement dans votre routine de traitement chimique de la piscine. Il contribue à restaurer rapidement la limpidité de l'eau, notamment après des intempéries ou en cas de forte fréquentation du bassin.",
+      "usage": [
+        "Clarification de l'eau trouble",
+        "Amélioration de la finesse de filtration",
+        "Traitement d'entretien régulier du bassin"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Floculant / Clarifiant liquide"
+        },
+        {
+          "label": "Contenance",
+          "value": "5 Litres"
+        },
+        {
+          "label": "Application",
+          "value": "Traitement de l'eau de piscine"
+        }
+      ],
+      "advantages": [
+        "Action rapide pour une eau cristalline",
+        "Optimise les performances du système de filtration",
+        "Format 5L adapté aux besoins d'entretien"
+      ],
+      "howto": "Le mode d'application et les dosages précis dépendent des caractéristiques de votre bassin et de la nature de la filtration. Se référer impérativement à la fiche technique du produit et aux instructions présentes sur l'emballage avant toute utilisation.",
+      "safety": "Manipuler ce produit avec des équipements de protection adaptés (gants et lunettes). Conserver hors de portée des enfants. En cas de contact avec les yeux ou la peau, rincer abondamment à l'eau claire. Consulter la Fiche de Données de Sécurité (FDS) pour plus de détails.",
+      "seo_title": "Floculant Liquide 5L Clarifiant Piscine | ASWEK Tunisie",
+      "seo_description": "Achetez le Floculant Liquide 5L pour clarifier l'eau de votre piscine. Haute performance, idéal pour une eau cristalline. Commandez sur ASWEK.",
+      "keywords": [
+        "floculant piscine",
+        "clarifiant eau piscine",
+        "floculant liquide 5l",
+        "traitement piscine aswek"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:31.589Z",
+      "verified": false
+    },
+    "aswek-aquacid-5l": {
+      "id": 900012,
+      "name": "AQUACID (5L) : Barrière Active Anti-algues",
+      "definition": "AQUACID (5L) est une barrière active anti-algues spécialement formulée pour le traitement et l'entretien des bassins. Ce produit liquide est conçu pour lutter contre la prolifération des algues et maintenir une eau de piscine claire et saine. Disponible en bidon de 5 L, il s'intègre parfaitement dans votre routine de maintenance aquatique.",
+      "description": "L'algicide AQUACID agit efficacement pour prévenir et contrer le développement des algues sur les parois et dans l'eau de votre piscine. Sa formulation professionnelle aide à préserver la qualité de l'eau tout au long de la saison balnéaire.\n\nDistribué par ASWEK en Tunisie, ce traitement s'adresse aux propriétaires de bassins souhaitant un entretien régulier et rigoureux. Il complète idéalement les autres produits de désinfection pour assurer une baignade agréable et un bassin visuellement impeccable.",
+      "usage": [
+        "Traitement préventif contre l'apparition des algues",
+        "Traitement curatif pour bassins présentant des signes d'algues",
+        "Entretien régulier de l'eau de piscine"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "AQUACID"
+        },
+        {
+          "label": "Format",
+          "value": "5 Litres"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Traitement piscine"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Action ciblée contre les algues",
+        "Format pratique de 5 L adapté aux besoins d'entretien",
+        "Contribue à la clarté de l'eau du bassin"
+      ],
+      "howto": "Pour les dosages précis, la fréquence d'application et les conditions d'utilisation, veuillez vous référer strictement à la fiche technique du produit ainsi qu'aux instructions figurant sur l'étiquette du bidon.",
+      "safety": "Manipulez ce produit chimique avec précaution en portant des équipements de protection adaptés (gants et lunettes). Conservez-le hors de portée des enfants, à l'abri de la chaleur et de l'humidité. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "AQUACID 5L Anti-algues Piscine | ASWEK Tunisie",
+      "seo_description": "Achetez AQUACID (5L) barrière active anti-algues pour piscine chez ASWEK en Tunisie. Traitement efficace pour l'entretien et la clarté de votre eau.",
+      "keywords": [
+        "AQUACID",
+        "anti-algues piscine",
+        "traitement piscine Tunisie",
+        "produit piscine ASWEK",
+        "algicide 5L"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:35.313Z",
+      "verified": false
+    },
+    "aswek-poly-piscine": {
+      "id": 900013,
+      "name": "Poly Piscine",
+      "definition": "\"Poly Piscine\" est un produit de traitement pour piscine disponible sur la boutique ASWEK en Tunisie. Il est spécialement formulé pour contribuer à l'entretien, à la maintenance et à la qualité de l'eau des bassins. Ce produit s'intègre parfaitement dans les routines régulières de soin de l'eau pour les particuliers et les professionnels.",
+      "description": "Le traitement de l'eau d'une piscine nécessite des solutions adaptées pour garantir une baignade saine, limpide et agréable tout au long de la saison estivale. \"Poly Piscine\" répond à ces exigences en offrant une action ciblée pour le maintien de l'équilibre du bassin.\n\nDistribué par ASWEK en Tunisie, ce produit standard est conçu pour s'intégrer facilement dans votre protocole d'entretien habituel, qu'il s'agisse d'une piscine privée ou publique. Veillez à respecter les bonnes pratiques de dosage et de filtration pour optimiser son efficacité.",
+      "usage": [
+        "Traitement et entretien régulier de l'eau de piscine",
+        "Maintenance de la clarté et de la propreté du bassin",
+        "Utilisation préventive ou corrective selon les besoins de l'eau"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Poly Piscine"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Piscine > Traitement piscine"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Fournisseur en Tunisie",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Contribue à maintenir une eau de piscine claire et saine",
+        "Adapté aux exigences d'entretien standard des bassins"
+      ],
+      "howto": "Le mode d'emploi et les dosages précis dépendent des spécificités de votre bassin et de la nature exacte de l'eau. Veuillez vous référer à la fiche technique du produit ainsi qu'aux recommandations d'utilisation indiquées sur l'emballage avant toute application.",
+      "safety": "Manipulez ce produit avec précaution en portant des équipements de protection adaptés (gants et lunettes). Conservez-le hors de portée des enfants, dans un endroit sec et bien ventilé. Pour toute information détaillée sur les risques, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Poly Piscine : Traitement pour Piscine - ASWEK Tunisie",
+      "seo_description": "Découvrez Poly Piscine, le produit de traitement pour piscine disponible chez ASWEK en Tunisie. Idéal pour l'entretien de votre bassin. Commandez en ligne.",
+      "keywords": [
+        "Poly Piscine",
+        "traitement piscine Tunisie",
+        "entretien piscine ASWEK",
+        "produit piscine"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:45.634Z",
+      "verified": false
+    },
+    "aswek-ph-moins-water-clean": {
+      "id": 900014,
+      "name": "pH Moins - Water clean",
+      "definition": "\"pH Moins - Water clean\" est un produit de traitement chimique spécialement formulé pour les bassins de natation. Il permet de baisser et de réguler efficacement le taux de pH de l'eau de votre piscine. Ce produit est indispensable pour maintenir une eau équilibrée et optimiser l'efficacité des autres désinfectants.",
+      "description": "Le maintien d'un pH équilibré est crucial pour le confort des baigneurs et la protection des équipements de votre piscine. Le produit \"pH Moins - Water clean\" disponible chez ASWEK aide à corriger une eau dont le pH serait trop élevé, prévenant ainsi les irritations des yeux et de la peau, ainsi que la formation de tartre.\n\nSon utilisation régulière contribue à la clarté de l'eau et garantit une action optimale des produits de traitement comme le chlore ou le brome. Il convient pour l'entretien régulier ou le rattrapage d'une eau déséquilibrée, en respectant scrupuleusement les recommandations d'application.",
+      "usage": [
+        "Ajustement d'un pH trop élevé dans l'eau de piscine",
+        "Entretien régulier de l'équilibre de l'eau",
+        "Préparation de l'eau avant la saison de baignade"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "pH Moins - Water clean"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Piscine > Traitement piscine"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Aide à stabiliser l'eau de la piscine",
+        "Améliore l'efficacité des produits désinfectants",
+        "Participe au confort de baignade"
+      ],
+      "howto": "Mesurez régulièrement le pH de votre eau à l'aide de bandelettes ou d'un testeur approprié. Si le pH est trop élevé, calculez la dose nécessaire selon le volume de votre bassin. Pour les dosages précis et les précautions d'incorporation dans l'eau, se référer impérativement à la fiche technique du produit.",
+      "safety": "Produit chimique destiné au traitement de l'eau. Conserver hors de portée des enfants, dans un endroit sec et bien ventilé. Porter des équipements de protection individuelle (gants, lunettes) lors de la manipulation. En cas de contact ou de doute, consulter la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "pH Moins - Water clean Piscine | ASWEK Tunisie",
+      "seo_description": "Achetez le pH Moins - Water clean pour piscine chez ASWEK. Régulez efficacement le pH de votre eau pour un confort de baignade optimal.",
+      "keywords": [
+        "pH Moins",
+        "Water clean",
+        "traitement piscine",
+        "pH piscine Tunisie",
+        "ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:48.962Z",
+      "verified": false
+    },
+    "aswek-ph-plus-water-clean": {
+      "id": 900015,
+      "name": "pH Plus - Water clean",
+      "definition": "\"pH Plus - Water clean\" est un produit de traitement pour piscine conçu pour ajuster et augmenter le niveau de pH de l'eau. Il s'inscrit dans la gamme des produits d'entretien indispensables pour maintenir un équilibre chimique optimal du bassin. Sa formulation est adaptée pour assurer une eau de baignade saine et confortable.",
+      "description": "Le maintien d'un pH équilibré est primordial pour garantir l'efficacité des désinfectants et le confort des baigneurs. Le produit \"pH Plus - Water clean\" disponible chez ASWEK aide à corriger une eau trop acide qui pourrait provoquer des irritations ou endommager les équipements de la piscine.\n\nSon utilisation régulière contribue à stabiliser l'eau du bassin. Pour connaître les dosages exacts et la fréquence d'application en fonction du volume de votre piscine, il est recommandé de se référer aux instructions présentes sur l'emballage ou de consulter la fiche technique du produit.",
+      "usage": [
+        "Augmentation du taux de pH de l'eau de piscine",
+        "Correction d'une eau de bassin trop acide",
+        "Maintien de l'équilibre chimique pour l'efficacité des désinfectants"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "pH Plus - Water clean"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Piscine > Traitement piscine"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Aide à stabiliser l'équilibre de l'eau de la piscine",
+        "Contribue au confort de baignade et à la protection des équipements"
+      ],
+      "howto": "Mesurez régulièrement le pH de votre eau à l'aide de bandelettes ou d'un testeur approprié. Si le pH est trop bas, ajoutez le produit \"pH Plus - Water clean\" selon les recommandations spécifiques indiquées sur l'emballage. Pour les dosages précis et les conditions d'application exactes, se référer à la fiche technique.",
+      "safety": "Manipulez ce produit chimique avec précaution en portant des équipements de protection adaptés (gants et lunettes). Conservez-le hors de portée des enfants, dans un endroit sec et bien ventilé. Pour toute information détaillée sur les risques, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "pH Plus - Water clean Piscine | ASWEK Tunisie",
+      "seo_description": "Achetez pH Plus - Water clean pour le traitement de votre piscine chez ASWEK. Idéal pour rééquilibrer le pH de l'eau. Livraison en Tunisie.",
+      "keywords": [
+        "pH Plus",
+        "traitement piscine",
+        "eau piscine",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:56:59.792Z",
+      "verified": false
+    },
+    "aswek-chlore-choc-5-kg": {
+      "id": 900016,
+      "name": "Chlore Choc (5 kg) : Désinfection Haute Performance",
+      "definition": "Le Chlore Choc (5 kg) est un traitement chimique de désinfection haute performance spécialement conçu pour l'entretien et le traitement des eaux de piscine. Ce produit permet d'agir rapidement pour éliminer les micro-organismes, bactéries et algues présents dans le bassin. Il constitue une solution efficace pour retrouver une eau claire et saine.",
+      "description": "Le Chlore Choc (5 kg) disponible chez ASWEK est indispensable pour le maintien d'une eau de baignade de qualité professionnelle. Conditionné en format de 5 kg, il convient parfaitement pour les interventions de rattrapage d'une eau trouble, verte ou déséquilibrée.\n\nSon action rapide cible efficacement les agents pathogènes et les impuretés organiques résistantes aux traitements réguliers. Il s'intègre parfaitement dans votre routine d'entretien de piscine pour garantir un environnement propre et sécurisé.",
+      "usage": [
+        "Traitement choc des eaux de piscine",
+        "Récupération d'une eau verte ou trouble",
+        "Désinfection ponctuelle du bassin"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Chlore Choc"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "5 kg"
+        },
+        {
+          "label": "Application",
+          "value": "Traitement piscine"
+        }
+      ],
+      "advantages": [
+        "Action rapide et haute performance",
+        "Aide à retrouver une eau claire et saine"
+      ],
+      "howto": "Mode d'emploi général et prudent : veuillez vous référer aux instructions présentes sur l'emballage et consulter la fiche technique pour connaître les dosages précis adaptés au volume de votre piscine.",
+      "safety": "Manipuler le produit avec précaution en portant des équipements de protection individuelle adaptés. Conserver hors de portée des enfants. Pour toute information détaillée sur la manipulation et le stockage, veuillez consulter la FDS (Fiche de Données de Sécurité).",
+      "seo_title": "Chlore Choc 5 kg : Traitement Piscine | ASWEK",
+      "seo_description": "Achetez le Chlore Choc 5 kg pour la désinfection haute performance de votre piscine chez ASWEK. Retrouvez une eau claire et saine rapidement.",
+      "keywords": [
+        "chlore choc",
+        "traitement piscine",
+        "chlore 5kg",
+        "entretien piscine aswek"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:02.442Z",
+      "verified": false
+    },
+    "aswek-chlore-multifonction-5kg": {
+      "id": 900017,
+      "name": "Chlore Multifonction (5kg)",
+      "definition": "Le Chlore Multifonction (5kg) disponible chez ASWEK est un produit de traitement chimique conçu pour l'entretien et la désinfection de l'eau des piscines. Il permet de maintenir une eau propre et saine en agissant sur plusieurs aspects essentiels de la maintenance de bassin.",
+      "description": "Conditionné en format pratique de 5 kg, ce chlore multifonction est indispensable pour les propriétaires de piscines souhaitant simplifier l'entretien régulier de leur bassin en Tunisie. Sa formulation globale aide à lutter efficacement contre les bactéries, les algues et les impuretés organiques présentes dans l'eau.\n\nCe produit contribue à la clarté de l'eau tout en facilitant la gestion quotidienne de la piscine. Pour garantir une efficacité optimale et un dosage adapté à votre volume d'eau, il est recommandé de se référer aux instructions spécifiques figurant sur l'emballage du produit ou de consulter la fiche technique.",
+      "usage": [
+        "Traitement régulier de l'eau de piscine",
+        "Désinfection et élimination des bactéries",
+        "Maintien de la clarté de l'eau"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Chlore multifonction pour piscine"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "5 kg"
+        }
+      ],
+      "advantages": [
+        "Action combinée pour un entretien simplifié de la piscine",
+        "Format de 5 kg adapté pour une utilisation régulière"
+      ],
+      "howto": "Le mode d'emploi exact et les dosages précis dépendent des caractéristiques de votre bassin (volume d'eau, température, taux de chlore actuel). Veuillez vous référer aux instructions détaillées sur l'emballage ou consulter la fiche technique du produit.",
+      "safety": "Manipuler ce produit chimique avec précaution en portant un équipement de protection approprié (gants, lunettes). Conserver hors de portée des enfants, dans un endroit sec et bien ventilé. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Chlore Multifonction 5kg - Traitement Piscine | ASWEK",
+      "seo_description": "Achetez votre Chlore Multifonction 5kg pour le traitement et l'entretien de votre piscine en Tunisie sur ASWEK. Qualité et service professionnels.",
+      "keywords": [
+        "chlore multifonction",
+        "traitement piscine",
+        "chlore 5kg",
+        "entretien piscine tunisie",
+        "ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:05.920Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-nacre": {
+      "id": 900018,
+      "name": "Poudre Métallique nacré",
+      "definition": "La Poudre Métallique nacré disponible chez ASWEK est un pigment en poudre finement moulu, conçu pour être incorporé dans les résines époxy et divers revêtements. Elle apporte des effets métalliques, nacrés et irisés remarquables à vos créations artistiques et techniques. Ce colorant s'intègre facilement dans la matrice pour offrir un rendu visuel sophistiqué et lumineux.",
+      "description": "La poudre métallique nacré proposée par ASWEK est spécialement sélectionnée pour les amateurs et professionnels travaillant la résine époxy, les vernis ou les peintures décoratives. Sa texture ultra-fine permet une dispersion homogène dans le mélange liquide sans altérer la structure de base du produit.\n\nCe pigment offre la possibilité de moduler l'intensité de l'effet visuel selon le dosage appliqué et la couleur de fond choisie. Qu'il s'agisse de réaliser des tables river, des bijoux en résine, des fonds de plateaux ou des revêtements muraux décoratifs, ce colorant nacré sublime vos projets avec des reflets uniques.\n\nDisponible en formats de 25 gr, 50 gr et 100 gr, ce produit s'adapte aussi bien aux petits projets minutieux qu'aux réalisations de plus grande envergure. Veillez à consulter la fiche technique pour déterminer les proportions exactes adaptées à votre type de résine.",
+      "usage": [
+        "Coloration de résine époxy pour créations artistiques et tables river",
+        "Ajout d'effets nacrés et métalliques dans les vernis et peintures",
+        "Fabrication d'objets décoratifs et de bijoux en résine"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Pigment en poudre métallique nacré"
+        },
+        {
+          "label": "Formats disponibles",
+          "value": "25 gr, 50 gr, 100 gr"
+        },
+        {
+          "label": "Compatibilité",
+          "value": "Résines époxy, vernis, peintures (à confirmer selon la fiche technique)"
+        }
+      ],
+      "advantages": [
+        "Effets visuels métalliques et irisés de haute qualité",
+        "Dispersion fine et homogène dans les milieux compatibles",
+        "Formats variés adaptés à tous les volumes de projets"
+      ],
+      "howto": "Incorporez la poudre métallique nacré directement dans la résine ou le vernis en mélangeant délicatement pour éviter la formation de bulles d'air. Pour le dosage exact et les proportions recommandées selon le poids de résine, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Manipulez la poudre dans un espace ventilé en évitant d'inhaler les poussières. Portez des équipements de protection individuelle adaptés (gants, masque). Pour toute information détaillée sur la toxicité ou la manipulation, consultez la FDS (Fiche de Données de Sécurité).",
+      "seo_title": "Poudre Métallique Nacré - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique nacré chez ASWEK en Tunisie. Formats 25g, 50g et 100g pour résine époxy, vernis et loisirs créatifs.",
+      "keywords": [
+        "poudre métallique nacré",
+        "pigment résine époxy",
+        "colorant nacré ASWEK",
+        "poudre irisée Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:09.691Z",
+      "verified": false
+    },
+    "aswek-feuille-dor-100-pieces": {
+      "id": 900019,
+      "name": "Feuille D'or 100 Pièces",
+      "definition": "Les feuilles d'or 100 pièces proposées par ASWEK sont des éléments décoratifs idéaux pour embellir vos créations en résine époxy, vos projets de loisirs créatifs et vos travaux artistiques. Ce conditionnement permet d'apporter une touche métallique brillante et élégante à différentes surfaces. C'est un accessoire incontournable pour personnaliser vos réalisations artisanales.",
+      "description": "Ce lot de 100 pièces de feuilles d'or est spécialement sélectionné pour rehausser l'esthétique de vos créations faites main. Faciles à manipuler, elles s'intègrent harmonieusement dans la résine ou s'appliquent en surface pour créer des effets de nacre, de marbrure ou des reflets dorés saisissants.\n\nIdéal pour les passionnés de DIY, ce produit s'associe parfaitement avec nos gammes de résines époxy, de silicones et de vernis disponibles chez ASWEK. Que ce soit pour la fabrication de bijoux, de sous-verres ou d'objets de décoration, ces feuilles dorées subliment instantanément votre travail avec un rendu professionnel.",
+      "usage": [
+        "Inclusion dans la résine époxy",
+        "Décoration de surface pour objets d'art",
+        "Création de bijoux et accessoires en résine"
+      ],
+      "features": [
+        {
+          "label": "Conditionnement",
+          "value": "100 pièces"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Pigments et décorations"
+        }
+      ],
+      "advantages": [
+        "Apporte une finition élégante et brillante",
+        "Facile à intégrer dans les projets de loisirs créatifs"
+      ],
+      "howto": "Pour l'utilisation dans la résine, déposez délicatement les feuilles d'or à l'aide d'une pince dans votre mélange ou directement dans le moule en silicone avant ou pendant coulage. Pour des instructions plus détaillées sur les temps de séchage et la compatibilité des vernis, se référer à la fiche technique de la résine utilisée.",
+      "safety": "Manipuler avec précaution pour éviter la dispersion des feuilles très légères. Porter un équipement de protection adapté si nécessaire selon le produit principal (résine) associé. Pour toute information complémentaire, consulter la FDS (fiche de données de sécurité) des produits associés.",
+      "seo_title": "Feuille D'or 100 Pièces - Décoration Résine | ASWEK",
+      "seo_description": "Achetez Feuille D'or 100 Pièces pour vos créations en résine époxy et DIY. Retrouvez tous nos pigments et décorations sur ASWEK Tunisie.",
+      "keywords": [
+        "feuille d'or",
+        "résine époxy",
+        "décoration résine",
+        "pigments et décorations",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:21.227Z",
+      "verified": false
+    },
+    "aswek-cire-de-soja": {
+      "id": 900020,
+      "name": "Cire de Soja",
+      "definition": "La cire de soja proposée par ASWEK est une matière première végétale de qualité supérieure, spécialement sélectionnée pour la confection de bougies coulées. Elle offre une alternative naturelle et durable aux cires traditionnelles d'origine minérale. Ce produit est idéal pour les créateurs amateurs ou professionnels désireux de fabriquer des bougies parfumées ou décoratives.",
+      "description": "La cire de soja se présente sous une forme pratique facilitant la pesée et la fonte lors de vos ateliers de loisirs créatifs. Elle est particulièrement appréciée en cirerie pour sa capacité à restituer fidèlement les parfums et pour sa combustion propre, générant un minimum de suie par rapport aux cires de paraffinage classique.\n\nSur la boutique ASWEK en Tunisie, cette cire s'intègre parfaitement dans une démarche de création artisanale respectueuse. Pour des résultats optimaux, il est recommandé de respecter les températures de fusion et d'incorporation des parfums ou colorants adaptés à la cire de soja, à confirmer selon vos protocoles de fabrication.\n\nQue vous souhaitiez réaliser des bougies en contenants (verres, pots) ou explorer de nouvelles techniques de moulage, la cire de soja offre un rendu visuel lisse et mat. Pour toute proportion exacte de mélange ou spécificité technique liée à votre projet, veuillez vous référer à la fiche technique du produit.",
+      "usage": [
+        "Fabrication de bougies coulées en contenants",
+        "Création de bougies parfumées artisanales",
+        "Confection de bougies décoratives"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Cire végétale de soja"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Origine",
+          "value": "Végétale"
+        }
+      ],
+      "advantages": [
+        "Alternative d'origine végétale aux cires conventionnelles",
+        "Excellente restitution des fragrances",
+        "Combustion propre et sans suie excessive"
+      ],
+      "howto": "Faire fondre la cire de soja à feu doux ou au bain-marie en surveillant la température. Incorporer les éventuels colorants ou parfums au moment opportun selon les recommandations spécifiques. Couler ensuite la cire fondue dans votre contenant à la température appropriée. Pour les dosages précis et les temps de refroidissement, se référer à la fiche technique.",
+      "safety": "Manipuler la cire fondue avec précaution pour éviter les brûlures. Ne jamais laisser fondre la cire sans surveillance et respecter les températures maximales de chauffe recommandées. Pour toute information complémentaire, consulter la fiche de données de sécurité.",
+      "seo_title": "Cire de Soja pour Bougies - ASWEK Tunisie",
+      "seo_description": "Achetez votre cire de soja pour la fabrication de bougies artisanales chez ASWEK en Tunisie. Qualité végétale idéale pour bougies parfumées.",
+      "keywords": [
+        "cire de soja",
+        "bougie artisanale",
+        "loiirs créatifs tunisie",
+        "ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:35.375Z",
+      "verified": false
+    },
+    "aswek-cire-de-paraffine": {
+      "id": 900021,
+      "name": "Cire de Paraffine",
+      "definition": "La cire de paraffine est un dérivé d'hydrocarbure solide à température ambiante, largement utilisé dans la fabrication de bougies. Elle permet d'obtenir des bougies lisses et faciles à démouler. Retrouvez ce produit de qualité sur la boutique ASWEK en Tunisie.",
+      "description": "La cire de paraffine proposée par ASWEK est un ingrédient de choix pour les amateurs et les professionnels de la fabrication de bougies. Facile à fondre et à travailler, elle constitue une base neutre idéale pour laisser libre cours à votre créativité.\n\nCe produit s'intègre parfaitement dans vos ateliers de loisirs créatifs pour la confection de bougies moulées ou coulées. Elle se prête bien à l'ajout de colorants et de parfums spécifiques pour cires selon vos envies.",
+      "usage": [
+        "Fabrication de bougies coulées",
+        "Confection de bougies moulées",
+        "Loisirs créatifs et artisanat"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Cire de Paraffine"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Facile à fondre et à modeler",
+        "Idéale pour la création artisanale de bougies"
+      ],
+      "howto": "Faites fondre la cire de paraffine à feu doux ou au bain-marie en surveillant la température. Pour les dosages précis, les températures de fusion et l'incorporation d'additifs ou de parfums, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Manipulez la cire fondue avec précaution pour éviter les brûlures. Travaillez dans un espace ventilé. Pour toute manipulation spécifique ou en cas de doute, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Cire de Paraffine pour Bougies | ASWEK Tunisie",
+      "seo_description": "Achetez votre cire de paraffine standard pour la fabrication de bougies chez ASWEK en Tunisie. Qualité et service professionnels.",
+      "keywords": [
+        "cire de paraffine",
+        "bougie artisanale",
+        "loisirs creatifs aswek",
+        "cire bougie tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:38.417Z",
+      "verified": false
+    },
+    "aswek-quartz-colore": {
+      "id": 900022,
+      "name": "Quartz coloré",
+      "definition": "Le quartz coloré disponible chez ASWEK est un agrégat minéral teinté destiné à des applications décoratives et techniques. Il est couramment utilisé en association avec des résines pour la création de revêtements de sol ou d'éléments esthétiques. Ce produit apporte une texture unique et une finition personnalisée à vos projets.",
+      "description": "Le quartz coloré se présente sous forme de grains minéraux enrobés ou teintés, offrant une belle régularité visuelle pour vos travaux de résine et de sol. Sa granulométrie et sa coloration en font un choix apprécié pour la réalisation de moquettes de pierre ou de sols résine-quartz.\n\nDisponible au format standard sur notre boutique en ligne ASWEK en Tunisie, il s'intègre facilement dans divers projets de décoration d'intérieur ou d'aménagement extérieur. Il permet d'obtenir des surfaces à la fois esthétiques et résistantes à l'usure.\n\nPour garantir un résultat optimal, il est recommandé de bien le mélanger avec la résine transparente adaptée selon les proportions préconisées. Référez-vous toujours à la fiche technique du système époxy ou polyurethane associé pour connaître les dosages précis.",
+      "usage": [
+        "Création de sols en résine et quartz",
+        "Réalisation de moquettes de pierre",
+        "Finition décorative pour moulages ou revêtements"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Quartz coloré"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Pigments et décorations"
+        }
+      ],
+      "advantages": [
+        "Apporte une esthétique soignée et personnalisable",
+        "Compatible avec les systèmes de résine couramment utilisés",
+        "Offre une texture antidérapante potentielle selon l'application"
+      ],
+      "howto": "Incorporez le quartz coloré dans votre mélange de résine selon les proportions recommandées pour votre application spécifique. Veillez à bien répartir le produit de manière homogène sur la surface. Pour les dosages exacts et les temps de séchage, consultez la fiche technique du produit liant utilisé.",
+      "safety": "Portez un équipement de protection individuel adapté (gants, lunettes, masque anti-poussière) lors de la manipulation de charges minérales. Évitez d'inhaler les poussières. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Quartz coloré - ASWEK Tunisie",
+      "seo_description": "Achetez du quartz coloré pour résine et sols décoratifs chez ASWEK en Tunisie. Idéal pour moquettes de pierre et revêtements.",
+      "keywords": [
+        "quartz coloré",
+        "résine époxy Tunisie",
+        "moquette de pierre",
+        "sol résine",
+        "pigments et décorations ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:41.906Z",
+      "verified": false
+    },
+    "aswek-huile-de-paraffine": {
+      "id": 900023,
+      "name": "Huile de Paraffine",
+      "definition": "L'Huile de Paraffine est un produit polyvalent souvent utilisé dans divers domaines artistiques, techniques et de loisirs créatifs. Disponible chez ASWEK en format standard, elle s'intègre parfaitement dans vos projets de décoration et de fabrication. Ce produit est reconnu pour sa texture et sa stabilité, répondant aux attentes des professionnels comme des particuliers en Tunisie.",
+      "description": "L'huile de paraffine proposée par ASWEK est un ingrédient apprécié pour sa polyvalence dans la mise en œuvre de diverses applications créatives et techniques. Elle se manipule aisément et s'inscrit dans les processus de fabrication ou d'entretien selon les besoins spécifiques de votre atelier.\n\nConditionnée pour répondre aux exigences de notre clientèle en Tunisie, elle offre un support fiable pour vos réalisations. Pour des applications spécifiques ou des mélanges particuliers, il est recommandé de se référer aux dosages et recommandations d'usage propres à votre projet.",
+      "usage": [
+        "Applications décoratives et créatives",
+        "Utilisation dans divers projets d'atelier",
+        "Usages techniques spécifiques"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Huile de Paraffine"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Pigments et décorations"
+        }
+      ],
+      "advantages": [
+        "Produit polyvalent pour divers projets",
+        "Disponible chez ASWEK en Tunisie"
+      ],
+      "howto": "Utiliser l'huile de paraffine conformément aux exigences de votre projet spécifique. Pour toute proportion exacte ou méthode d'application détaillée, se référer à la fiche technique du produit.",
+      "safety": "Manipuler le produit avec les précautions d'usage habituelles pour les produits chimiques et de loisirs créatifs. Porter un équipement de protection adapté si nécessaire. Consulter la FDS (Fiche de Données de Sécurité) pour plus de détails.",
+      "seo_title": "Huile de Paraffine - ASWEK Tunisie",
+      "seo_description": "Achetez votre Huile de Paraffine format standard chez ASWEK en Tunisie. Produit idéal pour vos loisirs créatifs et projets techniques. Livraison rapide.",
+      "keywords": [
+        "huile de paraffine",
+        "ASWEK Tunisie",
+        "pigments et décorations",
+        "produits techniques"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:44.617Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-50-gr": {
+      "id": 900024,
+      "name": "Poudre Métallique 50 gr",
+      "definition": "La Poudre Métallique 50 gr proposée par ASWEK est un pigment en poudre conçu pour colorer et donner un aspect métallique aux créations en résine époxy. Conditionnée dans un format pratique de 50 grammes, elle permet de réaliser des effets visuels uniques, nacrés ou métallisés selon les dosages utilisés.",
+      "description": "Ce pigment en poudre s'intègre facilement dans vos mélanges de résine époxy pour vos projets de loisirs créatifs, de fabrication de bijoux ou de création de plateaux et tables river. Sa texture fine permet une dispersion homogène dans la résine liquide.\n\nLe format de 50 gr offre une quantité adaptée pour de nombreux projets artistiques. Pour obtenir le rendu souhaité, il est recommandé de procéder à des tests préalables afin d'ajuster l'intensité de l'effet métallique selon vos préférences.",
+      "usage": [
+        "Coloration de résine époxy pour créations artistiques",
+        "Réalisation d'effets métallisés et nacrés",
+        "Décoration de surfaces et de moules en silicone"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Pigment en poudre métallique"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "50 gr"
+        }
+      ],
+      "advantages": [
+        "Format pratique de 50 grammes pour les projets créatifs",
+        "Permet d'obtenir des finitions métalliques élégantes"
+      ],
+      "howto": "Incorporez progressivement la poudre métallique dans votre résine époxy ou votre mélange selon l'intensité souhaitée. Pour des proportions exactes et des conseils d'application détaillés, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Portez des équipements de protection individuelle adaptés (gants, masque) lors de la manipulation de pigments en poudre pour éviter l'inhalation ou le contact avec la peau. Consultez la fiche de données de sécurité (FDS) pour plus d'informations.",
+      "seo_title": "Poudre Métallique 50 gr - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique 50 gr pour résine époxy chez ASWEK en Tunisie. Idéale pour des effets métallisés et nacr��s réussis.",
+      "keywords": [
+        "poudre métallique",
+        "pigment résine époxy",
+        "colorant résine ASWEK",
+        "poudre 50g Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:51.305Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-rouge-50-gr": {
+      "id": 900025,
+      "name": "Poudre Métallique Rouge",
+      "definition": "La Poudre Métallique Rouge disponible chez ASWEK est un pigment en poudre spécialement conçu pour colorer vos préparations à base de résine époxy. Elle permet d'obtenir des effets métalliques intenses, nacrés et lumineux sur vos créations artistiques ou techniques. Ce conditionnement de 50 gr est idéal pour réaliser des dosages précis selon vos projets de moulage et de revêtement.",
+      "description": "La Poudre Métallique Rouge proposée par ASWEK est un pigment colorant de choix pour les artisans, créateurs et professionnels travaillant la résine époxy et les silicones. Elle s'incorpore directement dans vos mélanges pour conférer un aspect métallisé et un fini nacré distinctif à vos réalisations.\n\nConditionnée en pot de 50 gr, cette poudre fine se disperse de manière homogène dans la résine pour valoriser vos objets décoratifs, fonds de plateau, bijoux ou revêtements artistiques. Pour garantir un rendu visuel optimal, il est recommandé de tester le mélange sur une petite quantité avant de procéder à l'application sur l'ensemble de votre projet.",
+      "usage": [
+        "Coloration de résine époxy pour créations artistiques",
+        "Réalisation d'effets métallisés et nacrés dans les moules en silicone",
+        "Personnalisation de revêtements et objets décoratifs"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Poudre Métallique Rouge"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Poudres"
+        },
+        {
+          "label": "Format",
+          "value": "50 gr"
+        },
+        {
+          "label": "Boutique",
+          "value": "ASWEK (Tunisie)"
+        }
+      ],
+      "advantages": [
+        "Permet d'obtenir des effets métalliques et nacrés marqués",
+        "Format de 50 gr adapté aux projets de taille moyenne et aux essais"
+      ],
+      "howto": "Incorporez progressivement la Poudre Métallique Rouge dans votre résine époxy ou votre liant jusqu'à l'obtention de la nuance souhaitée. Mélangez soigneusement pour éviter les agglomérats. Pour les dosages exacts et les proportions de mélange recommandées, se r��férer à la fiche technique du produit ou effectuer des tests préalables.",
+      "safety": "Manipulez le produit dans un espace ventilé en évitant d'inhaler les poussières. Portez des équipements de protection individuelle adaptés (gants, masque, lunettes). En cas de doute sur la manipulation ou pour toute information détaillée, consultez la FDS (Fiche de Données de Sécurité) ou référez-vous aux instructions d'ASWEK.",
+      "seo_title": "Poudre Métallique Rouge 50gr - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique Rouge 50gr chez ASWEK en Tunisie. Idéale pour colorer vos résines époxy avec des effets métallisés et nacrés uniques.",
+      "keywords": [
+        "poudre métallique rouge",
+        "pigment résine époxy",
+        "colorant résine ASWEK",
+        "poudre nacrée Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:57:56.143Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-blanc-base-50-gr": {
+      "id": 900026,
+      "name": "Poudre Métallique Blanc ( base )",
+      "definition": "La Poudre Métallique Blanc (base) est un pigment en poudre spécialement formulé pour la coloration des résines époxy et autres systèmes compatibles. Ce produit permet d'obtenir des effets visuels opaques et nacrés ou sert de base pour la création de nuances personnalisées. Disponible chez ASWEK en format de 50 gr, il s'intègre facilement dans vos mélanges créatifs et techniques.",
+      "description": "Ce pigment en poudre fine est conçu pour se disperser de manière homogène dans vos préparations à base de résine. Il est particulièrement apprécié par les créateurs et les professionnels pour apporter une opacité élégante ou un effet métallique blanc subtil aux réalisations.\n\nConditionné en pot de 50 gr, ce format pratique convient parfaitement aux projets de taille moyenne ou aux tests de coloration. Pour des résultats optimaux, il est recommandé de bien ajuster la quantité de poudre ajoutée à votre résine époxy selon l'intensité souhaitée, tout en respectant les recommandations d'utilisation.\n\nEn tant que produit de la gamme colorants et pigments d'ASWEK en Tunisie, cette poudre blanche de base s'associe aisément avec d'autres pigments de la même catégorie pour modérer les teintes ou créer des effets de profondeur uniques dans vos moulages et revêtements.",
+      "usage": [
+        "Coloration de résine époxy pour moulages et créations artistiques",
+        "Création d'effets nacrés, opaques ou de fonds blancs",
+        "Personnalisation de revêtements en résine"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Poudre Métallique Blanc ( base )"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Poudres"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "50 gr"
+        },
+        {
+          "label": "Aspect",
+          "value": "Poudre fine"
+        }
+      ],
+      "advantages": [
+        "Format pratique de 50 gr adapté aux projets variés",
+        "Permet d'obtenir une opacité de qualité dans la résine",
+        "Facile à doser et à incorporer dans les mélanges"
+      ],
+      "howto": "Incorporez progressivement la Poudre Métallique Blanc (base) dans votre résine ou votre mélange avant l'ajout du durcisseur, ou selon les recommandations spécifiques de votre système époxy. Mélangez soigneusement jusqu'à obtention d'une couleur homogène sans grumeaux. Pour les proportions exactes de mélange et les pourcentages d'incorporation recommandés, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Manipulez la poudre dans un espace ventilé en évitant l'inhalation des poussières. Portez des équipements de protection individuelle adaptés tels que des gants et un masque. En cas de contact avec les yeux ou la peau, rincez abondamment à l'eau claire. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Poudre Métallique Blanc 50gr - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique Blanc (base) 50 gr pour résine époxy chez ASWEK en Tunisie. Pigment de qualité pour vos créations et revêtements.",
+      "keywords": [
+        "poudre métallique blanc",
+        "pigment résine époxy",
+        "colorant résine ASWEK",
+        "poudre blanche 50g"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:06.191Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-gold-50-gr": {
+      "id": 900027,
+      "name": "Poudre Métallique Gold",
+      "definition": "La Poudre Métallique Gold est un pigment coloré sous forme de poudre fine, spécialement conçu pour la coloration de la résine époxy et d'autres applications créatives. Elle permet d'obtenir des effets métalliques et nacrés dorés remarquables sur vos réalisations. Ce conditionnement de 50 gr convient parfaitement aux projets de loisirs créatifs et d'artisanat.",
+      "description": "Proposée par la boutique ASWEK en Tunisie, la Poudre Métallique Gold s'intègre facilement dans vos mélanges pour apporter une finition brillante et lumineuse semblable au métal précieux. Elle est idéale pour sublimer des créations artistiques en résine, des objets de décoration ou des revêtements nécessitant un aspect esthétique soigné.\n\nSon utilisation requiert un dosage adapté à la quantité de résine ou de liant utilisée afin d'obtenir l'opacité et l'effet visuel souhaités. Pour des résultats optimaux et des proportions de mélange précises selon votre type de résine, il est recommandé de se référer à la fiche technique du produit ou de réaliser un test préalable à petite échelle.",
+      "usage": [
+        "Coloration de résine époxy pour créations artistiques",
+        "Réalisation d'objets décoratifs à effet métallique",
+        "Personnalisation de fonds et de détails sur supports divers"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Poudre Métallique Gold"
+        },
+        {
+          "label": "Format / Conditionnement",
+          "value": "50 gr"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Poudres"
+        }
+      ],
+      "advantages": [
+        "Apporte un effet métallique et doré éclatant",
+        "Format pratique de 50 gr adapté aux projets variés"
+      ],
+      "howto": "Incorporez progressivement la Poudre Métallique Gold dans votre résine époxy ou votre liant jusqu'à l'obtention de la teinte désirée. Mélangez soigneusement pour assurer une répartition homogène du pigment sans grumeaux. Pour toute proportion exacte de mélange, se référer à la fiche technique.",
+      "safety": "Manipulez la poudre dans un espace ventilé en évitant d'inhaler les poussières. Portez des équipements de protection individuelle adaptés (gants, masque). En cas de doute ou pour toute information complémentaire, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Poudre Métallique Gold 50g - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique Gold 50 gr chez ASWEK en Tunisie. Idéale pour colorer vos résines époxy et créations artistiques.",
+      "keywords": [
+        "poudre métallique gold",
+        "pigment or résine",
+        "colorant résine époxy",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:09.475Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-bronze-50-gr": {
+      "id": 900028,
+      "name": "Poudre Métallique Bronze",
+      "definition": "La Poudre Métallique Bronze proposée par ASWEK est un pigment colorant en poudre fine destiné à la coloration et à la décoration. Elle s'intègre parfaitement dans divers types de résines et de vernis pour créer des effets métalliques authentiques et lumineux. Ce conditionnement de 50 gr convient aux projets de loisirs créatifs, de design et de fabrication artisanale.",
+      "description": "Spécialement sélectionnée pour les créateurs et les professionnels, cette poudre métallique de teinte bronze apporte une finition riche et éclatante à vos réalisations. Elle s'incorpore aisément dans vos mélanges pour obtenir des reflets métallisés profonds, que ce soit pour des créations en résine époxy, des revêtements ou des éléments décoratifs.\n\nConditionnée en pot de 50 gr, elle permet un dosage maîtrisé selon l'intensité souhaitée pour votre projet. Pour un résultat optimal et homogène, il est recommandé de bien répartir la poudre dans votre base liquide avant application ou coulage.",
+      "usage": [
+        "Coloration de résines époxy pour effets métalliques",
+        "Application en technique de mika-shift ou poudrage de moules en silicone",
+        "Teintage de vernis et peintures pour finitions décoratives"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Pigment en poudre métallique"
+        },
+        {
+          "label": "Teinte",
+          "value": "Bronze"
+        },
+        {
+          "label": "Conditionnement",
+          "value": "50 gr"
+        }
+      ],
+      "advantages": [
+        "Effet métallique authentique et lumineux",
+        "Facilité d'incorporation dans les résines et vernis",
+        "Format pratique de 50 gr adapté aux projets variés"
+      ],
+      "howto": "Incorporez progressivement la poudre métallique bronze dans votre résine, vernis ou liant en mélangeant délicatement jusqu'à l'obtention d'une couleur homogène. Pour des techniques de poudrage de surface, appliquez la poudre directement à l'intérieur du moule en silicone avant coulage. Pour les dosages précis et les compatibilités exactes, se référer à la fiche technique du produit.",
+      "safety": "Manipulez la poudre dans un espace ventilé en évitant d'inhaler les poussières. Portez des équipements de protection individuelle adaptés (gants, masque anti-poussière et lunettes). En cas de contact avec la peau ou les yeux, rincez abondamment à l'eau claire. Consultez la fiche de données de sécurité (FDS) pour plus d'informations.",
+      "seo_title": "Poudre Métallique Bronze 50 gr - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique Bronze 50 gr chez ASWEK en Tunisie. Idéale pour résine époxy, vernis et loisirs créatifs. Effet métallique garanti.",
+      "keywords": [
+        "poudre métallique bronze",
+        "pigment résine époxy",
+        "colorant résine Tunisie",
+        "poudre bronze ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:12.842Z",
+      "verified": false
+    },
+    "aswek-poudre-metallique-argent-50-gr": {
+      "id": 900029,
+      "name": "Poudre Métallique Argent",
+      "definition": "La Poudre Métallique Argent est un pigment en poudre finement moulu conçu pour colorer et donner un aspect métallique brillant à diverses créations. Disponible en format de 50 gr chez ASWEK en Tunisie, elle s'intègre parfaitement dans les projets artistiques et de loisirs créatifs.",
+      "description": "Cette poudre métallique de couleur argentée est spécialement formulée pour offrir un rendu visuel éclatant et métallisé à vos réalisations. Elle est fréquemment utilisée pour rehausser les détails esthétiques des pièces coulées ou peintes.\n\nConditionnée en pot pratique de 50 grammes, elle permet un dosage facile selon l'intensité souhaitée pour vos projets de design ou de décoration.",
+      "usage": [
+        "Coloration de résine époxy",
+        "Application sur des pièces en silicone ou des moules",
+        "Projets de loisirs créatifs et artistiques"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Poudre Métallique Argent"
+        },
+        {
+          "label": "Format",
+          "value": "50 gr"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Poudres"
+        }
+      ],
+      "advantages": [
+        "Apporte un effet métallique argenté authentique",
+        "Format de 50 gr adapté aux projets de taille moyenne"
+      ],
+      "howto": "Incorporez la poudre métallique argentée directement dans votre mélange de résine ou appliquez-la en surface selon l'effet recherché. Pour des proportions de mélange exactes et des conseils d'application détaillés, se référer à la fiche technique du produit.",
+      "safety": "Manipulez la poudre dans un endroit ventilé en évitant d'inhaler les poussières. Portez des équipements de protection individuelle adaptés (gants, masque). En cas de doute, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Poudre Métallique Argent 50gr - ASWEK Tunisie",
+      "seo_description": "Achetez la Poudre Métallique Argent 50 gr chez ASWEK en Tunisie. Idéale pour colorer vos résines et projets créatifs avec un effet argenté brillant.",
+      "keywords": [
+        "poudre métallique argent",
+        "pigment argent résine",
+        "colorant époxy ASWEK",
+        "poudre 50gr Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:16.681Z",
+      "verified": false
+    },
+    "aswek-pigment-phosphorescent": {
+      "id": 900030,
+      "name": "Pigment Phosphorescent",
+      "definition": "Le Pigment Phosphorescent disponible chez ASWEK en Tunisie est une poudre décorative conçue pour absorber la lumière et la restituer dans l'obscurité. Il est spécialement formulé pour être incorporé dans divers milieux de création et de finition, apportant un effet lumineux saisissant à vos projets. Ce produit s'adresse aussi bien aux professionnels qu'aux passionnés de loisirs créatifs.",
+      "description": "Le pigment phosphorescent permet de créer des effets visuels uniques en absorbant la lumière naturelle ou artificielle pour briller une fois plongé dans le noir. Sa finesse permet une intégration homogène selon le liant utilisé.\n\nDisponible au format standard sur la boutique ASWEK, ce pigment se marie parfaitement avec les résines époxy, les vernis ou d'autres supports compatibles pour personnaliser vos objets décoratifs, signalétiques ou artistiques.",
+      "usage": [
+        "Création d'objets décoratifs lumineux avec de la résine époxy",
+        "Application dans les vernis pour des effets visuels dans l'obscurité",
+        "Projets artistiques et signalétique personnalisée"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Pigment Phosphorescent"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Pigments et décorations"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK Tunisie"
+        }
+      ],
+      "advantages": [
+        "Offre un effet lumineux remarquable dans l'obscurité après exposition à la lumière",
+        "S'intègre facilement dans divers types de liants et résines disponibles chez ASWEK"
+      ],
+      "howto": "Incorporez progressivement le pigment phosphorescent dans votre mélange (résine, vernis ou autre support) jusqu'à obtention de l'effet souhaité. Veillez à bien mélanger pour répartir uniformément les particules. Pour les dosages précis et les conditions d'application optimales, se référer à la fiche technique du produit.",
+      "safety": "Manipulez la poudre avec précaution pour éviter l'inhalation de poussières et le contact prolongé avec la peau. Portez un équipement de protection individuel adapté (gants, masque). En cas de doute ou pour toute information détaillée, consultez la FDS (fiche de données de sécurité).",
+      "seo_title": "Pigment Phosphorescent | ASWEK Tunisie",
+      "seo_description": "Achetez le Pigment Phosphorescent chez ASWEK en Tunisie. Idéal pour vos créations en résine et vernis lumineux. Commandez en ligne.",
+      "keywords": [
+        "pigment phosphorescent",
+        "poudre fluorescente",
+        "pigment résine époxy",
+        "colorants ASWEK",
+        "décoration lumineuse Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:19.834Z",
+      "verified": false
+    },
+    "aswek-silice-colore-gris": {
+      "id": 900031,
+      "name": "Silice coloré",
+      "definition": "La Silice coloré proposée par ASWEK est un granulat de silice teinté, spécialement conçu pour des applications décoratives et techniques. Ce matériau s'associe généralement avec des résines époxy ou polyuréthanes pour créer des revêtements esthétiques ou antidérapants. Elle apporte une touche de couleur et de texture durable à vos projets de sols ou de loisirs créatifs.",
+      "description": "La silice colorée est un agrégat minéral sélectionné pour sa dureté et sa régularité, puis enrobé d'une teinte résistante. Elle est particulièrement appréciée pour la réalisation de sols en résine, de tapis de pierre ou pour des effets de décoration spécifiques dans les créations en résine époxy.\n\nDisponible au format standard sur la boutique ASWEK en Tunisie, ce produit s'intègre facilement dans divers protocoles de mise en œuvre, que ce soit pour le saupoudrage en surface ou l'incorporation directe selon l'effet recherché. Pour des proportions exactes de mélange ou de consommation par mètre carré, il est recommandé de se référer à la fiche technique du produit associé.",
+      "usage": [
+        "Réalisation de sols en résine et de systèmes multicouches",
+        "Création de surfaces antidérapantes",
+        "Projets de décoration et loisirs créatifs avec de la résine"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Silice colorée"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Disponibilité",
+          "value": "ASWEK Tunisie"
+        }
+      ],
+      "advantages": [
+        "Apporte un rendu esthétique coloré et personnalisé",
+        "Améliore la texture et les propriétés de surface des revêtements"
+      ],
+      "howto": "Le mode d'application dépend de l'utilisation finale (saupoudrage sur résine fraîche ou mélange dans la masse). Veillez à ce que le support soit propre, sec et préparé. Pour les dosages précis et les temps de séchage, se référer à la fiche technique.",
+      "safety": "Portez un équipement de protection individuel adapté lors de la manipulation, notamment un masque anti-poussière et des gants, afin d'éviter l'inhalation de particules et le contact prolongé avec la peau. Consulter la FDS pour plus de détails.",
+      "seo_title": "Silice coloré pour résine - ASWEK Tunisie",
+      "seo_description": "Achetez de la silice colorée pour vos sols en résine et projets décoratifs chez ASWEK en Tunisie. Qualité professionnelle et format standard.",
+      "keywords": [
+        "silice colorée",
+        "résine époxy",
+        "sol résine",
+        "décoration ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:23.169Z",
+      "verified": false
+    },
+    "aswek-silice-colore-bleu": {
+      "id": 900032,
+      "name": "Silice coloré ( bleu )",
+      "definition": "La silice colorée bleue est un agrégat minéral teinté utilisé principalement dans les projets de décoration, de loisirs créatifs et les revêtements à base de résine. Ce produit apporte une touche esthétique et texturée à vos créations tout en conservant la structure des charges minérales.",
+      "description": "Disponible en coloris bleu, cette silice colorée s'intègre parfaitement dans divers types de projets décoratifs ou industriels légers. Elle permet de personnaliser vos applications en surface ou en inclusion selon les effets visuels recherchés.\n\nCe matériau est soigneusement sélectionné pour répondre aux attentes des créateurs et des professionnels travaillant les résines et les revêtements décoratifs en Tunisie. Sa granulométrie et sa coloration en font un élément décoratif apprécié pour le design d'objets ou de sols.",
+      "usage": [
+        "Créations décoratives en résine époxy",
+        "Revêtements de sols et terrasses",
+        "Loisirs créatifs et arts visuels"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Silice coloré ( bleu )"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Pigments et décorations"
+        },
+        {
+          "label": "Couleur",
+          "value": "Bleu"
+        }
+      ],
+      "advantages": [
+        "Appporte une couleur bleue vive et durable à vos projets",
+        "Idéal pour personnaliser les applications de résine et de décoration"
+      ],
+      "howto": "Incorporez la silice colorée bleue selon les exigences esthétiques de votre projet, soit en saupoudrage en surface, soit en mélange dans votre matrice (résine, liant). Pour des dosages précis et des proportions de mélange adaptées à votre application exacte, se référer à la fiche technique.",
+      "safety": "Portez un équipement de protection individuel adapté (gants, masque anti-poussière) lors de la manipulation de charges minérales. Évitez l'inhalation des poussières. Pour toute information détaillée, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Silice coloré bleu - ASWEK",
+      "seo_description": "Achetez la silice colorée bleue chez ASWEK en Tunisie. Idéale pour vos projets de résine époxy, décoration et revêtements. Commandez en ligne.",
+      "keywords": [
+        "silice colorée",
+        "silice bleue",
+        "pigment résine",
+        "décoration époxy",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:31.429Z",
+      "verified": false
+    },
+    "aswek-silice-4mm": {
+      "id": 900033,
+      "name": "Silice 4 mm",
+      "definition": "La Silice 4 mm est un agrégat minéral de granulométrie spécifique, proposé par la boutique ASWEK en Tunisie. Elle est principalement utilisée dans les domaines de la décoration, des revêtements de sol et des applications techniques nécessitant une charge minérale calibrée. Ce produit s'intègre parfaitement dans divers projets de mise en œuvre avec des résines ou des liants.",
+      "description": "La Silice 4 mm se présente sous forme de grains calibrés à une dimension d'environ 4 millimètres. Elle est sélectionnée pour sa régularité et sa pureté, répondant aux exigences des professionnels et des amateurs éclairés dans la réalisation de sols, de décors ou de structures composites.\n\nUtilisée seule à des fins décoratives ou mélangée à des systèmes à base de r��sine, cette charge minérale permet d'obtenir des finitions texturées ou de structurer des mortiers époxy. Sa granulométrie de 4 mm offre un rendu visuel distinct et une bonne tenue mécanique selon les proportions de mélange à confirmer.\n\nDisponible chez ASWEK, la Silice 4 mm s'associe idéalement aux gammes de résines et de revêtements de la boutique pour divers projets d'aménagement, de loisirs créatifs ou de travaux spécialisés. Pour toute application spécifique, il est recommandé de se référer à la fiche technique du produit.",
+      "usage": [
+        "Réalisation de sols décoratifs et industriels en résine",
+        "Création d'effets texturés et de décors minéraux",
+        "Charge pour mortiers et systèmes à base de résine"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Silice 4 mm"
+        },
+        {
+          "label": "Granulométrie",
+          "value": "4 mm"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Pigments et décorations"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Granulométrie calibrée et régulière",
+        "Polyvalence pour les applications décoratives et techniques",
+        "Compatible avec les systèmes de résines"
+      ],
+      "howto": "Assurez-vous que la surface de travail est propre et sèche avant l'application. Incorporez la silice selon les proportions requises par votre système de résine ou de liant. Pour les dosages précis, les temps de séchage et les modes opératoires détaillés, veuillez consulter la fiche technique du produit.",
+      "safety": "Portez un équipement de protection individuel adapté lors de la manipulation de poudres et d'agrégats minéraux (gants, lunettes de protection et masque anti-poussière pour éviter l'inhalation). Pour plus de détails, consultez la fiche de données de sécurité (FDS).",
+      "seo_title": "Silice 4 mm - ASWEK Tunisie",
+      "seo_description": "Achetez la Silice 4 mm chez ASWEK en Tunisie. Idéale pour les sols en résine, les décors et les charges minérales. Qualité professionnelle.",
+      "keywords": [
+        "Silice 4 mm",
+        "silice ASWEK Tunisie",
+        "charge minérale résine",
+        "sable de silice",
+        "décoration résine"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:35.671Z",
+      "verified": false
+    },
+    "aswek-glitter-dore": {
+      "id": 900034,
+      "name": "Glitter doré",
+      "definition": "Le Glitter doré proposé par ASWEK est un élément décoratif conçu pour apporter des effets brillants et scintillants à vos créations. Ce pigment pailleté s'intègre parfaitement dans divers supports artistiques et artisanaux pour rehausser l'esthétique générale de vos projets.",
+      "description": "Le Glitter doré est un accessoire de choix pour les créateurs souhaitant ajouter une touche lumineuse et élégante à leurs réalisations. Sa texture permet une dispersion harmonieuse selon le support utilisé, qu'il s'agisse de mélanges ou d'applications en surface.\n\nCe produit s'adresse aussi bien aux amateurs qu'aux professionnels travaillant dans le domaine des loisirs créatifs et de la décoration. Il permet de personnaliser des objets avec un éclat doré distinctif et durable.",
+      "usage": [
+        "Décoration de pièces en résine époxy",
+        "Projets d'arts plastiques et de loisirs créatifs",
+        "Personnalisation d'objets et de supports divers"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Glitter doré"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Colorants et pigments > Pigments et décorations"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Apporte un effet scintillant et décoratif de qualité",
+        "S'associe facilement avec divers médiums de création"
+      ],
+      "howto": "Incorporez le Glitter doré directement dans votre mélange ou appliquez-le sur la surface souhaitée selon l'effet décoratif recherché. Pour des dosages précis et des méthodes d'application optimales adaptées à votre projet, se référer à la fiche technique.",
+      "safety": "Manipulez le produit avec précaution en évitant l'inhalation de poussières et le contact prolongé avec les yeux ou la peau. En l'absence de données spécifiques, consulter la fiche de données de sécurité (FDS) pour plus de détails.",
+      "seo_title": "Glitter doré - Pigments et décorations | ASWEK Tunisie",
+      "seo_description": "Achetez le Glitter doré chez ASWEK en Tunisie pour vos projets de résine et loisirs créatifs. Effet brillant garanti. Commandez en ligne.",
+      "keywords": [
+        "Glitter doré",
+        "pigment décoratif",
+        "paillettes résine",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:38.898Z",
+      "verified": false
+    },
+    "aswek-decoto-p500": {
+      "id": 900035,
+      "name": "DECOTOP 500",
+      "definition": "DECOTOP 500 est un vernis technique professionnel disponible dans la catégorie des diluants et vernis de la boutique ASWEK. Ce produit est formulé pour la protection et la finition des surfaces dans le cadre de divers projets techniques et décoratifs. Il s'applique selon les recommandations spécifiques du fabricant pour garantir un rendu optimal.",
+      "description": "Le vernis technique DECOTOP 500 est sélectionné par ASWEK pour répondre aux exigences des professionnels et des passionnés de travaux de finition. Sa formulation est conçue pour interagir idéalement avec les supports compatibles, offrant ainsi une couche protectrice durable.\n\nPour une application réussie, il est recommandé de préparer soigneusement la surface à traiter et de respecter les conditions d'application. Les proportions, les temps de séchage ainsi que le nombre de couches nécessaires sont à confirmer directement sur la fiche technique officielle du produit afin d'obtenir le résultat escompté.",
+      "usage": [
+        "Protection des surfaces finies",
+        "Finition de projets techniques et décoratifs",
+        "Application sur supports compatibles"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "DECOTOP 500"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Vernis techniques"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Vernis technique de qualité professionnelle",
+        "Adapté aux exigences de finition de la boutique ASWEK"
+      ],
+      "howto": "Appliquer le vernis DECOTOP 500 sur une surface propre, sèche et préparée. Pour connaître les proportions exactes de mélange (le cas échéant), le matériel d'application recommandé, ainsi que les temps de séchage précis, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Utiliser ce produit dans un espace correctement ventilé. Porter un équipement de protection individuelle adapté (gants, lunettes). Pour toute information détaillée concernant les risques et la manipulation, veuillez consulter la fiche de données de sécurité (FDS).",
+      "seo_title": "DECOTOP 500 Vernis Technique | ASWEK Tunisie",
+      "seo_description": "Commandez le vernis technique DECOTOP 500 chez ASWEK en Tunisie. Produit professionnel pour finitions et protections. Consultez la fiche technique.",
+      "keywords": [
+        "DECOTOP 500",
+        "vernis technique",
+        "vernis ASWEK",
+        "finition Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:42.205Z",
+      "verified": false
+    },
+    "aswek-decoto-p450": {
+      "id": 900036,
+      "name": "DECOTOP 450",
+      "definition": "DECOTOP 450 est un vernis technique de la gamme diluants et vernis disponible chez ASWEK en Tunisie. Ce produit est formulé pour la protection et la finition de surfaces spécifiques nécessitant un revêtement technique de qualité professionnelle. Il s'applique selon les recommandations du fabricant pour garantir des résultats durables.",
+      "description": "Le vernis technique DECOTOP 450 est sélectionné par ASWEK pour répondre aux exigences des professionnels et des passionnés de travaux techniques. Sa formulation assure une application adaptée sur les supports compatibles.\n\nIl contribue à la finition soignée des projets tout en protégeant les surfaces traitées contre les agressions extérieures usuelles, selon les conditions d'utilisation préconisées par la fiche technique.",
+      "usage": [
+        "Protection et finition de surfaces techniques",
+        "Application enrobante ou de surface selon compatibilité"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "DECOTOP 450"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Vernis techniques"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Produit de finition technique de qualité professionnelle",
+        "Disponible chez ASWEK en Tunisie"
+      ],
+      "howto": "Se référer impérativement à la fiche technique du produit pour connaître les proportions de mélange, les conditions d'application et les temps de séchage exacts.",
+      "safety": "Porter les équipements de protection individuels (gants, lunettes, masque) adaptés lors de la manipulation. Consulter la Fiche de Données de Sécurité (FDS) pour toute information détaillée.",
+      "seo_title": "DECOTOP 450 Vernis Technique - ASWEK Tunisie",
+      "seo_description": "Commandez le vernis technique DECOTOP 450 chez ASWEK en Tunisie. Produit de finition de qualité professionnelle. Consultez la fiche technique.",
+      "keywords": [
+        "DECOTOP 450",
+        "vernis technique",
+        "vernis ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:44.553Z",
+      "verified": false
+    },
+    "aswek-vernis-var-23": {
+      "id": 900037,
+      "name": "Vernis VAR 23",
+      "definition": "Le Vernis VAR 23 est un vernis technique disponible chez ASWEK en Tunisie, formulé pour la protection et la finition de diverses surfaces. Il s'applique pour offrir une couche de protection durable, améliorant l'aspect esthétique tout en préservant le support des agressions extérieures. Ce produit s'intègre parfaitement dans la gamme des vernis techniques de la boutique.",
+      "description": "Le Vernis VAR 23 est conçu pour répondre aux exigences des professionnels et des amateurs de bricolage cherchant une finition soignée et résistante. Sa formulation spécifique permet une application aisée sur les supports compatibles.\n\nIl assure une protection de surface efficace contre l'usure quotidienne, tout en rehaussant l'aspect visuel du projet. Pour des résultats optimaux et l'application des bonnes pratiques professionnelles, il est recommandé de se référer aux instructions techniques du fabricant.",
+      "usage": [
+        "Protection et finition de surfaces techniques",
+        "Application sur supports compatibles selon recommandations",
+        "Projets de bricolage et de rénovation"
+      ],
+      "features": [
+        {
+          "label": "Type de produit",
+          "value": "Vernis technique"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Finition de surface soignée",
+        "Produit sélectionné par ASWEK pour les professionnels et particuliers"
+      ],
+      "howto": "Préparer soigneusement la surface en s'assurant qu'elle est propre, sèche et exempte de poussière ou de contaminants. Appliquer le Vernis VAR 23 en respectant les conditions d'application recommandées. Pour les proportions, le matériel et les temps de séchage précis, se référer impérativement à la fiche technique du produit.",
+      "safety": "Porter des équipements de protection individuelle adaptés (gants, lunettes, masque) lors de la manipulation et de l'application. Travailler dans un espace bien ventilé. Pour toute information détaillée concernant les risques et la manipulation, consulter la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Vernis VAR 23 | Vernis Technique ASWEK Tunisie",
+      "seo_description": "Découvrez le Vernis VAR 23 chez ASWEK en Tunisie. Vernis technique de qualité pour vos projets de protection et finition. Commandez en ligne.",
+      "keywords": [
+        "Vernis VAR 23",
+        "vernis technique ASWEK",
+        "vernis Tunisie",
+        "finition surface ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:58:53.602Z",
+      "verified": false
+    },
+    "aswek-vernis-var-27": {
+      "id": 900038,
+      "name": "Vernis VAR 27",
+      "definition": "Le Vernis VAR 27 est une solution technique de finition disponible sur la boutique ASWEK en Tunisie. Il est formulé pour protéger et valoriser divers types de surfaces et de créations. Ce produit s'intègre parfaitement dans la gamme des vernis techniques de la catégorie diluants et vernis.",
+      "description": "Le Vernis VAR 27 est conçu pour répondre aux exigences des professionnels et des passionnés de bricolage à la recherche d'une finition de qualité. Il s'applique facilement sur les supports compatibles pour offrir une couche de protection durable.\n\nSa formulation spécifique assure une compatibilité avec les standards de la catégorie des vernis techniques. Pour obtenir des résultats optimaux, il est recommandé de préparer soigneusement la surface avant application selon les indications d'usage.",
+      "usage": [
+        "Protection de surfaces diverses",
+        "Finition de projets techniques",
+        "Application sur supports compatibles"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Vernis VAR 27"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Vernis techniques"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Finition soignée pour vos projets",
+        "Produit sélectionné par ASWEK"
+      ],
+      "howto": "Appliquer le Vernis VAR 27 sur une surface propre, sèche et préparée. Pour connaître les proportions exactes, les temps de séchage, le nombre de couches et les conditions d'application optimales, veuillez vous référer à la fiche technique du produit.",
+      "safety": "Porter un équipement de protection individuel adapté (gants, lunettes, masque) lors de la manipulation. Travailler dans un espace bien ventilé. Pour toute information détaillée sur la toxicité et la manipulation, consultez la FDS (Fiche de Données de Sécurité).",
+      "seo_title": "Vernis VAR 27 - Vernis technique | ASWEK Tunisie",
+      "seo_description": "Achetez le Vernis VAR 27 sur ASWEK en Tunisie. Un vernis technique de qualité pour vos projets. Commandez en ligne dès maintenant.",
+      "keywords": [
+        "Vernis VAR 27",
+        "vernis technique",
+        "vernis ASWEK Tunisie",
+        "diluants et vernis"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:00.686Z",
+      "verified": false
+    },
+    "aswek-diluant-4l": {
+      "id": 900039,
+      "name": "Diluant 4 L",
+      "definition": "Le Diluant 4 L disponible chez ASWEK est un produit formulé pour ajuster la viscosité de certaines peintures, vernis ou revêtements compatibles. Conditionné en format économique de 4 litres, il répond aux besoins des professionnels et des particuliers pour la préparation et l'application de leurs formulations. Se référer à la fiche technique du fabricant pour valider la compatibilité exacte avec vos produits.",
+      "description": "Ce bidon de 4 litres de diluant est conçu pour faciliter l'application des revêtements en ajustant leur consistance selon les conditions d'utilisation et le matériel employé.\n\nIl s'intègre dans vos travaux de préparation, de mise en œuvre et de nettoyage de matériel lié aux applications de vernis ou peintures compatibles. Pour connaître les proportions de mélange exactes et les usages spécifiques recommandés, il est indispensable de consulter la documentation technique du produit associé.\n\nSon format de 4 L convient parfaitement aux chantiers de taille moyenne, garantissant une réserve suffisante pour la dilution et le nettoyage des outils après application.",
+      "usage": [
+        "Dilution de peintures et vernis compatibles",
+        "Nettoyage du matériel d'application",
+        "Préparation des surfaces selon les recommandations"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Diluant 4 L"
+        },
+        {
+          "label": "Format",
+          "value": "4 Litres"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Diluants"
+        }
+      ],
+      "advantages": [
+        "Format économique de 4 litres adapté aux travaux réguliers",
+        "Aide à l'ajustement de la viscosité des produits compatibles"
+      ],
+      "howto": "Utiliser le diluant en respectant strictement les proportions de mélange et les recommandations indiquées sur la fiche technique du produit principal (peinture ou vernis) à diluer. Pour le nettoyage des outils, procéder dans un endroit ventilé après utilisation. En cas de doute sur les dosages ou la compatibilité, se référer à la fiche technique.",
+      "safety": "Produit inflammable et chimique. Manipuler dans un endroit bien ventilé en portant des ÉPI adaptés (gants, lunettes de protection, masque). Éviter tout contact avec la peau et les yeux. Tenir hors de portée des enfants. Pour toute information détaillée sur les risques et la manipulation, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Diluant 4 L - ASWEK Tunisie",
+      "seo_description": "Achetez votre Diluant 4 L chez ASWEK en Tunisie. Produit pour dilution et nettoyage de vernis et peintures compatibles. Commandez en ligne.",
+      "keywords": [
+        "diluant 4L",
+        "diluant peinture",
+        "diluant vernis",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:05.564Z",
+      "verified": false
+    },
+    "aswek-diluant-0-7l": {
+      "id": 900040,
+      "name": "Diluant 0.7 L",
+      "definition": "Le Diluant 0.7 L est un produit liquide formulé pour ajuster la viscosité et faciliter l'application de certains revêtements, vernis ou peintures compatibles distribués par ASWEK. Ce conditionnement de 0.7 litre convient parfaitement pour les travaux de bricolage ou de rénovation de moyenne envergure en Tunisie. Il permet également d'assurer le nettoyage des outils après utilisation.",
+      "description": "Ce diluant technique est spécialement conçu pour accompagner vos projets impliquant des vernis ou des peintures nécessitant un ajustement de fluidité avant application. Sa contenance de 0.7 L offre un juste équilibre pour les chantiers domestiques ou professionnels ne nécessitant pas de grands volumes.\n\nIl s'intègre parfaitement dans votre gamme de produits de préparation et de finition chez ASWEK. Veillez toujours à vérifier la compatibilité de ce diluant avec le revêtement ou le vernis que vous utilisez afin d'éviter toute altération du produit final.\n\nPour des résultats optimaux et le respect des proportions recommandées, il est conseillé de se référer systématiquement aux instructions spécifiques indiquées sur la fiche technique du produit associé.",
+      "usage": [
+        "Dilution de vernis ou peintures compatibles",
+        "Nettoyage des pinceaux, rouleaux et outils souillés",
+        "Préparation des surfaces ou des mélanges selon les préconisations"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Diluant 0.7 L"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Diluants"
+        },
+        {
+          "label": "Contenance",
+          "value": "0.7 L"
+        },
+        {
+          "label": "Distributeur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Format pratique de 0.7 L adapté aux chantiers de taille moyenne",
+        "Facilite l'entretien et le nettoyage du matériel d'application"
+      ],
+      "howto": "Utilisez le diluant en respectant strictement les proportions et les consignes indiquées sur la fiche technique du produit à diluer (vernis, peinture ou autre revêtement). Pour le nettoyage des outils, plongez-les ou essuyez-les avec le produit puis rincez si nécessaire. En cas de doute sur les dosages, consultez la fiche technique.",
+      "safety": "Produit inflammable et chimique. Manipuler dans un endroit bien ventilé en portant des ÉPI adaptés (gants, lunettes de protection, masque). Éviter le contact avec la peau et les yeux. Tenir hors de portée des enfants. Pour toute information détaillée sur les risques et la manipulation, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Diluant 0.7 L - ASWEK Tunisie",
+      "seo_description": "Achetez votre Diluant 0.7 L chez ASWEK en Tunisie. Idéal pour diluer vernis et nettoyer vos outils. Commandez en ligne.",
+      "keywords": [
+        "diluant 0.7l",
+        "diluant vernis aswek",
+        "nettoyage outils tunisie",
+        "produits aswek tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:08.740Z",
+      "verified": false
+    },
+    "aswek-diluant-0-4l": {
+      "id": 900041,
+      "name": "DILUANT 0.4 L",
+      "definition": "Le DILUANT 0.4 L disponible chez ASWEK est un produit formulé pour ajuster la viscosité de peintures, vernis ou revêtements compatibles. Ce format de 0.4 litre est particulièrement adapté pour les petits chantiers, les retouches ou les projets de bricolage nécessitant une quantité maîtrisée de solvant.",
+      "description": "Ce diluant s'intègre dans la gamme des diluants et vernis proposée par ASWEK en Tunisie pour faciliter l'application de vos revêtements. Il permet d'obtenir la fluidité souhaitée pour une application au pinceau, au rouleau ou par d'autres méthodes selon les recommandations du fabricant du revêtement associé.\n\nSon conditionnement de 0.4 L offre un compromis pratique pour le stockage et l'utilisation ponctuelle. Pour des résultats optimaux et pour garantir la compatibilité avec vos peintures ou vernis, il est recommandé de se référer strictement aux indications techniques du produit à diluer.",
+      "usage": [
+        "Ajustement de la viscosité des peintures et vernis compatibles",
+        "Nettoyage des pinceaux et des outils d'application",
+        "Travaux de retouche et petits chantiers"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "DILUANT"
+        },
+        {
+          "label": "Contenance",
+          "value": "0.4 L"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants"
+        }
+      ],
+      "advantages": [
+        "Format pratique de 0.4 L adapté aux petits travaux",
+        "Aide à l'application et au nettoyage du matériel"
+      ],
+      "howto": "Respectez les proportions de mélange recommandées par le fabricant du produit à diluer. Utilisez le produit dans un espace correctement ventilé. Pour toute information spécifique, veuillez consulter la fiche technique du produit.",
+      "safety": "Produit inflammable et chimique. Manipuler avec des gants et des lunettes de protection, dans un endroit bien ventilé, loin de toute source de chaleur ou de flamme. Tenir hors de portée des enfants. En cas de doute, consultez la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Diluant 0.4 L - ASWEK Tunisie",
+      "seo_description": "Achetez votre Diluant 0.4 L chez ASWEK en Tunisie. Idéal pour diluer vernis et peintures ou nettoyer vos outils. Commandez en ligne.",
+      "keywords": [
+        "diluant",
+        "diluant 0.4l",
+        "diluants et vernis",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:12.209Z",
+      "verified": false
+    },
+    "aswek-diluant-0-125l": {
+      "id": 900042,
+      "name": "Diluant 0.125 L",
+      "definition": "Le Diluant 0.125 L disponible chez ASWEK est un produit chimique formulé pour ajuster la viscosité de certaines peintures, vernis ou revêtements compatibles. Conditionné dans un format pratique de 0,125 litre, il permet de faciliter l'application des formulations selon les besoins spécifiques de vos chantiers ou de vos loisirs créatifs. Ce conditionnement réduit est idéal pour les petits travaux ou les retouches de précision.",
+      "description": "Le Diluant 0.125 L proposé par ASWEK est un adjuvant indispensable pour la préparation et l'application de divers revêtements de la catégorie des diluants et vernis. Sa contenance de 0,125 litre convient parfaitement aux utilisateurs ayant besoin d'une faible quantité de produit pour des projets minutieux ou des applications localisées.\n\nSon utilisation permet d'ajuster la consistance de vos mélanges pour faciliter le travail au pinceau, au rouleau ou par d'autres méthodes d'application selon la nature du revêtement traité. Il est recommandé de procéder à des essais préalables pour valider la compatibilité exacte avec les produits utilisés.",
+      "usage": [
+        "Ajustement de la viscosité de vernis ou peintures compatibles",
+        "Nettoyage de petits outils et matériel d'application",
+        "Réalisation de retouches de précision sur supports adaptés"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "Diluant 0.125 L"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Diluants"
+        },
+        {
+          "label": "Format",
+          "value": "0.125 L"
+        },
+        {
+          "label": "Fournisseur",
+          "value": "ASWEK"
+        }
+      ],
+      "advantages": [
+        "Format réduit de 0,125 L adapté aux petits travaux et aux retouches",
+        "Facilite l'application des revêtements par un ajustement de la texture",
+        "Utile pour l'entretien et le nettoyage du matériel"
+      ],
+      "howto": "Le mode d'emploi exact, les dosages et les proportions de mélange varient selon le type de produit à diluer. Il est fortement recommandé de consulter la fiche technique spécifique du revêtement associé ainsi que les préconisations du fabricant avant toute utilisation.",
+      "safety": "Utiliser ce produit dans un espace correctement ventilé. Porter des équipements de protection individuelle adaptés (gants, lunettes de protection) lors de la manipulation. Produit inflammable, à tenir à l'écart de toute source de chaleur ou de flamme. Pour plus de détails, veuillez consulter la Fiche de Données de Sécurité (FDS).",
+      "seo_title": "Diluant 0.125 L - ASWEK",
+      "seo_description": "Aachetez le Diluant 0.125 L chez ASWEK en Tunisie. Format pratique pour vernis, peintures et petits travaux. Commandez en ligne.",
+      "keywords": [
+        "diluant 0.125l",
+        "diluant aswek",
+        "diluant vernis tunisie",
+        "produit de dilution"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:15.561Z",
+      "verified": false
+    },
+    "aswek-soude": {
+      "id": 900043,
+      "name": "SOUDE",
+      "definition": "Le produit SOUDE disponible chez ASWEK en Tunisie est un agent chimique nettoyant et dégraissant puissant. Il est principalement utilisé dans divers contextes industriels, professionnels et d'entretien pour éliminer les salissures tenaces et les graisses. Ce produit fait partie de notre gamme de diluants et vernis, section entretien et nettoyage.",
+      "description": "La SOUDE proposée par ASWEK est formulée pour répondre aux besoins exigeants de nettoyage en profondeur et de préparation de surfaces. Elle s'adresse aux professionnels et aux utilisateurs avertis recherchant un agent chimique efficace pour le traitement de surfaces spécifiques ou le décrassage.\n\nSon conditionnement standard s'intègre facilement dans les routines d'entretien ou les processus de chantier. Pour des résultats optimaux et une utilisation conforme aux normes en vigueur, il est recommandé de respecter les dosages et les recommandations d'application propres à chaque chantier.",
+      "usage": [
+        "Nettoyage et dégraissage en profondeur",
+        "Entretien et préparation de surfaces",
+        "Applications industrielles ou professionnelles diverses"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "SOUDE"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Diluants et vernis > Entretien et nettoyage"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        },
+        {
+          "label": "Disponibilité",
+          "value": "ASWEK Tunisie"
+        }
+      ],
+      "advantages": [
+        "Action nettoyante et dégraissante puissante",
+        "Adapté aux exigences professionnelles"
+      ],
+      "howto": "Le mode d'emploi et les dosages précis dépendent de l'application spécifique souhaitée. Veuillez vous référer à la fiche technique du produit ou aux recommandations d'usage en vigueur pour ce type de substance chimique.",
+      "safety": "Ce produit chimique nécessite des précautions strictes lors de sa manipulation. Portez impérativement des équipements de protection individuelle (gants, lunettes, vêtements de protection). Évitez tout contact avec la peau et les yeux. Consultez la Fiche de Données de Sécurité (FDS) pour plus d'informations.",
+      "seo_title": "SOUDE - Entretien et Nettoyage | ASWEK Tunisie",
+      "seo_description": "Achetez le produit SOUDE pour l'entretien et le nettoyage chez ASWEK en Tunisie. Produit professionnel, format standard. Commandez en ligne.",
+      "keywords": [
+        "soude",
+        "entretien et nettoyage",
+        "diluants et vernis",
+        "ASWEK Tunisie"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:21.948Z",
+      "verified": false
+    },
+    "aswek-deep-etanche-pro": {
+      "id": 900044,
+      "name": "DEEP ETANCHE PRO",
+      "definition": "DEEP ETANCHE PRO est un produit d'étanchéité de qualité professionnelle spécialement formulé pour la protection des toitures. Distribué par ASWEK en Tunisie, il constitue une solution fiable pour prévenir les infiltrations d'eau et assurer la durabilité des surfaces de toiture.",
+      "description": "Conçu pour répondre aux exigences des chantiers d'étanchéité, DEEP ETANCHE PRO s'applique sur les toitures afin de créer une barrière protectrice contre les intempéries et l'humidité. Sa formulation spécifique assure une bonne adhérence sur les supports compatibles.\n\nCe produit est idéal pour les professionnels du bâtiment ainsi que pour les projets de rénovation exigeant des matériaux d'étanchéité performants. Pour garantir des résultats optimaux, il est recommandé de préparer soigneusement le support avant l'application.",
+      "usage": [
+        "Étanchéité des toitures terrasses",
+        "Protection des toitures inclinées",
+        "Réparation et prévention des infiltrations d'eau"
+      ],
+      "features": [
+        {
+          "label": "Nom du produit",
+          "value": "DEEP ETANCHE PRO"
+        },
+        {
+          "label": "Catégorie",
+          "value": "Étanchéité toitures"
+        },
+        {
+          "label": "Format",
+          "value": "Standard"
+        }
+      ],
+      "advantages": [
+        "Solution dédiée à l'étanchéité des toitures",
+        "Adapté aux exigences des chantiers professionnels"
+      ],
+      "howto": "Le mode d'emploi dépend de la nature du support et des conditions d'application. S'assurer que la surface est propre, sèche et exempte de poussière avant l'application. Pour les proportions, les temps de séchage et les détails de mise en œuvre précis, se référer à la fiche technique du produit.",
+      "safety": "Porter un équipement de protection individuel adapté (gants, lunettes, vêtements de protection) lors de la manipulation et de l'application. En cas de doute ou pour toute information détaillée, consulter la FDS (Fiche de Données de Sécurité).",
+      "seo_title": "DEEP ETANCHE PRO - Étanchéité Toiture | ASWEK Tunisie",
+      "seo_description": "Découvrez DEEP ETANCHE PRO pour l'étanchéité de vos toitures. Solution professionnelle disponible chez ASWEK en Tunisie.",
+      "keywords": [
+        "DEEP ETANCHE PRO",
+        "étanchéité toiture",
+        "produit étanchéité Tunisie",
+        "ASWEK"
+      ],
+      "source": "ai:google-gemini",
+      "generated_at": "2026-10-21T15:59:25.328Z",
+      "verified": false
+    }
+  }
+}

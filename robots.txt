@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /search.html
+Disallow: /wishlist.html
+Disallow: /cart.html
+Disallow: /checkout.html
+Disallow: /data/admin/
+Disallow: /scripts/
+Disallow: /tools/
+Disallow: /admin/
+
+Sitemap: https://aswek.net/sitemap.xml

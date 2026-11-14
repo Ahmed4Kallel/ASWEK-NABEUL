@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-22T09:27:00.016Z",
+  "exact": [],
+  "near": [
+    {
+      "a": {
+        "id": 900006,
+        "slug": "aswek-peinture-acrylique"
+      },
+      "b": {
+        "id": 900007,
+        "slug": "aswek-peinture-acrylique-gris"
+      }
+    },
+    {
+      "a": {
+        "id": 900006,
+        "slug": "aswek-peinture-acrylique"
+      },
+      "b": {
+        "id": 900008,
+        "slug": "aswek-peinture-acrylique-jaune"
+      }
+    },
+    {
+      "a": {
+        "id": 900006,
+        "slug": "aswek-peinture-acrylique"
+      },
+      "b": {
+        "id": 900009,
+        "slug": "aswek-peinture-acrylique-rouge"
+      }
+    },
+    {
+      "a": {
+        "id": 900031,
+        "slug": "aswek-silice-colore-gris"
+      },
+      "b": {
+        "id": 900032,
+        "slug": "aswek-silice-colore-bleu"
+      }
+    }
+  ]
+}

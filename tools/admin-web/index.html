@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ASWEK — Administration locale</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div id="login" class="login-wrap">
+  <form id="loginForm" class="login-card">
+    <div class="logo">ASWEK</div>
+    <h1>Administration locale</h1>
+    <p class="muted">Outil hors ligne. Les modifications sont enregistrées localement et publiées uniquement après validation.</p>
+    <label for="pwd">Mot de passe</label>
+    <input type="password" id="pwd" autocomplete="current-password" required>
+    <button type="submit" class="btn primary">Se connecter</button>
+    <div id="loginErr" class="err"></div>
+  </form>
+</div>
+
+<div id="app" class="app hidden">
+  <header class="topbar">
+    <div class="logo">ASWEK <span>admin local</span></div>
+    <nav>
+      <button class="tab active" data-tab="dashboard">Tableau de bord</button>
+      <button class="tab" data-tab="produits">Produits</button>
+      <button class="tab" data-tab="recherches">Recherches sans résultat</button>
+      <button class="tab" data-tab="publication">Publication</button>
+    </nav>
+    <button id="logout" class="btn ghost">Déconnexion</button>
+  </header>
+
+  <main>
+    <!-- ---------------------------------------------------- dashboard -->
+    <section id="tab-dashboard" class="tabpane active">
+      <div id="kpis" class="kpis"></div>
+      <div class="grid2">
+        <div class="card">
+          <h2>Audit SEO</h2>
+          <div id="auditBox" class="mono"></div>
+        </div>
+        <div class="card">
+          <h2>État des données</h2>
+          <div id="dataBox" class="mono"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Actions rapides</h2>
+        <div class="row-actions">
+          <button class="btn" id="btnAudit">Relancer l'audit</button>
+          <button class="btn" id="btnSitemap">Régénérer sitemap.xml + robots.txt</button>
+          <button class="btn" id="btnApply">Compiler les surcharges</button>
+          <button class="btn" id="btnExport">Exporter overrides.json</button>
+        </div>
+        <pre id="actionOut" class="out"></pre>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------- produits -->
+    <section id="tab-produits" class="tabpane">
+      <div class="card">
+        <div class="row-actions">
+          <input type="search" id="q" placeholder="Rechercher un produit…">
+          <select id="filter">
+            <option value="all">Tous</option>
+            <option value="missing-seo">SEO incomplet</option>
+            <option value="missing-syn">Synonymes incomplets</option>
+            <option value="missing-content">Description IA manquante</option>
+            <option value="overridden">Surcharge admin</option>
+            <option value="approved">Description validée</option>
+          </select>
+          <span class="muted" id="count"></span>
+        </div>
+        <div id="prodList" class="prod-list"></div>
+      </div>
+
+      <div id="editor" class="card editor hidden">
+        <div class="editor-head">
+          <h2 id="edTitle"></h2>
+          <button class="btn ghost" id="closeEditor">Fermer</button>
+        </div>
+        <div class="grid2">
+          <div>
+            <h3>Référencement</h3>
+            <label>Meta title <span class="muted" id="cTitle"></span></label>
+            <input id="fTitle" maxlength="70">
+            <label>Meta description <span class="muted" id="cDesc"></span></label>
+            <textarea id="fDesc" rows="3" maxlength="320"></textarea>
+            <label>Titre H1</label>
+            <input id="fH1" maxlength="90">
+            <label>Texte alternatif image principale</label>
+            <input id="fAlt" maxlength="160">
+            <label>Mots-clés (séparés par virgule)</label>
+            <input id="fKeywords">
+          </div>
+          <div>
+            <h3>Synonymes</h3>
+            <label>Français (un par ligne)</label>
+            <textarea id="fFr" rows="4"></textarea>
+            <label>Arabe (un par ligne)</label>
+            <textarea id="fAr" rows="4"></textarea>
+            <label>Anglais (un par ligne)</label>
+            <textarea id="fEn" rows="4"></textarea>
+            <h3>Description produit</h3>
+            <label>Texte validé (remplace la description IA si statut = validé)</label>
+            <textarea id="fDefinition" rows="5"></textarea>
+            <label>Statut</label>
+            <select id="fStatus">
+              <option value="draft">Brouillon</option>
+              <option value="approved">Validé (publié)</option>
+              <option value="rejected">Rejeté</option>
+            </select>
+            <label>Note interne (non publiée)</label>
+            <input id="fNote" maxlength="200">
+          </div>
+        </div>
+        <div class="row-actions">
+          <button class="btn primary" id="btnSave">Enregistrer la surcharge</button>
+          <button class="btn" id="btnSuggest">Suggérer avec l'IA</button>
+          <button class="btn" id="btnPreview">Prévisualiser</button>
+          <button class="btn ghost" id="btnReset">Annuler la surcharge</button>
+        </div>
+        <div id="previewBox" class="preview"></div>
+        <pre id="edOut" class="out"></pre>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------- recherches -->
+    <section id="tab-recherches" class="tabpane">
+      <div class="card">
+        <h2>Recherches sans résultat</h2>
+        <p class="muted">Journal issu du site public (localStorage) et du journal serveur local.</p>
+        <div id="logBox" class="mono"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------- publication -->
+    <section id="tab-publication" class="tabpane">
+      <div class="card">
+        <h2>Flux de publication</h2>
+        <ol class="flow">
+          <li><strong>1.</strong> Vous modifiez les surcharges dans l'onglet Produits.</li>
+          <li><strong>2.</strong> Les surcharges sont enregistrées dans <code>data/admin/overrides.json</code> (fichier source, versionné).</li>
+          <li><strong>3.</strong> « Compiler les surcharges » produit <code>data/ai/overrides-applied.json</code>, seul fichier lu par le site public.</li>
+          <li><strong>4.</strong> Déployez <code>data/ai/overrides-applied.json</code> (et le sitemap si régénéré) sur l'hébergement.</li>
+          <li><strong>5.</strong> Aucune modification n'est visible en ligne tant que l'étape 4 n'est pas faite.</li>
+        </ol>
+        <h3>Ce qui est publié automatiquement</h3>
+        <ul>
+          <li>Meta title, meta description, H1, alt principal, mots-clés d'un produit.</li>
+          <li>Synonymes FR / AR / EN ajoutés à l'index de recherche.</li>
+          <li>Description produit uniquement si son statut est <strong>validé</strong>.</li>
+        </ul>
+        <h3>Ce qui n'est jamais publié</h3>
+        <ul>
+          <li>Les notes internes de validation.</li>
+          <li>Les descriptions en brouillon ou rejetées (elles restent visibles uniquement dans l'admin).</li>
+          <li>Les surcharges dont le slug n'existe pas (l'audit les signale).</li>
+        </ul>
+        <div class="row-actions">
+          <button class="btn primary" id="btnApply2">Compiler les surcharges</button>
+          <button class="btn" id="btnSitemap2">Régénérer sitemap.xml + robots.txt</button>
+          <button class="btn" id="btnExport2">Exporter overrides.json</button>
+        </div>
+        <pre id="pubOut" class="out"></pre>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

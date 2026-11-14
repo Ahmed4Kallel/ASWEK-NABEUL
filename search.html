@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <title>Recherche | ASWEK</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/ai/search.css">
+</head>
+<body>
+  <div id="rp-header"></div>
+  <div class="breadcrumb-bar"><div class="container"><a href="index.html">Accueil</a><span class="sep">/</span><span class="current">Recherche</span></div></div>
+
+  <div class="container my-5">
+    <div class="search-head">
+      <h1 id="searchTitle">Résultats de recherche</h1>
+      <div class="count" id="searchCount"></div>
+      <form class="mt-3 d-flex justify-content-center" style="gap:8px;" action="search.html" method="get">
+        <input type="search" id="searchInput" name="s" class="form-control" style="max-width:420px;" placeholder="Rechercher un produit..." autocomplete="off">
+        <button class="btn-primary" id="searchBtn" type="submit">Rechercher</button>
+      </form>
+      <div id="searchHint" class="as-search-hint"></div>
+      <div id="searchCategories" class="as-search-cats"></div>
+    </div>
+    <div class="row grid-list" id="searchGrid"></div>
+  </div>
+
+  <div id="rp-modals"></div>
+  <div id="rp-footer"></div>
+
+  <script src="js/data.js"></script>
+<script src="js/ai/overrides.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ai/search-engine.js"></script>
+  <script src="js/search.js"></script>
+  <link rel="stylesheet" href="css/ai/chatbot.css">
+  <script src="js/ai/chatbot.js"></script>
+  <script src="js/ai/enhance.js"></script>
+  <script src="js/ai/i18n.js"></script>
+  <script src="js/ai/search-ui.js"></script>
+  <script src="js/ai/seo.js"></script>
+</body>
+</html>

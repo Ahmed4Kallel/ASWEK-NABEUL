@@ -1,0 +1,906 @@
+{
+  "generated_at": "2026-10-22T11:23:40.962Z",
+  "items": {
+    "aswek-resine-epoxy-3d": {
+      "ar": [
+        "ريسيب 3 دي",
+        "ريزين ايبوكسي 3D",
+        "راتنج ايبوكسي ثلاثي الابعاد",
+        "رسين ارضيات 3 دي",
+        "ريسيب شفاف للارضيات",
+        "ريزين 3 دي",
+        "ايبوكسي ارضيات ثلاثي الابعاد"
+      ],
+      "en": [
+        "3d epoxy resin",
+        "epoxy resin 3d",
+        "3d floor resin",
+        "clear epoxy for 3d floor",
+        "transparent 3d resin",
+        "epoxy for 3d tables",
+        "3d liquid floor resin"
+      ]
+    },
+    "aswek-vitrail-transparent": {
+      "ar": [
+        "فيتراي شفاف",
+        "صبغة زجاج شفافة",
+        "دهان زجاج شفاف",
+        "فيتراي للديكور",
+        "لون زجاج شفاف",
+        "مادة تلوين الزجاج",
+        "فيتراي تونس"
+      ],
+      "en": [
+        "transparent glass paint",
+        "clear glass vitrail",
+        "glass staining liquid",
+        "transparent vitrail color",
+        "glass painting color",
+        "clear glass art paint",
+        "vitrail paint transparent"
+      ]
+    },
+    "aswek-boytek": {
+      "ar": [
+        "بويتاك",
+        "سيليكون بويتاك",
+        "بويتاك سيليكون",
+        "مادة بويتاك",
+        "ماركة بويتاك",
+        "سيليكون قالب بويتاك",
+        "boytek سيليكون"
+      ],
+      "en": [
+        "boytek",
+        "boytek silicone",
+        "boytek mold silicone",
+        "boytek brand silicone",
+        "silicone boytek",
+        "boytek liquid silicone",
+        "boytek rubber"
+      ]
+    },
+    "aswek-silicone-pour-moule-5-kg": {
+      "ar": [
+        "سيليكون قالب 5 كيلو",
+        "سيليكون صب 5 كغ",
+        "مادة سيليكون للمقاولة 5 كيلو",
+        "سيليكون صناعة القوالب 5 كيلو",
+        "دبوس سيليكون 5 كغ",
+        "سيليكون لصنع القوالب",
+        "كيس سيليكون 5 كيلو"
+      ],
+      "en": [
+        "silicone for mold 5 kg",
+        "5kg mold making silicone",
+        "liquid silicone 5 kg",
+        "silicone rubber 5kg",
+        "mold silicone 5 kg",
+        "casting silicone 5kg",
+        "two part silicone 5 kg"
+      ]
+    },
+    "aswek-resine-epoxy-autolissant-1-kg": {
+      "ar": [
+        "ريزين ايبوكسي ذاتي التسوية 1 كيلو",
+        "ريسيب 1 كغ",
+        "ايبوكسيautolissant",
+        "ريزين شفاف 1 كيلو",
+        "راتنج ايبوكسي 1 كغ",
+        "ايبوكسي صب 1 كيلو",
+        "ريزين ارضيات 1 كيلو"
+      ],
+      "en": [
+        "self leveling epoxy resin 1 kg",
+        "epoxy resin 1kg",
+        "self leveling resin 1 kg",
+        "clear epoxy 1kg",
+        "autolissant epoxy resin",
+        "liquid epoxy 1 kg",
+        "casting epoxy 1kg"
+      ]
+    },
+    "aswek-peinture-acrylique": {
+      "ar": [
+        "صباغة اكريليك",
+        "دهان اكريليك",
+        "طلاء اكريليك",
+        "صباغة الحائط اكريليك",
+        "لون اكريليك",
+        "اكريليك للبناء",
+        "دهان مائي اكريليك"
+      ],
+      "en": [
+        "acrylic paint",
+        "acrylic coating",
+        "acrylic liquid paint",
+        "acrylic wall paint",
+        "acrylic color paint",
+        "emulsion acrylic paint",
+        "acrylic paint bucket"
+      ]
+    },
+    "aswek-peinture-acrylique-gris": {
+      "ar": [
+        "صباغة اكريليك رمادي",
+        "دهان اكريليك رمادي",
+        "طلاء رمادي اكريليك",
+        "صباغة رمادية",
+        "دهان رمادي",
+        "اكريليك كراي",
+        "صباغة جدران رمادي"
+      ],
+      "en": [
+        "grey acrylic paint",
+        "gray acrylic paint",
+        "acrylic paint grey color",
+        "grey acrylic coating",
+        "dark grey acrylic paint",
+        "light grey acrylic paint",
+        "grey wall acrylic paint"
+      ]
+    },
+    "aswek-peinture-acrylique-jaune": {
+      "ar": [
+        "صباغة اكريليك أصفر",
+        "دهان اكريليك اصفر",
+        "طلاء أصفر اكريليك",
+        "صباغة صفراء",
+        "دهان أصفر",
+        "اكريليك جوهري",
+        "صباغة جدران أصفر"
+      ],
+      "en": [
+        "yellow acrylic paint",
+        "acrylic paint yellow color",
+        "yellow acrylic coating",
+        "bright yellow acrylic paint",
+        "yellow wall acrylic paint",
+        "yellow liquid acrylic",
+        "yellow paint acrylic"
+      ]
+    },
+    "aswek-peinture-acrylique-rouge": {
+      "ar": [
+        "صباغة حمراء",
+        "دهان أكريليك أحمر",
+        "صباغة أكريليك حمراء",
+        "انcaوي احمر",
+        "دهان حوائط أحمر",
+        "صباغة جدران حمراء",
+        "بيثتور أحمر"
+      ],
+      "en": [
+        "red acrylic paint",
+        "red paint",
+        "acrylic paint red",
+        "red wall paint",
+        "red emulsion paint",
+        "red color paint",
+        "red interior paint"
+      ]
+    },
+    "aswek-colorant-pour-resine-epoxy": {
+      "ar": [
+        "ملون إيبوكسي",
+        "صبغة الراتنج",
+        "ملون راتنج الإيبوكسي",
+        "صبغة إيبوكسي",
+        "لصاق إيبوكسي ملون",
+        "الوان ايبوكسي",
+        "صبغة الريزين"
+      ],
+      "en": [
+        "epoxy resin colorant",
+        "epoxy pigment",
+        "resin dye",
+        "epoxy color pigment",
+        "resin colorant",
+        "liquid pigment for epoxy",
+        "epoxy resin tint"
+      ]
+    },
+    "aswek-floculant-liquide-5l": {
+      "ar": [
+        "فلوليك مسبح",
+        "مصفى مياه المسبح",
+        "راسب المسبح",
+        "معالج مياه الحوض",
+        "فلوليك سائل",
+        "مصفى ماء الحوض",
+        "كلاريفيان مسبح"
+      ],
+      "en": [
+        "liquid flocculant",
+        "pool clarifier",
+        "pool floc",
+        "water clarifier",
+        "pool water clearer",
+        "flocculant for swimming pool",
+        "liquid pool clarifier"
+      ]
+    },
+    "aswek-aquacid-5l": {
+      "ar": [
+        "مضاد الطحالب",
+        "دواء الطحالب مسبح",
+        "موانع الطحالب",
+        "أكواسيد مسبح",
+        "مضاد الطحالب للمسبح",
+        "تنظيف طحالب المسبح",
+        "دواء الطحالب"
+      ],
+      "en": [
+        "anti algae pool",
+        "algaecide",
+        "pool algaecide",
+        "algae killer",
+        "pool algae treatment",
+        "algae prevention pool",
+        "liquid algaecide"
+      ]
+    },
+    "aswek-poly-piscine": {
+      "ar": [
+        "بولي مسبح",
+        "منتج مسبح",
+        "معالج مياه الحوض",
+        "منتجات المسابح",
+        "تنظيف المسبح",
+        "معالجة ماء المسبح",
+        "مستحضرات مسبح"
+      ],
+      "en": [
+        "poly piscine",
+        "pool treatment product",
+        "pool chemical",
+        "swimming pool treatment",
+        "pool maintenance product",
+        "pool water treatment"
+      ]
+    },
+    "aswek-ph-moins-water-clean": {
+      "ar": [
+        "بي هاش منوي",
+        "ناقص بي هاش مسبح",
+        "تخفيض حموضة المسبح",
+        "بي اش ناقص",
+        "مخفض البي هاش",
+        "تعديل حموضة الماء",
+        "بي هاش سالب"
+      ],
+      "en": [
+        "ph minus pool",
+        "ph down",
+        "pool ph decrease",
+        "ph reducer for pool",
+        "minus ph swimming pool",
+        "water clean ph minus",
+        "lower pool ph"
+      ]
+    },
+    "aswek-ph-plus-water-clean": {
+      "ar": [
+        "بي هاش زائد",
+        "رافع بي هاش مسبح",
+        "زيادة حموضة المسبح",
+        "بي اش موجب",
+        "رافع البي هاش",
+        "تعديل حموضة الماء",
+        "بي هاش موجي"
+      ],
+      "en": [
+        "ph plus pool",
+        "ph up",
+        "pool ph increase",
+        "ph increaser for pool",
+        "plus ph swimming pool",
+        "water clean ph plus",
+        "raise pool ph"
+      ]
+    },
+    "aswek-chlore-choc-5-kg": {
+      "ar": [
+        "كلور شوك",
+        "كلور صدمة للمسبح",
+        "كلور سريع الذوبان",
+        "كلور الحبيبات مسبح",
+        "تعقيم المسبح",
+        "كلور مسبح 5 كيلو",
+        "كلور مركز مسبح"
+      ],
+      "en": [
+        "shock chlorine",
+        "pool shock chlorine",
+        "fast dissolving chlorine",
+        "chlorine shock 5kg",
+        "granular chlorine pool",
+        "shock treatment chlorine",
+        "swimming pool chlorine shock"
+      ]
+    },
+    "aswek-chlore-multifonction-5kg": {
+      "ar": [
+        "كلور متعددการใช้งาน",
+        "كلور مسبح",
+        "دواء بيسين",
+        "كلور 5 كيلو",
+        "معقم مسبح",
+        "كلور متعدد المهام",
+        "مستحضرات تنظيف المسبح",
+        "كلور الحوض"
+      ],
+      "en": [
+        "multifunction chlorine",
+        "pool chlorine",
+        "chlorine tablets",
+        "5kg chlorine",
+        "swimming pool chemicals",
+        "shock chlorine",
+        "pool sanitizer",
+        "multi action chlorine"
+      ]
+    },
+    "aswek-poudre-metallique-nacre": {
+      "ar": [
+        "بودرة معدنية",
+        "صبغة لؤلؤية",
+        "بودرة ميكا",
+        "لون معدني",
+        "بودرة براقة",
+        "صبغة إيبوكسي لامعة",
+        "ميكا لامعة",
+        "بودرة ذهبية فضية"
+      ],
+      "en": [
+        "metallic powder",
+        "nacreous powder",
+        "mica powder",
+        "pearl pigment",
+        "metallic pigment",
+        "shimmer powder",
+        "epoxy color powder",
+        "glitter powder"
+      ]
+    },
+    "aswek-feuille-dor-100-pieces": {
+      "ar": [
+        "أوراق ذهب",
+        "ورق ذهبي للديكور",
+        "أوراق تذهيب",
+        "ورق الذهب للفنون",
+        "ورق فضي وذهبي",
+        "أوراق ذهب للصناعة اليدوية",
+        "ورق ديكور",
+        "أوراق تذهيب 100 قطعة"
+      ],
+      "en": [
+        "gold leaf",
+        "gold foil sheets",
+        "gilding sheets",
+        "gold leaf 100 pcs",
+        "craft gold foil",
+        "imitation gold leaf",
+        "art gold sheets",
+        "decorative foil"
+      ]
+    },
+    "aswek-cire-de-soja": {
+      "ar": [
+        "شمع الصويا",
+        "شمع لصنع الشموع",
+        "شمع نباتي",
+        "شمع صويا طبيعي",
+        "مادة صنع الشموع",
+        "شمع الصويا للشموع",
+        "شمع صويا خام",
+        "شمع بيئي"
+      ],
+      "en": [
+        "soy wax",
+        "soybean wax",
+        "candle making wax",
+        "natural soy wax",
+        "vegetable wax",
+        "eco soy wax",
+        "soy wax flakes",
+        "pouring soy wax"
+      ]
+    },
+    "aswek-cire-de-paraffine": {
+      "ar": [
+        "شمع البارافين",
+        "شمع الشموع",
+        "بارافين خام",
+        "شمع أبيض",
+        "مادة البارافين",
+        "شمع البارافين للشموع",
+        "شمع صناعي",
+        "قوالب شمع البارافين"
+      ],
+      "en": [
+        "paraffin wax",
+        "candle paraffin",
+        "white paraffin",
+        "petroleum wax",
+        "paraffin wax blocks",
+        "solid paraffin",
+        "craft paraffin wax",
+        "paraffin beads"
+      ]
+    },
+    "aswek-quartz-colore": {
+      "ar": [
+        "كوارتز ملون",
+        "رمل ملون",
+        "حصى ملون للإيبوكسي",
+        "رمل الكوارتز",
+        "كوارتز ديكور",
+        "رمل أرضيات إيبوكسي",
+        "حجارة م��ونة",
+        "رمل سيليكا ملون"
+      ],
+      "en": [
+        "colored quartz",
+        "colored sand",
+        "quartz sand",
+        "decorative quartz",
+        "epoxy quartz sand",
+        "colour quartz",
+        "silica sand colored",
+        "aggregate sand"
+      ]
+    },
+    "aswek-huile-de-paraffine": {
+      "ar": [
+        "زيت البارافين",
+        "زيت معدني",
+        "سائل البارافين",
+        "زيت الشموع",
+        "بارافين سائل",
+        "زيت شفاف",
+        "زيت إضاءة",
+        "زيت للشموع السائلة"
+      ],
+      "en": [
+        "paraffin oil",
+        "mineral oil",
+        "liquid paraffin",
+        "lamp oil",
+        "clear oil",
+        "liquid wax",
+        "white mineral oil",
+        "paraffin liquidum"
+      ]
+    },
+    "aswek-poudre-metallique-50-gr": {
+      "ar": [
+        "بودرة معدنية 50 غرام",
+        "صبغة معدنية صغيرة",
+        "بودرة ميكا 50غ",
+        "لون إيبوكسي معدني",
+        "صبغة لؤلؤية صغيرة",
+        "بودرة براقة للإيبوكسي",
+        "ميكا معدنية",
+        "صبغة راتنج معدنية"
+      ],
+      "en": [
+        "metallic powder 50g",
+        "mica powder 50g",
+        "small metallic pigment",
+        "epoxy metallic powder",
+        "pearl powder 50g",
+        "resin pigment powder",
+        "shimmer powder small",
+        "craft metallic powder"
+      ]
+    },
+    "aswek-poudre-metallique-rouge-50-gr": {
+      "ar": [
+        "بودرة معدنية حمراء",
+        "صبغة معدنية حمراء",
+        "بودرة إepoxy حمراء",
+        "لون معدني احمر",
+        "بودرة لماعة حمراء",
+        "pigment احمر",
+        "بودرة ديكور حمراء"
+      ],
+      "en": [
+        "red metallic powder",
+        "red pigment powder",
+        "metallic red colorant",
+        "red mica powder",
+        "epoxy red powder",
+        "shimmer red powder",
+        "metallic pigment red"
+      ]
+    },
+    "aswek-poudre-metallique-blanc-base-50-gr": {
+      "ar": [
+        "بودرة معدنية بيضاء",
+        "صبغة بيضاء أساس",
+        "بودرة بيضاء للراتنج",
+        "لون أبيض معدني",
+        "بودرة لماعة بيضاء",
+        "pigment ابيض",
+        "بودرة ديكور بيضاء"
+      ],
+      "en": [
+        "white metallic powder",
+        "white base powder",
+        "white pigment powder",
+        "metallic white colorant",
+        "white mica powder",
+        "epoxy white powder",
+        "shimmer white powder"
+      ]
+    },
+    "aswek-poudre-metallique-gold-50-gr": {
+      "ar": [
+        "بودرة معدنية ذهبية",
+        "صبغة ذهبية",
+        "بودرة ذهبي",
+        "لون ذهبي للراتنج",
+        "بودرة لماعة ذهبية",
+        "pigment ذهبي",
+        "بودرة إيبوكسي ذهبي"
+      ],
+      "en": [
+        "gold metallic powder",
+        "gold pigment powder",
+        "metallic gold colorant",
+        "gold mica powder",
+        "epoxy gold powder",
+        "shimmer gold powder",
+        "gold powder for resin"
+      ]
+    },
+    "aswek-poudre-metallique-bronze-50-gr": {
+      "ar": [
+        "بودرة معدنية برونزية",
+        "صبغة برونزية",
+        "بودرة برونز",
+        "لون برونز للراتنج",
+        "بودرة لماعة برونزية",
+        "pigment برونزي",
+        "بودرة إيبوكسي برونز"
+      ],
+      "en": [
+        "bronze metallic powder",
+        "bronze pigment powder",
+        "metallic bronze colorant",
+        "bronze mica powder",
+        "epoxy bronze powder",
+        "shimmer bronze powder",
+        "bronze powder for resin"
+      ]
+    },
+    "aswek-poudre-metallique-argent-50-gr": {
+      "ar": [
+        "بودرة معدنية فضية",
+        "صبغة فضية",
+        "بودرة فضي",
+        "لون فضي للراتنج",
+        "بودرة لماعة فضية",
+        "pigment فضي",
+        "بودرة إيبوكسي فضي"
+      ],
+      "en": [
+        "silver metallic powder",
+        "silver pigment powder",
+        "metallic silver colorant",
+        "silver mica powder",
+        "epoxy silver powder",
+        "shimmer silver powder",
+        "silver powder for resin"
+      ]
+    },
+    "aswek-pigment-phosphorescent": {
+      "ar": [
+        "صبغة فوسفورية",
+        "بودرة مضيئة في الظلام",
+        "صباغ يتوهج في الليل",
+        "بودرة فوسفور",
+        "pigment phosphorescent",
+        "بودرة فلورية مضيئة",
+        "صبغ�� سطع في الظلام"
+      ],
+      "en": [
+        "glow in the dark pigment",
+        "phosphorescent powder",
+        "luminous powder",
+        "glow powder",
+        "night glowing pigment",
+        "fluorescent glow powder",
+        "phosphorescent colorant"
+      ]
+    },
+    "aswek-silice-colore-gris": {
+      "ar": [
+        "رمل سيليكا ملون رمادي",
+        "سيليكا رمادي",
+        "رمل إيبوكسي رمادي",
+        "كوارتز ملون رمادي",
+        "رمل ديكور رمادي",
+        "silice grise",
+        "رمل سيليكا رمادي"
+      ],
+      "en": [
+        "grey colored silica sand",
+        "grey quartz sand",
+        "colored silica grey",
+        "epoxy sand grey",
+        "decorative grey sand",
+        "grey silica aggregate",
+        "colored quartz grey"
+      ]
+    },
+    "aswek-silice-colore-bleu": {
+      "ar": [
+        "رمل سيليكا ملون أزرق",
+        "سيليكا أزرق",
+        "رمل إيبوكسي أزرق",
+        "كوارتز ملون أزرق",
+        "رمل ديكور أزرق",
+        "silice bleue",
+        "رمل سيليكا أزرق"
+      ],
+      "en": [
+        "blue colored silica sand",
+        "blue quartz sand",
+        "colored silica blue",
+        "epoxy sand blue",
+        "decorative blue sand",
+        "blue silica aggregate",
+        "colored quartz blue"
+      ]
+    },
+    "aswek-silice-4mm": {
+      "ar": [
+        "رمل سيليكا",
+        "سيليكا 4 مم",
+        "رمل حرش",
+        "رمل الكوارتز",
+        "سيليكا للأرضيات",
+        "رمل مالئ",
+        "سيليكا بيضاء",
+        "رمل البناء"
+      ],
+      "en": [
+        "silica sand 4mm",
+        "quartz sand",
+        "silica aggregate",
+        "coarse silica",
+        "filter sand",
+        "epoxy sand",
+        "silica filler",
+        "sand for resin"
+      ]
+    },
+    "aswek-glitter-dore": {
+      "ar": [
+        "قليتر ذهبي",
+        "بريق ذهبي",
+        "لمرة ذهبية",
+        "بودرة بريق",
+        "تزيين ذهبي",
+        "مخلوط لامع",
+        "قليتر للديكور",
+        "لمعان ذهبي"
+      ],
+      "en": [
+        "gold glitter",
+        "golden dust",
+        "gold shimmer",
+        "glitter powder",
+        "craft glitter",
+        "resin glitter",
+        "gold sparkles",
+        "decorative glitter"
+      ]
+    },
+    "aswek-decoto-p500": {
+      "ar": [
+        "ديكوتوب 500",
+        "فرنيش ديكوتوب",
+        "دهان واقي",
+        "طلاء حماية",
+        "فرنيش شفاف",
+        "دهان ديكور",
+        "حماية الأسطح",
+        "مادة عازلة"
+      ],
+      "en": [
+        "decotop 500",
+        "decotop varnish",
+        "protective coating",
+        "clear varnish",
+        "surface sealer",
+        "gloss varnish",
+        "decorative paint",
+        "topcoat finish"
+      ]
+    },
+    "aswek-decoto-p450": {
+      "ar": [
+        "ديكوتوب 450",
+        "فرنيش 450",
+        "طلاء حماية الأسطح",
+        "فرنيش شفاف",
+        "دهان تقني",
+        "ملمع أسطح",
+        "فرنيش للديكور",
+        "عازل شفاف"
+      ],
+      "en": [
+        "decotop 450",
+        "decotop coating",
+        "protective finish",
+        "clear sealer",
+        "varnish 450",
+        "technical varnish",
+        "surface coating",
+        "gloss finish"
+      ]
+    },
+    "aswek-vernis-var-23": {
+      "ar": [
+        "فرنيش فار 23",
+        "فار 23",
+        "فرنيش خشبي",
+        "ملمع خشب",
+        "فرنيش شفاف",
+        "طلاء الخشب",
+        "حماية الخشب",
+        "ورنيش فار"
+      ],
+      "en": [
+        "vernis var 23",
+        "var 23 varnish",
+        "wood varnish",
+        "clear wood finish",
+        "wood sealer",
+        "gloss varnish",
+        "varnish 23",
+        "protective wood coating"
+      ]
+    },
+    "aswek-vernis-var-27": {
+      "ar": [
+        "فرنيش فار 27",
+        "فار 27",
+        "فرنيش عالي الجودة",
+        "ملمع خشب",
+        "فرنيش شفاف",
+        "طلاء الخشب",
+        "حماية الأسطح",
+        "ورنيش فار"
+      ],
+      "en": [
+        "vernis var 27",
+        "var 27 varnish",
+        "wood varnish",
+        "clear wood finish",
+        "wood sealer",
+        "gloss varnish",
+        "varnish 27",
+        "protective coating"
+      ]
+    },
+    "aswek-diluant-4l": {
+      "ar": [
+        "ديلوان 4 لتر",
+        "مخفف دهان",
+        "مذيب دهان",
+        "تنر 4 لتر",
+        "سيلنت دهان",
+        "مخلل دهان"
+      ],
+      "en": [
+        "thinner 4 l",
+        "paint thinner 4 l",
+        "solvent 4 l",
+        "resin thinner 4 l",
+        "4l thinner",
+        "lacquer thinner"
+      ]
+    },
+    "aswek-diluant-0-4l": {
+      "ar": [
+        "ديلوان",
+        "مذيب",
+        "سيليسيون",
+        "ديلوان صغير",
+        "مذيب دهن",
+        "ديلوان 0.4",
+        "ديلوان تنظيف"
+      ],
+      "en": [
+        "thinner",
+        "paint thinner",
+        "solvent",
+        "0.4l thinner",
+        "small thinner",
+        "degreaser thinner",
+        "lacquer thinner"
+      ]
+    },
+    "aswek-diluant-0-125l": {
+      "ar": [
+        "ديلوان",
+        "مذيب",
+        "ديلوان صغير جدا",
+        "مذيب دهان",
+        "ديلوان 0.125",
+        "سيليسيون صغير",
+        "مادة تذويب"
+      ],
+      "en": [
+        "thinner",
+        "paint thinner",
+        "solvent",
+        "0.125l thinner",
+        "mini thinner",
+        "small solvent",
+        "tiny thinner"
+      ]
+    },
+    "aswek-soude": {
+      "ar": [
+        "صودا",
+        "صودا كاوية",
+        "سود كاوي",
+        "منظف مجاري",
+        "تنظيف",
+        "صودا تنظيف",
+        "مادة تنظيف"
+      ],
+      "en": [
+        "caustic soda",
+        "soda",
+        "sodium hydroxide",
+        "drain cleaner",
+        "cleaning soda",
+        "industrial soda",
+        "degreaser soda"
+      ]
+    },
+    "aswek-deep-etanche-pro": {
+      "ar": [
+        "عزل",
+        "مانع تسريب",
+        "عزل اسطح",
+        "ديب اتانش",
+        "برودوي عزل",
+        "عزل مائي",
+        "ماء اسطح",
+        "عازل للماء"
+      ],
+      "en": [
+        "waterproofing",
+        "roof waterproof",
+        "leak sealer",
+        "waterproofing membrane",
+        "deep etanche",
+        "waterproofer",
+        "waterproofing liquid",
+        "sealant"
+      ]
+    },
+    "aswek-diluant-0-7l": {
+      "ar": [
+        "تنر 0.7 لتر",
+        "تنر تخفيف الدهان",
+        "مذيب 0.7 لتر",
+        "تنر للرزن"
+      ],
+      "en": [
+        "thinner 0.7 l",
+        "paint thinner",
+        "solvent 0.7 l",
+        "resin thinner"
+      ]
+    }
+  }
+}

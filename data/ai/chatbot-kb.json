@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-10-22T09:26:52.476Z",
+  "faqs": [
+    {
+      "question": "Quels sont les frais de livraison ?",
+      "answer": "Les frais de livraison s'élèvent à 8,90 €. La livraison est gratuite à partir de 500 € d'achat."
+    },
+    {
+      "question": "Quel est le montant minimum pour bénéficier de la livraison gratuite ?",
+      "answer": "La livraison est offerte pour toute commande atteignant ou dépassant 500 €."
+    },
+    {
+      "question": "Quels types de produits proposez-vous ?",
+      "answer": "Nous proposons une large gamme de produits comprenant des résines epoxy, des silicones pour moules, des peintures acryliques, des produits de traitement pour piscine, des cires pour bougies, des colorants, pigments, vernis et produits d'étanchéité."
+    }
+  ],
+  "product_guidance": {
+    "resines": "Pour vos projets artistiques ou de stratification, nous proposons la Résine Epoxy 3D, la Résine Epoxy Autolissant 1 Kg et le Vitrail Transparent. Pensez à utiliser nos colorants pour résine epoxy et nos poudres métalliques pour personnaliser vos créations.",
+    "piscine": "Pour l'entretien de votre piscine, nous offrons une gamme complète : Chlore Choc, Chlore Multifonction, Floculant Liquide, AQUACID anti-algues, ainsi que pH Moins et pH Plus pour équilibrer l'eau.",
+    "bougies": "Pour la fabrication de bougies, nous disposons de cire de soja et de cire de paraffine.",
+    "etancheite": "Pour vos travaux d'isolation et d'étanchéité de toitures, découvrez notre produit DEEP ETANCHE PRO."
+  },
+  "shipping": {
+    "free": 500,
+    "fee": 8.9
+  },
+  "greetings": [
+    "Bonjour ! Bienvenue chez ASWEK. Comment puis-je vous aider aujourd'hui ?",
+    "Salut ! Vous cherchez des produits pour la résine, l'entretien de piscine ou les loisirs créatifs ? Je suis là pour vous renseigner.",
+    "Bonjour et bienvenue sur notre assistant ASWEK ! Posez-moi vos questions sur nos produits ou la livraison."
+  ]
+}

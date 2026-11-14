@@ -1,0 +1,7 @@
+{
+  "updated_at": "2026-10-23T19:54:03.006Z",
+  "note": "Surcharges saisies dans l'admin local. Source de verite ; compilee en data/ai/overrides-applied.json par scripts/apply-overrides.js. Aucune surcharge n'est publiee si status != 'approved' pour les descriptions.",
+  "seo": {},
+  "synonyms": {},
+  "descriptions": {}
+}

@@ -1,0 +1,74 @@
+/* ASWEK — styles de la recherche intelligente */
+.as-suggest-host { position: relative; }
+.as-suggest-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 1300;
+  background: #fff;
+  border: 1px solid var(--line, #e3e7e6);
+  border-radius: 10px;
+  box-shadow: 0 18px 48px rgba(11, 70, 73, .18);
+  overflow: hidden;
+  max-height: min(70vh, 480px);
+  overflow-y: auto;
+}
+.as-suggest-panel[hidden] { display: none; }
+.as-sg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  text-decoration: none !important;
+  color: var(--teal, #0b4649);
+  border-bottom: 1px solid #f0f3f2;
+}
+.as-sg:last-child { border-bottom: 0; }
+.as-sg:hover, .as-sg.active { background: #eef8f5; }
+.as-sg img { width: 38px; height: 38px; object-fit: contain; background: #f6f8f7; border-radius: 6px; flex: 0 0 38px; }
+.as-sg-txt { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.as-sg-name { font-weight: 600; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.as-sg-cat { font-size: 11.5px; color: #73827f; }
+.as-sg-go { font-size: 12px; color: #9aa8a5; }
+.as-sg-head {
+  padding: 8px 12px 4px;
+  font-size: 10.5px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #8a9996;
+  background: #fbfcfc;
+}
+.as-sg-ico { width: 22px; text-align: center; color: var(--green, #2fae8b); font-size: 15px; flex: 0 0 22px; }
+.as-sg-correct { background: #f3fbf8; }
+.as-sg-correct .as-sg-txt strong { color: var(--teal, #0b4649); }
+.as-sg-empty { padding: 14px 14px 8px; display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+.as-sg-empty span { font-size: 12px; color: #73827f; }
+.as-sg-foot {
+  display: block;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--teal, #0b4649);
+  background: #f7faf9;
+  text-decoration: none !important;
+  border-top: 1px solid #eef2f1;
+}
+.as-sg-foot:hover { background: #eef8f5; }
+
+/* Page de recherche */
+.as-search-correct { margin: 10px 0 0; font-size: 14px; }
+.as-search-correct a { color: var(--teal, #0b4649); font-weight: 700; text-decoration: underline; }
+.as-search-cats { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 14px 0 0; }
+.as-search-cats a {
+  display: inline-block; padding: 5px 12px; border-radius: 999px;
+  background: #eef8f5; color: var(--teal, #0b4649); font-size: 12.5px;
+  border: 1px solid #cfeae2; text-decoration: none !important;
+}
+.as-search-cats a:hover { background: #dcf1ea; }
+.as-search-hint { font-size: 12.5px; color: #73827f; margin-top: 6px; }
+@media (max-width: 991px) {
+  .as-suggest-panel { position: absolute; max-height: 60vh; }
+  .as-sg-name { white-space: normal; }
+}
