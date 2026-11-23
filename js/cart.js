@@ -1,9 +1,9 @@
-/* ASWEK - panier, tiroir panier, page panier et commande (WhatsApp / paiement à la livraison)
-   État dans localStorage ; aucun prix inventé : les prix viennent de js/data.js. */
+/* ASWEK - panier persistant, tiroir panier, page panier et commande via WhatsApp.
+   Aucun paiement : le client prépare sa commande puis l'envoie lui-même dans
+   WhatsApp. Les prix proviennent exclusivement de js/data.js. */
 
 const WA_NUMBER = '21629170566';
-const SHIPPING_FEE = 8.9;
-const FREE_SHIPPING_FROM = 500;
+const CUSTOMER_KEY = 'aswek_customer';
 
 const Cart = {
   key: 'aswek_cart',
@@ -14,7 +14,7 @@ const Cart = {
     raw.forEach(i => {
       const pid = parseInt(i && i.pid, 10), vi = parseInt(i && i.vi, 10) || 0, qty = parseInt(i && i.qty, 10);
       if (!pid || !(qty > 0)) return;
-      const k = pid + ':' + vi; const q = Math.min(99, qty);
+      const k = pid + ':' + vi, q = Math.min(99, qty);
       seen.set(k, { pid, vi: vi < 0 ? 0 : vi, qty: Math.min(99, (seen.get(k) ? seen.get(k).qty : 0) + q) });
     });
     return [...seen.values()];
@@ -31,12 +31,12 @@ const Cart = {
       if (!p) return null;
       const v = (p.variations || [])[it.vi] || (p.variations || [])[0] || null;
       const price = v && v.price > 0 ? v.price : (p.priceFrom || 0);
-      return { pid: it.pid, vi: it.vi, qty: it.qty, p, v, price, img: (v && v.img) || p.img, total: price * it.qty };
+      return { pid: it.pid, vi: it.vi, qty: it.qty, p, v, price,
+        img: (v && v.img) || p.img, total: price * it.qty };
     }).filter(Boolean);
   },
   count() { return this.lines().reduce((n, l) => n + l.qty, 0); },
   subtotal() { return this.lines().reduce((s, l) => s + l.total, 0); },
-  shipping(sub) { return sub === 0 || sub >= FREE_SHIPPING_FROM ? 0 : SHIPPING_FEE; },
   add(pid, vi, qty) {
     pid = +pid; vi = +vi || 0; qty = Math.max(1, +qty || 1);
     const items = this.read();
@@ -53,10 +53,73 @@ const Cart = {
   clear() { this.write([]); }
 };
 
-function money(n) { return n.toFixed(2).replace('.', ',') + ' DT'; }
-function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+/* Format "DT" lisible : 50 DT, 100 DT, 4,50 DT */
+function money(n) {
+  const v = Math.round((+n || 0) * 100) / 100;
+  return (Number.isInteger(v) ? String(v) : v.toFixed(2).replace('.', ',')) + ' DT';
+}
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
 function productHref(p) { return `product.html?p=${encodeURIComponent(p.slug || p.id)}`; }
 
+/* Coordonnées du client (conservées elles aussi après actualisation) */
+function readCustomer() {
+  let d = {}; try { d = JSON.parse(localStorage.getItem(CUSTOMER_KEY)); } catch (e) {}
+  return d && typeof d === 'object' ? d : {};
+}
+function writeCustomer(d) {
+  try { localStorage.setItem(CUSTOMER_KEY, JSON.stringify(d)); } catch (e) {}
+}
+
+function lineLabel(l) {
+  return l.p.name + (l.p.variations.length > 1 && l.v ? ' — ' + l.v.value : '');
+}
+
+/* ------------------------ message WhatsApp ------------------------ */
+function buildWhatsAppMessage(lines, customer) {
+  const c = customer || {};
+  const parts = [
+    'Bonjour, je souhaite passer une commande depuis votre site web.',
+    '',
+    'Ma commande :',
+    ''
+  ];
+  lines.forEach((l, i) => {
+    parts.push(`${i + 1}. ${lineLabel(l)}`);
+    parts.push(`   Quantité : ${l.qty}`);
+    parts.push(`   Prix unitaire : ${money(l.price)}`);
+    parts.push(`   Sous-total : ${money(l.total)}`);
+    parts.push('');
+  });
+  const total = lines.reduce((s, l) => s + l.total, 0);
+  parts.push('-------------------------');
+  parts.push('');
+  parts.push(`Total de la commande : ${money(total)}`);
+  parts.push('');
+
+  const fields = [
+    ['Nom et prénom', c.nom],
+    ['Numéro de téléphone', c.tel],
+    ['Ville', c.ville],
+    ['Adresse de livraison', c.adresse],
+    ['Remarque', c.remarque]
+  ].filter(([, v]) => v && String(v).trim());
+  if (fields.length) {
+    parts.push('Informations de livraison :');
+    fields.forEach(([label, value]) => parts.push(`${label} : ${String(value).trim()}`));
+    parts.push('');
+  }
+  parts.push('Merci de me confirmer la disponibilité des produits et les détails de livraison.');
+  return parts.join('\n');
+}
+
+function buildWhatsAppURL(lines, customer) {
+  return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(buildWhatsAppMessage(lines, customer))}`;
+}
+
+/* ------------------------ tiroir panier ------------------------ */
 const CartUI = {
   init() {
     const icon = `<svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2.2l2.3 11.2a1.5 1.5 0 0 0 1.5 1.2h8.2a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6.1"/><circle cx="9.5" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>`;
@@ -101,10 +164,13 @@ const CartUI = {
   handle(e) {
     const b = e.target.closest('[data-act]'); if (!b) return;
     const pid = +b.dataset.pid, vi = +b.dataset.vi;
-    const line = Cart.read().find(i => i.pid === pid && i.vi === vi);
-    if (b.dataset.act === 'inc') Cart.setQty(pid, vi, line.qty + 1);
-    if (b.dataset.act === 'dec') Cart.setQty(pid, vi, line.qty - 1);
+    if (b.dataset.act === 'inc' || b.dataset.act === 'dec') {
+      const line = Cart.read().find(i => i.pid === pid && i.vi === vi);
+      if (!line) return;
+      Cart.setQty(pid, vi, line.qty + (b.dataset.act === 'inc' ? 1 : -1));
+    }
     if (b.dataset.act === 'del') Cart.setQty(pid, vi, 0);
+    if (b.dataset.act === 'clear') { Cart.clear(); showToast('Panier vidé'); }
   },
   lineHTML(l) {
     return `<div class="cart-line">
@@ -112,22 +178,25 @@ const CartUI = {
       <div class="cart-line-info">
         <a class="cart-line-name" href="${productHref(l.p)}">${esc(l.p.name)}</a>
         ${l.v && l.p.variations.length > 1 ? `<div class="cart-line-var">${esc(l.v.value)}</div>` : ''}
-        <div class="cart-line-price">${money(l.price)}</div>
+        <div class="cart-line-price">Prix unitaire : ${money(l.price)}</div>
         <div class="qty-stepper" role="group" aria-label="Quantité">
-          <button data-act="dec" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Moins">−</button>
+          <button type="button" data-act="dec" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Moins">−</button>
           <span>${l.qty}</span>
-          <button data-act="inc" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Plus">+</button>
+          <button type="button" data-act="inc" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Plus">+</button>
         </div>
       </div>
       <div class="cart-line-side">
+        <span class="cart-line-sub">Sous-total</span>
         <strong>${money(l.total)}</strong>
-        <button class="cart-del" data-act="del" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Supprimer">Supprimer</button>
+        <button type="button" class="cart-del" data-act="del" data-pid="${l.pid}" data-vi="${l.vi}" aria-label="Supprimer">Supprimer</button>
       </div>
     </div>`;
   },
   refresh() {
     document.querySelectorAll('[data-cart-count]').forEach(el => {
-      const n = Cart.count(); el.textContent = n; el.style.display = n ? 'flex' : 'none';
+      const n = Cart.count(), changed = el.textContent !== String(n);
+      el.textContent = n; el.style.display = n ? 'flex' : 'none';
+      if (changed && n) { el.classList.remove('pop'); void el.offsetWidth; el.classList.add('pop'); }
     });
     const body = document.getElementById('cartDrawerBody'), foot = document.getElementById('cartDrawerFoot');
     if (!body) return;
@@ -136,35 +205,45 @@ const CartUI = {
       body.innerHTML = `<div class="cart-empty"><p>Votre panier est vide.</p><a class="btn-primary" href="shop.html">Découvrir la boutique</a></div>`;
       foot.innerHTML = ''; return;
     }
-    const sub = Cart.subtotal(), ship = Cart.shipping(sub);
-    const left = FREE_SHIPPING_FROM - sub;
-    body.innerHTML = `<div class="free-ship">${left > 0
-      ? `Plus que <strong>${money(left)}</strong> pour la livraison gratuite`
-      : '✓ Livraison gratuite pour cette commande'}
-      <div class="free-ship-bar"><span style="width:${Math.min(100, sub / FREE_SHIPPING_FROM * 100)}%"></span></div></div>`
+    const sub = Cart.subtotal();
+    body.innerHTML = `<p class="cart-tip">Ajoutez plusieurs produits, puis envoyez votre commande en une seule fois sur WhatsApp.</p>`
       + lines.map(l => this.lineHTML(l)).join('');
     foot.innerHTML = `
       <div class="sum-row"><span>Sous-total</span><strong>${money(sub)}</strong></div>
-      <div class="sum-row"><span>Livraison</span><strong>${ship ? money(ship) : 'Gratuite'}</strong></div>
-      <div class="sum-row total"><span>Total</span><strong>${money(sub + ship)}</strong></div>
-      <a class="btn-primary btn-long" href="checkout.html">Passer la commande</a>
+      <div class="sum-row total"><span>Total de la commande</span><strong>${money(sub)}</strong></div>
+      <a class="btn-whatsapp btn-long" href="cart.html#commande">Commander via WhatsApp</a>
       <a class="btn-primary-outline btn-long" href="cart.html">Voir le panier</a>`;
   }
 };
 
-/* Ajout au panier depuis une carte produit (bouton "quick-add") */
+/* Ajout au panier depuis une carte produit (quantité + option choisies sur la carte) */
 function bindQuickAdd() {
-  document.querySelectorAll('[data-quick-add]').forEach(btn => {
-    if (btn.dataset.bound) return; btn.dataset.bound = '1';
-    btn.addEventListener('click', e => {
+  if (bindQuickAdd.bound) return;
+  bindQuickAdd.bound = true;
+  document.addEventListener('click', e => {
+    const step = e.target.closest('[data-card-qty-step]');
+    if (step) {
+      const box = step.closest('[data-card-qty]');
+      const val = box && box.querySelector('[data-qty-val]');
+      if (!val) return;
       e.preventDefault();
-      const p = PRODUCTS.find(x => x.id === +btn.dataset.quickAdd);
-      if (!p) return;
-      if ((p.variations || []).length > 1) { location.href = productHref(p); return; }
-      Cart.add(p.id, 0, 1);
-      showToast('Ajouté au panier');
-      CartUI.open();
-    });
+      let q = parseInt(val.textContent, 10) || 1;
+      q = Math.max(1, Math.min(99, q + (+step.dataset.cardQtyStep || 0)));
+      val.textContent = q;
+      return;
+    }
+    const btn = e.target.closest('[data-quick-add]');
+    if (!btn) return;
+    e.preventDefault(); e.stopPropagation();
+    const p = PRODUCTS.find(x => x.id === +btn.dataset.quickAdd);
+    if (!p) return;
+    const card = btn.closest('.product-card');
+    const val = card && card.querySelector('[data-qty-val]');
+    const qty = Math.max(1, Math.min(99, parseInt(val && val.textContent, 10) || 1));
+    const sel = card && card.querySelector('[data-card-variation]');
+    const vi = sel ? (+sel.value || 0) : 0;
+    Cart.add(p.id, vi, qty);
+    showToast(`${qty} × ${p.name} ajouté au panier`);
   });
 }
 
@@ -174,104 +253,94 @@ function renderCartPage() {
   const paint = () => {
     const lines = Cart.lines();
     if (!lines.length) {
-      root.innerHTML = `<div class="cart-empty big"><p>Votre panier est vide.</p><a class="btn-primary" href="shop.html">Continuer vos achats</a></div>`;
+      root.innerHTML = `<div class="cart-empty big"><p>Votre panier est vide.</p><a class="btn-primary" href="shop.html">Découvrir les produits</a></div>`;
       return;
     }
-    const sub = Cart.subtotal(), ship = Cart.shipping(sub);
-    root.innerHTML = `<div class="row g-4">
-      <div class="col-12 col-lg-8"><div class="cart-lines-box">${lines.map(l => CartUI.lineHTML(l)).join('')}</div>
-        <a class="back-link" href="shop.html">← Continuer vos achats</a></div>
-      <div class="col-12 col-lg-4"><div class="cart-summary">
-        <h4>Récapitulatif</h4>
-        <div class="sum-row"><span>Sous-total</span><strong>${money(sub)}</strong></div>
-        <div class="sum-row"><span>Livraison</span><strong>${ship ? money(ship) : 'Gratuite'}</strong></div>
-        <div class="sum-row total"><span>Total</span><strong>${money(sub + ship)}</strong></div>
-        <a class="btn-primary btn-long" href="checkout.html">Passer la commande</a>
-        <p class="small mt-3 mb-0">Livraison gratuite dès ${FREE_SHIPPING_FROM} DT d'achat. Paiement à la livraison.</p>
-      </div></div></div>`;
+    const c = readCustomer(), sub = Cart.subtotal();
+    root.innerHTML = `<div class="row g-4" id="commande">
+      <div class="col-12 col-lg-7">
+        <div class="cart-lines-box">
+          <div class="cart-lines-head">
+            <h4>${lines.length} produit${lines.length !== 1 ? 's' : ''} dans votre panier</h4>
+            <button type="button" class="cart-clear" data-act="clear">Vider le panier</button>
+          </div>
+          ${lines.map(l => CartUI.lineHTML(l)).join('')}
+        </div>
+        <a class="back-link" href="shop.html">← Continuer à parcourir les produits</a>
+
+        <form id="orderForm" class="co-box cart-customer-form" novalidate>
+          <h4>Informations pour la livraison</h4>
+          <p class="small">Ces informations seront ajoutées automatiquement à votre message WhatsApp.</p>
+          <div class="row g-3">
+            <div class="col-12 col-sm-6"><label for="coNom">Nom et prénom *<input id="coNom" name="nom" required autocomplete="name" value="${esc(c.nom)}"></label></div>
+            <div class="col-12 col-sm-6"><label for="coTel">Numéro de téléphone *<input id="coTel" name="tel" required inputmode="tel" autocomplete="tel" placeholder="Ex : 29 170 566" value="${esc(c.tel)}"></label></div>
+            <div class="col-12 col-sm-6"><label for="coVille">Ville *<input id="coVille" name="ville" required autocomplete="address-level2" value="${esc(c.ville)}"></label></div>
+            <div class="col-12 col-sm-6"><label for="coAdresse">Adresse de livraison (facultative)<input id="coAdresse" name="adresse" autocomplete="street-address" value="${esc(c.adresse)}"></label></div>
+            <div class="col-12"><label for="coRemarque">Remarque (facultative)<textarea id="coRemarque" name="remarque" rows="3">${esc(c.remarque)}</textarea></label></div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="cart-summary">
+          <h4>Récapitulatif</h4>
+          <div class="sum-row"><span>Sous-total</span><strong>${money(sub)}</strong></div>
+          <div class="sum-row"><span>Livraison</span><span class="small">À confirmer avec ASWEK</span></div>
+          <div class="sum-row total"><span>Total de la commande</span><strong>${money(sub)}</strong></div>
+          <div class="co-error" id="orderError" role="alert"></div>
+          <button type="submit" form="orderForm" class="btn-whatsapp btn-long" id="waOrderBtn" ${lines.length ? '' : 'disabled'}>
+            <svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true"><path fill="#fff" d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8c1.9 1 4 1.6 6.2 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3Zm7.6 18.3c-.3.9-1.8 1.7-2.5 1.8-.6.1-1.4.1-2.3-.2-.5-.2-1.2-.4-2-.8-3.6-1.5-5.9-5.1-6.1-5.4-.2-.2-1.4-1.9-1.4-3.6s.9-2.6 1.2-2.9c.3-.3.7-.4.9-.4h.6c.2 0 .5-.1.8.6l1.1 2.6c.1.2.1.4 0 .6l-.4.6-.6.7c-.2.2-.4.4-.2.8.2.4.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.4.2.6.1.8-.1l1.2-1.4c.2-.3.4-.2.7-.1l2.4 1.1c.4.2.6.3.7.5.1.2.1.9-.2 1.7Z"/></svg>
+            Commander via WhatsApp
+          </button>
+          <p class="wa-note">Votre commande sera confirmée par WhatsApp après réception de votre message.</p>
+          <p class="wa-small">Le message s'ouvre déjà rempli : vérifiez-le puis appuyez sur « Envoyer » dans WhatsApp. Votre panier reste disponible. Si WhatsApp ne s'ouvre pas, autorisez les fenêtres surgissantes.</p>
+        </div>
+      </div>
+    </div>`;
+    if (location.hash === '#commande') {
+      const form = document.getElementById('orderForm');
+      if (form) form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   };
+
   root.addEventListener('click', e => CartUI.handle(e));
+  root.addEventListener('input', e => {
+    if (!e.target.name || !e.target.closest('#orderForm')) return;
+    const c = readCustomer(); c[e.target.name] = e.target.value; writeCustomer(c);
+  });
+  root.addEventListener('submit', e => {
+    if (e.target.id !== 'orderForm') return;
+    e.preventDefault();
+    const form = e.target, err = document.getElementById('orderError');
+    const d = Object.fromEntries(new FormData(form));
+    Object.keys(d).forEach(k => { d[k] = String(d[k]).trim(); });
+
+    const missing = ['nom', 'tel', 'ville'].filter(k => !d[k]);
+    form.querySelectorAll('input,textarea').forEach(i => i.classList.toggle('invalid', missing.includes(i.name)));
+    if (missing.length) {
+      err.textContent = 'Veuillez remplir : ' + missing.map(k => ({ nom: 'le nom', tel: 'le téléphone', ville: 'la ville' }[k])).join(', ') + '.';
+      const first = form.querySelector('.invalid'); if (first) first.focus();
+      return;
+    }
+    if (!/^[+\d][\d\s.-]{6,}$/.test(d.tel)) {
+      err.textContent = 'Numéro de téléphone invalide.';
+      form.elements.tel.classList.add('invalid'); form.elements.tel.focus(); return;
+    }
+    const lines = Cart.lines();
+    if (!lines.length) { err.textContent = 'Votre panier est vide.'; return; }
+
+    err.textContent = '';
+    writeCustomer(d);
+    const url = buildWhatsAppURL(lines, d);
+    window.open(url, '_blank', 'noopener,noreferrer');
+    /* Le panier n'est pas vidé et aucune confirmation n'est affichée :
+       seul l'envoi réel du message dans WhatsApp confirmera la commande. */
+  });
   document.addEventListener('aswek:cart', paint);
   paint();
 }
 
-/* ------------------------ commande ------------------------ */
-const GOUVERNORATS = ['Ariana', 'Béja', 'Ben Arous', 'Bizerte', 'Gabès', 'Gafsa', 'Jendouba', 'Kairouan', 'Kasserine', 'Kébili', 'Le Kef', 'Mahdia', 'La Manouba', 'Médenine', 'Monastir', 'Nabeul', 'Sfax', 'Sidi Bouzid', 'Siliana', 'Sousse', 'Tataouine', 'Tozeur', 'Tunis', 'Zaghouan'];
-
-function renderCheckoutPage() {
-  const root = document.getElementById('checkoutPage'); if (!root) return;
-  const lines = Cart.lines();
-  if (!lines.length) {
-    root.innerHTML = `<div class="cart-empty big"><p>Votre panier est vide.</p><a class="btn-primary" href="shop.html">Aller à la boutique</a></div>`;
-    return;
-  }
-  const sub = Cart.subtotal(), ship = Cart.shipping(sub), total = sub + ship;
-  root.innerHTML = `<form id="checkoutForm" class="row g-4" novalidate>
-    <div class="col-12 col-lg-7">
-      <div class="co-box">
-        <h4>Vos coordonnées</h4>
-        <div class="row g-3">
-          <div class="col-12 col-sm-6"><label>Nom complet *<input name="nom" required autocomplete="name"></label></div>
-          <div class="col-12 col-sm-6"><label>Téléphone *<input name="tel" required inputmode="tel" autocomplete="tel" placeholder="Ex : 29 170 566"></label></div>
-          <div class="col-12"><label>E-mail (optionnel)<input name="email" type="email" autocomplete="email"></label></div>
-          <div class="col-12 col-sm-6"><label>Gouvernorat *<select name="gov" required><option value="">Choisir…</option>${GOUVERNORATS.map(g => `<option>${g}</option>`).join('')}</select></label></div>
-          <div class="col-12 col-sm-6"><label>Ville *<input name="ville" required autocomplete="address-level2"></label></div>
-          <div class="col-12"><label>Adresse de livraison *<input name="adresse" required autocomplete="street-address"></label></div>
-          <div class="col-12"><label>Note pour la commande (optionnel)<textarea name="note" rows="3"></textarea></label></div>
-        </div>
-      </div>
-      <div class="co-box">
-        <h4>Mode de paiement</h4>
-        <label class="co-radio"><input type="radio" name="pay" value="Paiement à la livraison" checked> <span><strong>Paiement à la livraison</strong><br><small>Vous payez en espèces à la réception de votre colis.</small></span></label>
-        <label class="co-radio"><input type="radio" name="pay" value="Virement / à convenir par WhatsApp"> <span><strong>Autre moyen (convenu par WhatsApp)</strong><br><small>Notre équipe vous contacte pour finaliser le paiement.</small></span></label>
-      </div>
-    </div>
-    <div class="col-12 col-lg-5"><div class="cart-summary">
-      <h4>Votre commande</h4>
-      ${lines.map(l => `<div class="co-line"><span>${esc(l.p.name)}${l.p.variations.length > 1 ? ' — ' + esc(l.v.value) : ''} × ${l.qty}</span><strong>${money(l.total)}</strong></div>`).join('')}
-      <div class="sum-row mt-3"><span>Sous-total</span><strong>${money(sub)}</strong></div>
-      <div class="sum-row"><span>Livraison</span><strong>${ship ? money(ship) : 'Gratuite'}</strong></div>
-      <div class="sum-row total"><span>Total</span><strong>${money(total)}</strong></div>
-      <div class="co-error" id="coError" role="alert"></div>
-      <button type="submit" class="btn-primary btn-long">Confirmer la commande</button>
-      <p class="small mt-3 mb-0">Votre commande est enregistrée puis envoyée à notre équipe via WhatsApp pour confirmation.</p>
-    </div></div></form>`;
-
-  document.getElementById('checkoutForm').addEventListener('submit', e => {
-    e.preventDefault();
-    const f = e.target, d = Object.fromEntries(new FormData(f));
-    const err = document.getElementById('coError');
-    const missing = ['nom', 'tel', 'gov', 'ville', 'adresse'].filter(k => !(d[k] || '').trim());
-    f.querySelectorAll('input,select').forEach(i => i.classList.toggle('invalid', missing.includes(i.name)));
-    if (missing.length) { err.textContent = 'Veuillez remplir les champs obligatoires.'; return; }
-    if (!/^[+\d][\d\s.-]{6,}$/.test(d.tel.trim())) { err.textContent = 'Numéro de téléphone invalide.'; f.tel.classList.add('invalid'); return; }
-    err.textContent = '';
-    const ref = 'ASW-' + Date.now().toString(36).toUpperCase().slice(-6);
-    const order = { ref, date: new Date().toISOString(), customer: d, total, shipping: ship,
-      items: lines.map(l => ({ name: l.p.name, variation: l.v ? l.v.value : '', qty: l.qty, price: l.price })) };
-    try {
-      const all = JSON.parse(localStorage.getItem('aswek_orders') || '[]'); all.push(order);
-      localStorage.setItem('aswek_orders', JSON.stringify(all));
-    } catch (x) {}
-    const msg = [`Nouvelle commande ${ref}`, '',
-      ...order.items.map(i => `• ${i.name}${i.variation && lines.find(l => l.p.name === i.name).p.variations.length > 1 ? ' (' + i.variation + ')' : ''} × ${i.qty} — ${money(i.price * i.qty)}`),
-      '', `Livraison : ${ship ? money(ship) : 'Gratuite'}`, `Total : ${money(total)}`, `Paiement : ${d.pay}`, '',
-      `Nom : ${d.nom}`, `Tél : ${d.tel}`, d.email ? `E-mail : ${d.email}` : '',
-      `Adresse : ${d.adresse}, ${d.ville}, ${d.gov}`, d.note ? `Note : ${d.note}` : ''].filter(x => x !== '').join('\n');
-    const wa = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
-    Cart.clear();
-    root.innerHTML = `<div class="co-success">
-      <div class="co-check">✓</div><h2>Merci ${esc(d.nom.split(' ')[0])} !</h2>
-      <p>Votre commande <strong>${ref}</strong> est enregistrée (total : <strong>${money(total)}</strong>).</p>
-      <p>Pour la confirmer, envoyez-la à notre équipe sur WhatsApp :</p>
-      <a class="btn-primary" href="${wa}" target="_blank" rel="noopener">Envoyer sur WhatsApp</a>
-      <a class="btn-primary-outline" href="index.html">Retour à l'accueil</a></div>`;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    window.open(wa, '_blank', 'noopener');
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-  CartUI.init(); bindQuickAdd(); renderCartPage(); renderCheckoutPage();
-  new MutationObserver(bindQuickAdd).observe(document.body, { childList: true, subtree: true });
+  /* Anciennes données de l'ancien parcours paiement : plus utilisées. */
+  try { localStorage.removeItem('aswek_orders'); } catch (e) {}
+  CartUI.init(); bindQuickAdd(); renderCartPage();
 });

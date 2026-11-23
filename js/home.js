@@ -155,7 +155,7 @@ function sectionCategories(section, index) {
         <img src="${c.img}" alt="${c.name}" loading="lazy">
         <span class="refcat-inner">
           <span class="refcat-title"><span class="refcat-name">${c.name}</span></span>
-          <span class="refcat-buy">acheter</span>
+          <span class="refcat-buy">Commander</span>
         </span>
       </a>
     </div>`).join('');

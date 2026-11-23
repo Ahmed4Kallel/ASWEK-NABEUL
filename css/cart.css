@@ -3,6 +3,7 @@
 .button-cart-link .cart-ico { position: relative; display: inline-block; line-height: 0; }
 .button-cart-link .very-small { font-size: 11px; color: #fff; }
 .bubble-num { display: none; }
+.bubble-num.pop { animation: pop .4s ease; }
 
 .cart-overlay { position: fixed; inset: 0; background: rgba(8,28,30,.55); opacity: 0; pointer-events: none; transition: opacity .3s ease; z-index: 1900; }
 .cart-overlay.open { opacity: 1; pointer-events: auto; }
@@ -15,15 +16,19 @@
 .cart-drawer-body { flex: 1; overflow-y: auto; padding: 8px 22px; }
 .cart-drawer-foot { padding: 16px 22px 22px; border-top: 1px solid var(--line); display: grid; gap: 10px; }
 
-.free-ship { background: var(--soft); border-radius: 12px; padding: 12px 14px; margin: 12px 0; font-size: 13px; }
-.free-ship-bar { height: 6px; border-radius: 6px; background: #d5dfdf; margin-top: 8px; overflow: hidden; }
-.free-ship-bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--green-dark), var(--green)); transition: width .4s ease; }
+.cart-tip { background: var(--soft); border-radius: 10px; padding: 10px 14px; margin: 12px 0; font-size: 13px; color: var(--teal); }
 
 .cart-line { display: grid; grid-template-columns: 76px 1fr auto; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: start; }
 .cart-line img { width: 76px; height: 76px; object-fit: contain; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
 .cart-line-name { font-weight: 700; font-size: 14px; color: var(--teal); text-decoration: none; display: block; }
 .cart-line-var, .cart-line-price { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
-.cart-line-side { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; font-size: 14px; }
+.cart-line-side { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; font-size: 14px; }
+.cart-line-side strong { font-size: 15px; }
+.cart-line-sub { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.cart-lines-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0 6px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.cart-lines-head h4 { margin: 0; font-size: 16px; font-weight: 800; }
+.cart-clear { background: none; border: 0; color: var(--muted); font-size: 12.5px; text-decoration: underline; cursor: pointer; padding: 4px 0; }
+.cart-clear:hover { color: #b3261e; }
 .cart-del { background: none; border: 0; color: var(--muted); font-size: 12px; text-decoration: underline; cursor: pointer; padding: 0; }
 .cart-del:hover { color: #b3261e; }
 .qty-stepper { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; margin-top: 8px; overflow: hidden; }
@@ -34,6 +39,23 @@
 .sum-row { display: flex; justify-content: space-between; font-size: 14px; padding: 4px 0; }
 .sum-row.total { font-size: 18px; border-top: 1px solid var(--line); margin-top: 6px; padding-top: 12px; }
 .btn-long { width: 100%; text-align: center; display: block; text-decoration: none; }
+
+/* Bouton WhatsApp : vert de la marque, adapté au design existant */
+.btn-whatsapp {
+  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+  width: 100%; border: 1px solid #1da851; border-radius: 25px;
+  background: linear-gradient(135deg, #25d366 0%, #1da851 100%);
+  color: #fff; font-weight: 800; font-size: 16px; padding: 13px 20px;
+  text-decoration: none; cursor: pointer;
+  box-shadow: 0 6px 16px rgba(29,168,81,.22);
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+.btn-whatsapp:hover { color: #fff; transform: translateY(-1px); filter: brightness(1.04); box-shadow: 0 9px 20px rgba(29,168,81,.3); }
+.btn-whatsapp:active { transform: none; }
+.btn-whatsapp:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; transform: none; }
+.wa-note { margin: 12px 0 0; font-size: 13px; font-weight: 700; color: var(--green-dark); line-height: 1.4; }
+.wa-small { margin: 6px 0 0; font-size: 12px; color: var(--muted); line-height: 1.45; }
+.cart-customer-form { margin-top: 20px; }
 
 .cart-empty { text-align: center; padding: 60px 10px; }
 .cart-empty.big { padding: 90px 10px; }
@@ -66,8 +88,17 @@
 .product-card .card-title { font-weight: 600; text-decoration: none; }
 .product-card .product-price { margin-top: auto; }
 .product-card .quick-add { background: var(--teal); }
+.product-card .card-add-bar { align-items: stretch; }
+.product-card .card-variation {
+  flex: 1 1 100%; width: 100%; min-width: 0; padding: 7px 10px; border: 1px solid var(--line);
+  border-radius: 20px; background: #fff; color: var(--teal); font-size: 12px; font-weight: 600;
+}
+.product-card .card-qty { margin: 0; flex: 0 0 auto; background: #fff; }
+.product-card .card-qty button { width: 28px; height: 32px; font-size: 15px; }
+.product-card .card-qty span { min-width: 24px; font-size: 12px; }
+.product-card .card-add-bar .quick-add { min-height: 32px; }
 
-/* Fiche produit : prix, quantité, achat */
+/* Fiche produit : prix, quantité, ajout au panier */
 .pp-price { font-size: 30px; font-weight: 800; color: var(--teal); margin: 14px 0 4px; }
 .pp-price small { font-size: 14px; font-weight: 500; color: var(--muted); }
 .pp-buy { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 18px; }
@@ -79,7 +110,11 @@
 @media (max-width: 575px) {
   .cart-line { grid-template-columns: 64px 1fr; }
   .cart-line img { width: 64px; height: 64px; }
-  .cart-line-side { grid-column: 2; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; }
+  .cart-line-side { grid-column: 2; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%; }
   .cart-summary { position: static; }
   .pp-price { font-size: 26px; }
+  .cart-lines-head { align-items: flex-start; }
+  .btn-whatsapp { font-size: 15px; padding: 12px 16px; }
+  .product-card .card-add-bar { gap: 5px; }
+  .product-card .card-qty button { width: 26px; height: 30px; }
 }

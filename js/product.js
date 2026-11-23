@@ -88,13 +88,11 @@ function renderProductTop() {
       </div>
       <div class="costoshipping">
         <span>🕑</span>
-        <span>Commandez maintenant pour recevoir votre produit entre le <strong>jeudi 22 octobre</strong> et le <strong>lundi 26 octobre</strong>.</span>
+        <span>Commandez via WhatsApp : notre équipe vous confirmera les détails de livraison.</span>
       </div>
       <div class="costoshipping">
         <span>🚚</span>
-        ${product.cur === 'TND'
-          ? `<span>Livraison à domicile 8,90 DT - <strong>Gratuit</strong> pour les commandes supérieures à 500 DT</span>`
-          : `<span>Livraison à domicile €8.90 - <strong>Gratuit</strong> pour les commandes supérieures à 500 DT</span>`}
+        <span>Livraison : à confirmer avec ASWEK lors de votre commande via WhatsApp.</span>
       </div>
       ${product.variations.length ? `
       <div class="variation-box-container" id="variationBoxes">
@@ -107,7 +105,7 @@ function renderProductTop() {
       <div class="pp-buy">
         <div class="qty-stepper" id="ppQty"><button type="button" data-q="-1" aria-label="Moins">−</button><span id="ppQtyVal">1</span><button type="button" data-q="1" aria-label="Plus">+</button></div>
         <button type="button" class="btn-primary" id="addCartBtn">Ajouter au panier</button>
-        <button type="button" class="btn-primary-outline" id="buyNowBtn">Acheter maintenant</button>
+        <a class="btn-primary-outline" href="cart.html">Voir le panier</a>
       </div>
       <div class="rp-action-row">
         <button id="wishBtn"><svg viewBox="0 0 21 18" width="16" height="14" fill="currentColor"><path d="M10.5 17.35C7.13 15.41.59 10.7.5 6.01.41.89 6.17-1.43 10.5 2.97 14.83-1.43 20.59.89 20.5 6.01c-.09 4.7-6.63 9.4-10 11.34Z"/></svg> Ajouter aux favoris</button>
@@ -149,10 +147,8 @@ function renderProductTop() {
   });
   if (boxes) boxes.addEventListener('click', paintPrice);
   document.getElementById('addCartBtn').addEventListener('click', () => {
-    Cart.add(product.id, activeVariation, ppQty); showToast('Ajouté au panier'); CartUI.open();
-  });
-  document.getElementById('buyNowBtn').addEventListener('click', () => {
-    Cart.add(product.id, activeVariation, ppQty); location.href = 'checkout.html';
+    Cart.add(product.id, activeVariation, ppQty);
+    showToast(`${ppQty} × ${product.name} ajouté au panier`);
   });
 
   document.getElementById('wishBtn').addEventListener('click', () => {

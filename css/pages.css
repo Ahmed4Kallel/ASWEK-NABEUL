@@ -167,11 +167,6 @@
 .costoshipping { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--teal); margin: 6px 0; }
 .product-price { font-size: 26px; font-weight: 700; }
 .product-price .amount { font-weight: 700; }
-.rp-paylater {
-  display: flex; align-items: center; gap: 10px; background: var(--soft); border-radius: 8px; padding: 10px 14px; margin: 12px 0; font-size: 13px;
-}
-.rp-paylater img { width: 60px; }
-
 .variation-box-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
 .variation-box {
   border: 1px solid #ddd; cursor: pointer; text-align: center; user-select: none; padding: 8px 10px!important;
@@ -249,7 +244,7 @@
 .rp-sticky-add-to-cart-button { background: var(--teal); color: #fff; border: 0; border-radius: 25px; padding: 12px 26px; font-weight: 700; }
 @media (max-width:767px){ .rp-sticky-product-title { display: none; } }
 
-/* ---------- Cart / checkout ---------- */
+/* ---------- Panier / commande ---------- */
 .cart-table { width: 100%; border-collapse: collapse; }
 .cart-table th { text-align: left; font-size: 13px; text-transform: uppercase; color: var(--muted); padding: 10px; border-bottom: 2px solid var(--line); }
 .cart-table td { padding: 14px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
@@ -269,10 +264,6 @@
 .coupon-row { display: flex; gap: 8px; margin: 12px 0; }
 .coupon-row input { flex: 1; padding: 10px; border: 1px solid var(--line); border-radius: 8px; }
 
-.checkout-layout { display: flex; gap: 30px; align-items: flex-start; }
-.checkout-form { flex: 1; min-width: 0; }
-.checkout-review { width: 400px; flex: 0 0 400px; }
-@media (max-width:991px){ .checkout-layout { flex-direction: column; } .checkout-review { width: 100%; flex: none; } }
 .form-group { margin-bottom: 14px; }
 .form-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
 .form-group input, .form-group select, .form-group textarea {
@@ -281,9 +272,6 @@
 .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .review-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .review-table td { padding: 8px 0; border-bottom: 1px solid var(--line); }
-.payment-method { border: 1px solid var(--line); border-radius: 10px; padding: 14px; margin-bottom: 10px; }
-.payment-method label { display: flex; align-items: center; gap: 10px; font-weight: 600; cursor: pointer; }
-.payment-method .pm-logos { margin-left: auto; display: flex; gap: 6px; font-size: 11px; color: var(--muted); }
 
 /* wishlist */
 .wishlist-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
@@ -501,7 +489,7 @@
   .bs-card, .bs-card-img img, .bs-link { transition: none; }
 }
 
-/* ---------- Nos catégories (cartes façon resinpro.fr) ---------- */
+/* ---------- Nos catï¿½gories (cartes faï¿½on resinpro.fr) ---------- */
 .refcat-card {
   position: relative; display: block; height: 300px; border-radius: 10px;
   overflow: hidden; background: #f5f5f5;

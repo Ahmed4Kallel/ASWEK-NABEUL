@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+*credentials*.json
+*secrets*.json
+data/admin/admin-password.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.tmp/
+temp/
+tmp/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Generated admin data
+data/admin/backups/

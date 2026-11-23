@@ -36,6 +36,10 @@ function productCardHTML(p) {
   const badge = p.badge ? `<span class="discount-badge ${p.badgeClass || ''}">${p.badge}</span>` : '';
   const wish = Store.inWish(p.id) ? 'active' : '';
   const href = p.slug ? `product.html?p=${encodeURIComponent(p.slug)}` : `product.html?p=${p.id}`;
+  const variation = (p.variations || []).length > 1
+    ? `<select class="card-variation" data-card-variation="${p.id}" aria-label="Option de ${escHTML(p.name)}">
+        ${p.variations.map((v, i) => `<option value="${i}">${escHTML(v.value)}</option>`).join('')}
+      </select>` : '';
   return `
   <div class="product-card fade-up" data-id="${p.id}">
     <div class="card-img-wrap">
@@ -43,8 +47,16 @@ function productCardHTML(p) {
       <button class="wishlist-btn ${wish}" data-wish="${p.id}" title="Favoris">
         <svg viewBox="0 0 21 18" width="18" height="16" fill="currentColor"><path d="M10.5 17.35C7.13 15.41.59 10.7.5 6.01.41.89 6.17-1.43 10.5 2.97 14.83-1.43 20.59.89 20.5 6.01c-.09 4.7-6.63 9.4-10 11.34Z"/></svg>
       </button>
-      <a href="${href}"><img src="${p.img}" alt="${p.name}" loading="lazy"></a>
-      <button class="quick-add" data-quick-add="${p.id}" type="button">Ajouter au panier</button>
+      <a href="${href}"><img src="${p.img}" alt="${escHTML(p.name)}" loading="lazy"></a>
+      <div class="card-add-bar">
+        ${variation}
+        <div class="qty-stepper card-qty" data-card-qty="${p.id}" role="group" aria-label="Quantité">
+          <button type="button" data-card-qty-step="-1" aria-label="Diminuer la quantité">−</button>
+          <span data-qty-val>1</span>
+          <button type="button" data-card-qty-step="1" aria-label="Augmenter la quantité">+</button>
+        </div>
+        <button class="quick-add" data-quick-add="${p.id}" type="button">Ajouter au panier</button>
+      </div>
     </div>
     <div class="card-body">
       <a href="${href}" class="card-title d-block">${p.name}</a>
@@ -237,8 +249,8 @@ function footerHTML() {
         </div>
         <div class="col-3 col-lg-3"><img src="images/shipping.svg" alt="" style="margin:0 auto;"><h6>Livraison rapide</h6>
           <div class="small d-none d-lg-block">Service de livraison rapide avec coursier express en 24h</div></div>
-        <div class="col-3 col-lg-3"><img src="images/pagamenti_sicuri.svg" alt="" style="margin:0 auto;"><h6>Transactions sûres</h6>
-          <div class="small d-none d-lg-block">Achetez grâce à un système de paiement sûr.</div></div>
+        <div class="col-3 col-lg-3"><img src="images/pagamenti_sicuri.svg" alt="" style="margin:0 auto;"><h6>Commande via WhatsApp</h6>
+          <div class="small d-none d-lg-block">Commandez en toute confiance et recevez une confirmation sur WhatsApp.</div></div>
         <div class="col-3 col-lg-3"><img src="images/reso.svg" alt="" style="margin:0 auto;"><h6>Fabriqué en sécurité</h6>
           <div class="small d-none d-lg-block">Procédures simples et pratiques pour le retour des marchandises.</div></div>
       </div>

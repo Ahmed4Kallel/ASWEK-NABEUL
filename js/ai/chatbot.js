@@ -70,10 +70,10 @@
 
     if (/(livraison|frais|port|shipping|delivery|شحن|توصيل)/.test(n)) {
       return LANG === 'ar'
-        ? 'الشحن مجاني للطلبات التي تتجاوز 500 دينار تونسي، وإلا 8,90 دينار. مدة التوصيل عادة 24 إلى 72 ساعة.'
+        ? 'يتم تأكيد التوصيل مع ASWEK عند إرسال طلبك عبر واتساب.'
         : LANG === 'en'
-          ? 'Shipping is free for orders over 500 TND, otherwise 8.90 TND. Delivery usually takes 24 to 72 hours.'
-          : 'Livraison gratuite au-delà de 500 DT, sinon 8,90 DT. Délai habituel : 24 à 72 h.';
+          ? 'Delivery details are confirmed with ASWEK when you send your order on WhatsApp.'
+          : 'La livraison est confirmée avec ASWEK lors de votre commande via WhatsApp.';
     }
     if (/(whatsapp|contact|telephone|appeler|adresse|map|مغادرة|اتصال)/.test(n)) {
       return 'WhatsApp : +216 29 170 566 — adresse : Reva, Tunisie. Vous pouvez aussi utiliser le bouton Google Maps en bas de page.';

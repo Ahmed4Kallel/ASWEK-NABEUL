@@ -95,7 +95,7 @@ const CATEGORIES = [
     url: '#',
     groups: [
       { name: 'AIDE ET VIDÉOS', url: '#', items: ["Vidéos d'aide", "Articles d'aide", 'Calculateur de résine', 'FAQ', 'Documents (FDS & TDS)'] },
-      { name: 'SERVICE CLIENT', url: '#', items: ['Qui sommes-nous', 'Contacts', 'Livraison, Paiements et Retours', 'Termes et conditions', 'Détaillants / Gros consommateurs'] }
+      { name: 'SERVICE CLIENT', url: '#', items: ['Qui sommes-nous', 'Contacts', 'Livraison et retours', 'Termes et conditions', 'Détaillants / Gros consommateurs'] }
     ]
   }
 ];
@@ -501,7 +501,7 @@ const HERO_SLIDES = [
 ];
 
 const SERVICE_BADGES = [
-  { title: 'Achetez en 3 clics', text: 'Un parcours simple et rapide' },
+  { title: 'Commandez en 3 clics', text: 'Un parcours simple et rapide' },
   { title: 'Expédition en 24/48h', text: 'Vos produits expédiés rapidement' },
   { title: 'Assistance technique professionnelle', text: 'Une équipe experte à votre écoute' },
   { title: '200 000 créatifs sur les réseaux sociaux', text: 'Une communauté active' },
@@ -525,7 +525,7 @@ const HELP_LINKS = ["Vidéos d'aide", "Articles d'aide", 'Calculateur de résine
 
 const FOOTER_LINKS = [
   { title: 'AIDE ET VIDÉOS', items: HELP_LINKS },
-  { title: 'SERVICE CLIENT', items: ['Qui sommes-nous', 'Contacts', 'Livraison, Paiements et Retours', 'Termes et conditions', 'Détaillants / Gros consommateurs'] },
+  { title: 'SERVICE CLIENT', items: ['Qui sommes-nous', 'Contacts', 'Livraison et retours', 'Termes et conditions', 'Détaillants / Gros consommateurs'] },
   { title: 'INFORMATIONS', items: ['Frais de Livraison et de Transport', 'Favoris', 'Guides projet', 'Blog'] }
 ];
 
