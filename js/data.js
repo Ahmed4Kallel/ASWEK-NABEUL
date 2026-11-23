@@ -27,9 +27,6 @@ const CATEGORIES = [
     name: 'Silicones et moules',
     url: 'category.html?c=moules-silicones',
     groups: [
-      { name: 'Silicones pour moules', url: 'category.html?c=silicones-pour-moules', items: [
-        'BOYTEK', 'Silicone pour moule 5 kg'
-      ] },
       { name: 'Moules', url: 'category.html?c=moules', items: [
         'Moule en silicone 1', 'Moule en silicone 2',
         'Moule en silicone 3', 'Moule en silicone 4'
@@ -151,16 +148,18 @@ PRODUCTS.push(
       { value: '100 ml', price: 7, id: 9000021, img: ASWEK_IMG + 'vitrail-transparent.jpg' }
     ]
   }),
+  /* BOYTEK et Silicone pour moule 5 kg ne sont plus rattaches a cette categorie.
+     Leurs fiches restent disponibles par leur URL directe. */
   P({
     id: 900003, slug: 'aswek-boytek',
-    name: 'BOYTEK', cat: ['aswek', 'moules-silicones', 'silicones-pour-moules'],
+    name: 'BOYTEK', cat: ['aswek'],
     img: ASWEK_IMG + 'boytek.jpg', cur: 'TND',
     priceFrom: 15, priceTo: 20, rating: 0,
     variations: [ { value: 'Standard', price: 15, id: 9000030, img: ASWEK_IMG + 'boytek.jpg' } ]
   }),
   P({
     id: 900004, slug: 'aswek-silicone-pour-moule-5-kg',
-    name: 'Silicone pour moule 5 kg', cat: ['aswek', 'moules-silicones', 'silicones-pour-moules'],
+    name: 'Silicone pour moule 5 kg', cat: ['aswek'],
     img: ASWEK_IMG + 'silicone-pour-moule-5kg.png', cur: 'TND',
     priceFrom: 400, priceTo: 415, rating: 0,
     variations: [ { value: '5 kg', price: 400, id: 9000040, img: ASWEK_IMG + 'silicone-pour-moule-5kg.png' } ]
@@ -537,13 +536,13 @@ const HOMEPAGE_SECTIONS = [
   { marquee: true, title: 'Nos Résines', link: 'category.html?c=les-resines', linkText: 'Découvrez toutes les offres',
     ids: [900001, 900002, 900005, 900006, 900007, 900008, 900009, 900010] },
   { title: 'Moules et Silicones', link: 'category.html?c=moules-silicones', linkText: 'Découvrez toutes les offres',
-    ids: [900003, 900004] },
+    ids: [900045, 900046, 900047, 900048] },
   { marquee: true, title: 'Colorants et Pigments', link: 'category.html?c=colorants-et-pigments', linkText: 'Découvrez toutes les offres',
     ids: [900018, 900024, 900025, 900026, 900027, 900028, 900029, 900022, 900030, 900034] },
   { title: 'Nos catégories', link: 'shop.html', linkText: 'Toutes les catégories',
     categories: [
       { name: 'RÉSINES', img: ASWEK_IMG + 'resine-epoxy-3d.png', url: 'category.html?c=les-resines' },
-      { name: 'SILICONES ET MOULES', img: ASWEK_IMG + 'silicone-pour-moule-5kg.png', url: 'category.html?c=moules-silicones' },
+      { name: 'SILICONES ET MOULES', img: ASWEK_IMG + 'MOULE1.png', url: 'category.html?c=moules-silicones' },
       { name: 'COLORANTS ET PIGMENTS', img: ASWEK_IMG + 'poudre-metallique-nacre.jpg', url: 'category.html?c=colorants-et-pigments' },
       { name: 'DILUANTS ET VERNIS', img: ASWEK_IMG + 'diluant-4l.png', url: 'category.html?c=diluants-et-vernis' },
       { name: 'BOUGIES ET CIRES', img: ASWEK_IMG + 'cire-de-soja.jpg', url: 'category.html?c=bougies-et-cires' },

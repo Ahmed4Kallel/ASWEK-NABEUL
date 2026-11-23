@@ -10,7 +10,6 @@ const CAT_META = {
   'peintures-acryliques': { title: 'Peintures acryliques', desc: 'Peintures acryliques ASWEK.' },
   'colorant-resine': { title: 'Colorant pour résine', desc: 'Colorants ASWEK pour résine époxy.' },
   'moules-silicones': { title: 'Silicones et moules', desc: 'Silicones ASWEK pour fabriquer des moules et moules en silicone pour la coulée de résine.' },
-  'silicones-pour-moules': { title: 'Silicones pour moules', desc: 'Silicones ASWEK pour la fabrication de moules.' },
   'moules': { title: 'Moules en silicone', desc: 'Moules en silicone ASWEK pour la coulée de résine époxy et les créations décoratives.' },
   'colorants-et-pigments': { title: 'Colorants et Pigments', desc: 'Poudres métalliques, pigments, quartz, silice et décorations ASWEK.' },
   'poudre': { title: 'Poudres métalliques et nacrées', desc: 'Poudres métalliques et nacrées ASWEK.' },

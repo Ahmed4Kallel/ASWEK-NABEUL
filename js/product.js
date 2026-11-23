@@ -53,11 +53,13 @@ function fallbackContent() {
 
 function renderBreadcrumb() {
   const c = document.getElementById('breadcrumb');
-  const cat = (product.cat || []).find(x => x !== 'aswek' && !x.startsWith('aswek-')) || 'les-resines';
+  const cat = (product.cat || []).find(x => x !== 'aswek' && !x.startsWith('aswek-'));
+  const catCrumb = cat
+    ? `<a href="category.html?c=${encodeURIComponent(cat)}">${escHTML(prettyCat(cat))}</a><span class="sep">/</span>`
+    : '';
   c.innerHTML = `<a href="index.html">Accueil</a><span class="sep">/</span>
     <a href="shop.html">Boutique</a><span class="sep">/</span>
-    <a href="category.html?c=${encodeURIComponent(cat)}">${escHTML(prettyCat(cat))}</a><span class="sep">/</span>
-    <span class="current">${product.name}</span>`;
+    ${catCrumb}<span class="current">${product.name}</span>`;
 }
 
 function isEpoxyResinProduct(p) {

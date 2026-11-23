@@ -82,7 +82,7 @@
     const guides = {
       plateau: ['aswek-resine-epoxy-3d', 'aswek-resine-epoxy-autolissant-1-kg', 'aswek-colorant-pour-resine-epoxy'],
       bijou: ['aswek-vitrail-transparent', 'aswek-colorant-pour-resine-epoxy', 'aswek-poudre-metallique-gold-50-gr'],
-      moule: ['aswek-silicone-pour-moule-5-kg', 'aswek-boytek'],
+      moule: ['aswek-moule-en-silicone-1', 'aswek-moule-en-silicone-2', 'aswek-moule-en-silicone-3', 'aswek-moule-en-silicone-4'],
       bougie: ['aswek-cire-de-soja', 'aswek-cire-de-paraffine'],
       piscine: ['aswek-chlore-choc', 'aswek-ph-moins', 'aswek-ph-plus', 'aswek-floculant-liquide'],
       etancheite: ['aswek-deep-etanche-pro']
