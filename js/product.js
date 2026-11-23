@@ -71,12 +71,13 @@ function isEpoxyResinProduct(p) {
 function renderProductTop() {
   const gallery = (product.gallery && product.gallery.length) ? product.gallery : [product.img];
   const showCalc = isEpoxyResinProduct(product);
+  document.body.classList.toggle('mold-product', (product.cat || []).includes('moules'));
 
   document.getElementById('productTop').innerHTML = `
     <div class="colonna-immagine">
-      <div class="product-main-img"><img id="mainImg" src="${gallery[0]}" alt="${product.name}"></div>
+      <div class="product-main-img"><img id="mainImg" src="${gallery[0]}" alt="${escHTML(product.alt || product.name)}"></div>
       <div class="thumbnail-carousel" id="thumbs">
-        ${gallery.map((g, i) => `<div class="thumbnail-image ${i === 0 ? 'active' : ''}" data-thumb="${i}"><img src="${g}" alt=""></div>`).join('')}
+        ${gallery.map((g, i) => `<div class="thumbnail-image ${i === 0 ? 'active' : ''}" data-thumb="${i}"><img src="${g}" alt="${escHTML((product.alt || product.name) + ' — vue ' + (i + 1))}"></div>`).join('')}
       </div>
     </div>
     <div class="colonna-info">

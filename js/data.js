@@ -29,6 +29,10 @@ const CATEGORIES = [
     groups: [
       { name: 'Silicones pour moules', url: 'category.html?c=silicones-pour-moules', items: [
         'BOYTEK', 'Silicone pour moule 5 kg'
+      ] },
+      { name: 'Moules', url: 'category.html?c=moules', items: [
+        'Moule en silicone 1', 'Moule en silicone 2',
+        'Moule en silicone 3', 'Moule en silicone 4'
       ] }
     ]
   },
@@ -160,6 +164,60 @@ PRODUCTS.push(
     img: ASWEK_IMG + 'silicone-pour-moule-5kg.png', cur: 'TND',
     priceFrom: 400, priceTo: 415, rating: 0,
     variations: [ { value: '5 kg', price: 400, id: 9000040, img: ASWEK_IMG + 'silicone-pour-moule-5kg.png' } ]
+  }),
+  /* Moules en silicone : visuels fournis dans images/products/aswek/.
+     Aucun prix n'est inventé : le tarif est à confirmer par ASWEK. */
+  P({
+    id: 900045, slug: 'aswek-moule-en-silicone-1',
+    name: 'Moule en silicone 1', cat: ['aswek', 'moules-silicones', 'moules'],
+    img: ASWEK_IMG + 'MOULE1.png', alt: 'Moule en silicone pour résine époxy — modèle 1', cur: 'TND',
+    priceFrom: 0, priceTo: 0, rating: 0,
+    short: 'Moule en silicone pour créations en résine époxy. Prix sur demande.',
+    features: [
+      { label: 'Matière', value: 'Silicone souple', img: '' },
+      { label: 'Usage', value: 'Coulée de résine époxy', img: '' }
+    ],
+    gallery: [ASWEK_IMG + 'MOULE1.png'],
+    variations: [ { value: 'Standard', price: 0, id: 9000450, img: ASWEK_IMG + 'MOULE1.png' } ]
+  }),
+  P({
+    id: 900046, slug: 'aswek-moule-en-silicone-2',
+    name: 'Moule en silicone 2', cat: ['aswek', 'moules-silicones', 'moules'],
+    img: ASWEK_IMG + 'moule2.png', alt: 'Moule en silicone pour résine époxy — modèle 2', cur: 'TND',
+    priceFrom: 0, priceTo: 0, rating: 0,
+    short: 'Moule en silicone pour créations en résine époxy. Prix sur demande.',
+    features: [
+      { label: 'Matière', value: 'Silicone souple', img: '' },
+      { label: 'Usage', value: 'Coulée de résine époxy', img: '' }
+    ],
+    gallery: [ASWEK_IMG + 'moule2.png'],
+    variations: [ { value: 'Standard', price: 0, id: 9000460, img: ASWEK_IMG + 'moule2.png' } ]
+  }),
+  P({
+    id: 900047, slug: 'aswek-moule-en-silicone-3',
+    name: 'Moule en silicone 3', cat: ['aswek', 'moules-silicones', 'moules'],
+    img: ASWEK_IMG + 'moule3.png', alt: 'Moule en silicone pour résine époxy — modèle 3', cur: 'TND',
+    priceFrom: 0, priceTo: 0, rating: 0,
+    short: 'Moule en silicone pour créations en résine époxy. Prix sur demande.',
+    features: [
+      { label: 'Matière', value: 'Silicone souple', img: '' },
+      { label: 'Usage', value: 'Coulée de résine époxy', img: '' }
+    ],
+    gallery: [ASWEK_IMG + 'moule3.png'],
+    variations: [ { value: 'Standard', price: 0, id: 9000470, img: ASWEK_IMG + 'moule3.png' } ]
+  }),
+  P({
+    id: 900048, slug: 'aswek-moule-en-silicone-4',
+    name: 'Moule en silicone 4', cat: ['aswek', 'moules-silicones', 'moules'],
+    img: ASWEK_IMG + 'moule4.png', alt: 'Moule en silicone pour résine époxy — modèle 4', cur: 'TND',
+    priceFrom: 0, priceTo: 0, rating: 0,
+    short: 'Moule en silicone pour créations en résine époxy. Prix sur demande.',
+    features: [
+      { label: 'Matière', value: 'Silicone souple', img: '' },
+      { label: 'Usage', value: 'Coulée de résine époxy', img: '' }
+    ],
+    gallery: [ASWEK_IMG + 'moule4.png'],
+    variations: [ { value: 'Standard', price: 0, id: 9000480, img: ASWEK_IMG + 'moule4.png' } ]
   }),
   P({
     id: 900005, slug: 'aswek-resine-epoxy-autolissant-1-kg',

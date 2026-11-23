@@ -40,14 +40,15 @@ function productCardHTML(p) {
     ? `<select class="card-variation" data-card-variation="${p.id}" aria-label="Option de ${escHTML(p.name)}">
         ${p.variations.map((v, i) => `<option value="${i}">${escHTML(v.value)}</option>`).join('')}
       </select>` : '';
+  const moldClass = (p.cat || []).includes('moules') ? ' mold-card' : '';
   return `
-  <div class="product-card fade-up" data-id="${p.id}">
+  <div class="product-card fade-up${moldClass}" data-id="${p.id}">
     <div class="card-img-wrap">
       ${badge}
       <button class="wishlist-btn ${wish}" data-wish="${p.id}" title="Favoris">
         <svg viewBox="0 0 21 18" width="18" height="16" fill="currentColor"><path d="M10.5 17.35C7.13 15.41.59 10.7.5 6.01.41.89 6.17-1.43 10.5 2.97 14.83-1.43 20.59.89 20.5 6.01c-.09 4.7-6.63 9.4-10 11.34Z"/></svg>
       </button>
-      <a href="${href}"><img src="${p.img}" alt="${escHTML(p.name)}" loading="lazy"></a>
+      <a href="${href}"><img src="${p.img}" alt="${escHTML(p.alt || p.name)}" loading="lazy"></a>
       <div class="card-add-bar">
         ${variation}
         <div class="qty-stepper card-qty" data-card-qty="${p.id}" role="group" aria-label="Quantité">

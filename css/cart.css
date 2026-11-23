@@ -84,6 +84,9 @@
 .product-card .card-img-wrap { aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; background: #f6f8f8; }
 .product-card .card-img-wrap > a { display: block; width: 100%; height: 100%; }
 .product-card .card-img-wrap img { height: 100%; object-fit: cover; }
+/* Moules : cadrage contain pour garder le produit entièrement visible (mobile + desktop). */
+.product-card.mold-card .card-img-wrap img { height: 100%; object-fit: contain; }
+.mold-product .thumbnail-carousel .thumbnail-image img { object-fit: contain; }
 .product-card .card-body { gap: 4px; }
 .product-card .card-title { font-weight: 600; text-decoration: none; }
 .product-card .product-price { margin-top: auto; }
